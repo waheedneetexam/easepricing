@@ -621,14 +621,14 @@
 
 .modal-content {
     position: relative;
-    background: white;
-    border: 1px solid #e5e7eb;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 1px solid #93c5fd;
     border-radius: 8px;
     max-width: 600px;
     width: 90%;
     max-height: 90vh;
     overflow-y: auto;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.15), 0 10px 10px -5px rgba(59, 130, 246, 0.08);
     z-index: 1001;
 
     /* Hide scrollbar but maintain scroll functionality */
@@ -645,17 +645,17 @@
 
 .modal-header {
     padding: 1.5rem;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #93c5fd;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f9fafb;
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
 }
 
 .modal-title {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #111827;
+    color: #1e40af;
 }
 
 .modal-close {
@@ -680,16 +680,16 @@
 
 .modal-body {
     padding: 1.5rem;
-    background: white;
+    background: transparent;
 }
 
 .modal-footer {
     padding: 1rem 1.5rem;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px solid #93c5fd;
     display: flex;
     gap: 0.75rem;
     justify-content: flex-end;
-    background: #f9fafb;
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
 }
 
 /* Custom Components Styles */
