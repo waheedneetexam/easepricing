@@ -19,6 +19,252 @@ let customComponents = []; // User-defined components
 let waterfallComponents = [];
 let chartCanvas, chartCtx;
 
+// ===================================
+// CONFIGURATION TEMPLATES
+// ===================================
+const TEMPLATES = {
+    default: {
+        name: "Default Configuration",
+        priceData: {
+            listPrice: 100,
+            volumeDiscount: 10,
+            customerRebate: 5,
+            promoDiscount: 3,
+            earlyPayment: 2,
+            freight: 8,
+            handling: 2,
+            paymentTerms: 1.5,
+            returns: 0.5
+        },
+        customComponents: []
+    },
+    amazon: {
+        name: "Amazon Marketplace Seller",
+        priceData: {
+            listPrice: 100,
+            volumeDiscount: 8,
+            customerRebate: 0,
+            promoDiscount: 5,
+            earlyPayment: 0,
+            freight: 5,
+            handling: 0,
+            paymentTerms: 0,
+            returns: 1
+        },
+        customComponents: [
+            {
+                name: 'Amazon Referral Fee',
+                type: 'cost',
+                calculation: 'flat',
+                value: 15,
+                position: 'afterCosts',
+                emoji: '🛒'
+            },
+            {
+                name: 'FBA Fulfillment',
+                type: 'cost',
+                calculation: 'flat',
+                value: 5,
+                position: 'afterCosts',
+                emoji: '📦'
+            },
+            {
+                name: 'Amazon Advertising',
+                type: 'cost',
+                calculation: 'flat',
+                value: 3,
+                position: 'afterCosts',
+                emoji: '📢'
+            },
+            {
+                name: 'Returns Processing',
+                type: 'cost',
+                calculation: 'flat',
+                value: 2,
+                position: 'afterCosts',
+                emoji: '↩️'
+            }
+        ]
+    },
+    instagram_saree: {
+        name: "Instagram Saree Business",
+        priceData: {
+            listPrice: 80,
+            volumeDiscount: 5,
+            customerRebate: 10,
+            promoDiscount: 3,
+            earlyPayment: 0,
+            freight: 4,
+            handling: 1,
+            paymentTerms: 0,
+            returns: 0.5
+        },
+        customComponents: [
+            {
+                name: 'Instagram Ad Spend',
+                type: 'cost',
+                calculation: 'flat',
+                value: 5,
+                position: 'afterCosts',
+                emoji: '📱'
+            },
+            {
+                name: 'Influencer Commission',
+                type: 'cost',
+                calculation: 'percentList',
+                value: 8,
+                position: 'afterDiscounts',
+                emoji: '⭐'
+            },
+            {
+                name: 'Premium Packaging',
+                type: 'addition',
+                calculation: 'flat',
+                value: 2,
+                position: 'afterDiscounts',
+                emoji: '🎁'
+            },
+            {
+                name: 'Bulk Order Discount',
+                type: 'discount',
+                calculation: 'percentList',
+                value: 5,
+                position: 'afterDiscounts',
+                emoji: '📦'
+            }
+        ]
+    },
+    b2b_electronics: {
+        name: "B2B Wholesale Electronics",
+        priceData: {
+            listPrice: 500,
+            volumeDiscount: 15,
+            customerRebate: 10,
+            promoDiscount: 0,
+            earlyPayment: 2,
+            freight: 20,
+            handling: 5,
+            paymentTerms: 1,
+            returns: 0.3
+        },
+        customComponents: [
+            {
+                name: 'Extended Warranty',
+                type: 'cost',
+                calculation: 'flat',
+                value: 15,
+                position: 'afterCosts',
+                emoji: '🛡️'
+            },
+            {
+                name: 'White Label Fee',
+                type: 'addition',
+                calculation: 'flat',
+                value: 25,
+                position: 'afterDiscounts',
+                emoji: '🏷️'
+            },
+            {
+                name: 'Tech Support',
+                type: 'cost',
+                calculation: 'flat',
+                value: 10,
+                position: 'afterCosts',
+                emoji: '💻'
+            }
+        ]
+    },
+    saas: {
+        name: "SaaS Subscription Service",
+        priceData: {
+            listPrice: 200,
+            volumeDiscount: 0,
+            customerRebate: 0,
+            promoDiscount: 10,
+            earlyPayment: 0,
+            freight: 0,
+            handling: 0,
+            paymentTerms: 0,
+            returns: 0
+        },
+        customComponents: [
+            {
+                name: 'Annual Commitment Discount',
+                type: 'discount',
+                calculation: 'percentList',
+                value: 20,
+                position: 'afterDiscounts',
+                emoji: '📅'
+            },
+            {
+                name: 'Cloud Hosting',
+                type: 'cost',
+                calculation: 'flat',
+                value: 30,
+                position: 'afterCosts',
+                emoji: '☁️'
+            },
+            {
+                name: 'Support Cost',
+                type: 'cost',
+                calculation: 'flat',
+                value: 15,
+                position: 'afterCosts',
+                emoji: '🎧'
+            },
+            {
+                name: 'Customer Success',
+                type: 'cost',
+                calculation: 'flat',
+                value: 10,
+                position: 'afterCosts',
+                emoji: '👥'
+            }
+        ]
+    },
+    fashion_retail: {
+        name: "Fashion Boutique Retail",
+        priceData: {
+            listPrice: 150,
+            volumeDiscount: 0,
+            customerRebate: 12,
+            promoDiscount: 8,
+            earlyPayment: 0,
+            freight: 8,
+            handling: 3,
+            paymentTerms: 0,
+            returns: 1
+        },
+        customComponents: [
+            {
+                name: 'Seasonal Clearance',
+                type: 'discount',
+                calculation: 'percentList',
+                value: 15,
+                position: 'afterDiscounts',
+                emoji: '🏷️'
+            },
+            {
+                name: 'Alteration Service',
+                type: 'addition',
+                calculation: 'flat',
+                value: 15,
+                position: 'afterDiscounts',
+                emoji: '✂️'
+            },
+            {
+                name: 'Gift Packaging',
+                type: 'addition',
+                calculation: 'flat',
+                value: 5,
+                position: 'afterDiscounts',
+                emoji: '🎁'
+            }
+        ]
+    }
+};
+
+
 
 // ===================================
 // INITIALIZATION
@@ -752,3 +998,78 @@ function deleteCustomComponent(id) {
     }
 }
 
+
+// ===================================
+// TEMPLATE LOADING
+// ===================================
+function loadTemplate(templateKey) {
+    if (!templateKey || templateKey === '') {
+        return; // No template selected
+    }
+
+    const template = TEMPLATES[templateKey];
+    if (!template) {
+        console.error('Template not found:', templateKey);
+        return;
+    }
+
+    // Update price data
+    priceData = { ...template.priceData };
+
+    // Update all input fields
+    document.getElementById('inputListPrice').value = priceData.listPrice;
+    document.getElementById('inputVolumeDiscount').value = priceData.volumeDiscount;
+    document.getElementById('inputCustomerRebate').value = priceData.customerRebate;
+    document.getElementById('inputPromoDiscount').value = priceData.promoDiscount;
+    document.getElementById('inputEarlyPayment').value = priceData.earlyPayment;
+    document.getElementById('inputFreight').value = priceData.freight;
+    document.getElementById('inputHandling').value = priceData.handling;
+    document.getElementById('inputPaymentTerms').value = priceData.paymentTerms;
+    document.getElementById('inputReturns').value = priceData.returns;
+
+    // Clear existing custom components
+    customComponents = [];
+    
+    // Add template custom components
+    template.customComponents.forEach(comp => {
+        const newComponent = {
+            id: Date.now() + Math.random(),
+            name: comp.emoji ? `${comp.emoji} ${comp.name}` : comp.name,
+            type: comp.type,
+            calculation: comp.calculation,
+            value: comp.value,
+            position: comp.position
+        };
+        customComponents.push(newComponent);
+    });
+
+    // Save and refresh
+    saveCustomComponents();
+    renderCustomComponentsList();
+    recalculate();
+
+    // Show notification
+    showTemplateNotification(template.name);
+}
+
+// Show template loaded notification
+function showTemplateNotification(templateName) {
+    const notification = document.createElement('div');
+    notification.className = 'template-notification';
+    notification.innerHTML = `
+        <div class="notification-content">
+            <span class="notification-icon">✅</span>
+            <span class="notification-text">Template loaded: <strong>${templateName}</strong></span>
+        </div>
+    `;
+    document.body.appendChild(notification);
+
+    // Animate in
+    setTimeout(() => notification.classList.add('show'), 10);
+
+    // Remove after 3 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 3000);
+}

@@ -33,6 +33,26 @@
                 </div>
             </header>
 
+            <!-- Template Selector -->
+            <div class="template-selector-bar">
+                <div class="template-selector-container">
+                    <label for="templateSelect" class="template-label">
+                        <span class="template-icon">📋</span>
+                        Quick Templates:
+                    </label>
+                    <select id="templateSelect" class="template-select" onchange="loadTemplate(this.value)">
+                        <option value="">-- Select a Template --</option>
+                        <option value="default">🔷 Default Configuration</option>
+                        <option value="amazon">🛒 Amazon Marketplace Seller</option>
+                        <option value="instagram_saree">🥻 Instagram Saree Business</option>
+                        <option value="b2b_electronics">⚡ B2B Wholesale Electronics</option>
+                        <option value="saas">💻 SaaS Subscription Service</option>
+                        <option value="fashion_retail">👗 Fashion Boutique Retail</option>
+                    </select>
+                    <span class="template-hint">Select a pre-configured scenario to auto-populate pricing</span>
+                </div>
+            </div>
+
             <!-- Horizontal Tab Navigation -->
             <div class="tab-nav">
                 <button class="tab-btn active">📊 Price Waterfall</button>
