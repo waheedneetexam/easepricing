@@ -65,33 +65,33 @@ const TEMPLATES = {
             {
                 name: 'Amazon Referral Fee',
                 type: 'cost',
-                calculation: 'flat',
+                calcMethod: 'fixed',
                 value: 15,
-                position: 'afterCosts',
+                position: 'after-pocket',
                 emoji: '🛒'
             },
             {
                 name: 'FBA Fulfillment',
                 type: 'cost',
-                calculation: 'flat',
+                calcMethod: 'fixed',
                 value: 5,
-                position: 'afterCosts',
+                position: 'after-pocket',
                 emoji: '📦'
             },
             {
                 name: 'Amazon Advertising',
                 type: 'cost',
-                calculation: 'flat',
+                calcMethod: 'fixed',
                 value: 3,
-                position: 'afterCosts',
+                position: 'after-pocket',
                 emoji: '📢'
             },
             {
                 name: 'Returns Processing',
                 type: 'cost',
-                calculation: 'flat',
+                calcMethod: 'fixed',
                 value: 2,
-                position: 'afterCosts',
+                position: 'after-pocket',
                 emoji: '↩️'
             }
         ]
@@ -113,33 +113,33 @@ const TEMPLATES = {
             {
                 name: 'Instagram Ad Spend',
                 type: 'cost',
-                calculation: 'flat',
+                calcMethod: 'fixed',
                 value: 5,
-                position: 'afterCosts',
+                position: 'after-pocket',
                 emoji: '📱'
             },
             {
                 name: 'Influencer Commission',
                 type: 'cost',
-                calculation: 'percentList',
+                calcMethod: 'percent',
                 value: 8,
-                position: 'afterDiscounts',
+                position: 'after-discounts',
                 emoji: '⭐'
             },
             {
                 name: 'Premium Packaging',
                 type: 'addition',
-                calculation: 'flat',
+                calcMethod: 'fixed',
                 value: 2,
-                position: 'afterDiscounts',
+                position: 'after-discounts',
                 emoji: '🎁'
             },
             {
                 name: 'Bulk Order Discount',
                 type: 'discount',
-                calculation: 'percentList',
+                calcMethod: 'percent',
                 value: 5,
-                position: 'afterDiscounts',
+                position: 'after-discounts',
                 emoji: '📦'
             }
         ]
@@ -1055,7 +1055,7 @@ function loadTemplate(templateKey) {
             id: (Date.now() + Math.random()).toString(), // Ensure ID is a string
             name: comp.emoji ? `${comp.emoji} ${comp.name}` : comp.name,
             type: comp.type,
-            calculation: comp.calculation,
+            calcMethod: comp.calcMethod,
             value: comp.value,
             position: comp.position
         };
