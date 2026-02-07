@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Quote Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="nav-left">
+            <button class="back-btn" onclick="window.history.back()">←</button>
+            <div class="quote-title">
+                <h1 id="quoteTitle">P-1148 (New Quote)</h1>
+                <span class="edit-icon">✏️</span>
+            </div>
+            <div class="quote-status">
+                <span class="status-dot"></span>
+                <span id="quoteStatus">Draft - All Changes Saved</span>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn btn-primary" onclick="saveQuote()">Save</button>
+            <button class="btn btn-secondary" onclick="recalculate()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+                </svg>
+                Recalculate
+            </button>
+            <button class="btn btn-danger" onclick="deleteQuote()">Delete Quote</button>
+        </div>
+    </nav>
+
+    <!-- Tab Navigation -->
+    <div class="tab-nav">
+        <button class="tab-btn active" data-tab="header">Header</button>
+        <button class="tab-btn" data-tab="items">Items</button>
+        <button class="tab-btn" data-tab="attachments">Attachments</button>
+        <button class="tab-btn" data-tab="workflow">Workflow</button>
+        <button class="tab-btn" data-tab="messages">Messages</button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Header Tab -->
+        <div id="headerTab" class="tab-content active">
+
+            <!-- Custom Header Section -->
+            <section class="section">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h2 class="section-title">
+                        <span>▶</span>
+                        Custom Header
+                    </h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content">
+                    <!-- Content can be added here if needed -->
+                </div>
+            </section>
+
+            <!-- Inputs Section -->
+            <section class="section">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h2 class="section-title">
+                        Inputs
+                    </h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Effective Date <span class="required">*</span></label>
+                            <input type="date" class="form-input" id="effectiveDate" value="2024-06-06">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Expiry Date <span class="required">*</span></label>
+                            <input type="date" class="form-input" id="expiryDate" value="2024-07-06">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">User Group (View Details)</label>
+                            <input type="text" class="form-input" placeholder="Search..." id="userGroupView">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">User Group (Edit)</label>
+                            <input type="text" class="form-input" placeholder="Search..." id="userGroupEdit">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">External Reference</label>
+                            <input type="text" class="form-input" id="externalReference" placeholder="Enter reference">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Input Parameters Section -->
+            <section class="section">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h2 class="section-title">
+                        Input Parameters
+                    </h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Customer</label>
+                            <select class="form-select" id="customer">
+                                <option value="">Select Customer...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Currency</label>
+                            <select class="form-select" id="currency">
+                                <option value="">Select Currency...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Discount Type and Goal Seeking</label>
+                            <select class="form-select" id="discountType">
+                                <option value="">Select Discount Type...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Flat Discount %</label>
+                            <input type="number" class="form-input" id="flatDiscount" value="5" min="0" max="100"
+                                step="0.1">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Items Tab -->
+        <div id="itemsTab" class="tab-content">
+
+            <div class="items-header">
+                <h2 class="section-title">Items</h2>
+                <div class="items-actions">
+                    <button class="btn btn-primary" onclick="showAddItemsModal()">
+                        <span>+</span> Add Items
+                    </button>
+                    <button class="btn btn-secondary">
+                        <span>+</span> Add Folder
+                    </button>
+                    <button class="btn btn-secondary">Mass Edit</button>
+                    <button class="btn btn-secondary">⋯</button>
+                    <button class="btn btn-secondary">⚙️</button>
+                </div>
+            </div>
+
+            <!-- Product Search -->
+            <div class="search-container">
+                <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" class="search-input" id="productSearch" placeholder="Search products..."
+                    onkeyup="searchProducts()" onfocus="showSearchResults()">
+                <div class="search-results" id="searchResults"></div>
+            </div>
+
+            <!-- Items Table -->
+            <div class="table-container mt-lg">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 40px;"></th>
+                            <th>Label</th>
+                            <th>Product Id</th>
+                            <th>Quantity</th>
+                            <th>Unit Of Measure</th>
+                            <th>Price</th>
+                            <th>Discount %</th>
+                            <th>Incoterm</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="itemsTableBody">
+                        <!-- Items will be populated here -->
+                    </tbody>
+                </table>
+                <div id="itemsCount" class="text-center mt-md"
+                    style="color: var(--color-text-tertiary); font-size: var(--font-size-sm);">
+                    0 rows
+                </div>
+            </div>
+
+            <!-- Waterfall Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h3 class="chart-title">Waterfall for <span id="itemCount">0</span> item(s)</h3>
+                    <button class="chart-menu">☰</button>
+                </div>
+                <canvas id="waterfallCanvas" width="1200" height="400"></canvas>
+            </div>
+
+        </div>
+
+        <!-- Attachments Tab -->
+        <div id="attachmentsTab" class="tab-content">
+            <div class="section">
+                <div class="section-content">
+                    <p style="text-align: center; color: var(--color-text-secondary); padding: var(--spacing-2xl);">
+                        No attachments available
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Workflow Tab -->
+        <div id="workflowTab" class="tab-content">
+            <div class="section">
+                <div class="section-content">
+                    <p style="text-align: center; color: var(--color-text-secondary); padding: var(--spacing-2xl);">
+                        Workflow configuration will appear here
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Messages Tab -->
+        <div id="messagesTab" class="tab-content">
+            <div class="section">
+                <div class="section-content">
+                    <p style="text-align: center; color: var(--color-text-secondary); padding: var(--spacing-2xl);">
+                        No messages available
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Detail & Settings Sidebar -->
+    <aside class="detail-sidebar" id="detailSidebar">
+        <div class="detail-header">
+            <h3 class="detail-title">Detail & Settings</h3>
+            <button class="close-detail-btn" onclick="closeDetailPanel()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="detail-tabs">
+            <button class="detail-tab-btn" data-detail-tab="details"
+                onclick="switchDetailTab('details')">Details</button>
+            <button class="detail-tab-btn" data-detail-tab="input-params"
+                onclick="switchDetailTab('input-params')">Input Parameters</button>
+            <button class="detail-tab-btn active" data-detail-tab="calculations"
+                onclick="switchDetailTab('calculations')">Calculations</button>
+        </div>
+
+        <div class="detail-content">
+            <!-- Details Tab -->
+            <div class="detail-tab-content" id="detailsTabContent">
+                <div class="detail-field">
+                    <span class="detail-field-label">Product ID</span>
+                    <span class="detail-field-value" id="detailProductId">-</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Product Name</span>
+                    <span class="detail-field-value" id="detailProductName">-</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Description</span>
+                    <span class="detail-field-value" id="detailDescription">-</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Category</span>
+                    <span class="detail-field-value" id="detailCategory">Chemical Products</span>
+                </div>
+            </div>
+
+            <!-- Input Parameters Tab -->
+            <div class="detail-tab-content" id="inputParamsTabContent">
+                <div class="detail-field">
+                    <span class="detail-field-label">Quantity</span>
+                    <span class="detail-field-value" id="detailQuantity">-</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Unit of Measure</span>
+                    <span class="detail-field-value" id="detailUOM">-</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Base Price</span>
+                    <span class="detail-field-value" id="detailBasePrice">-</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Discount %</span>
+                    <span class="detail-field-value" id="detailDiscount">-</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Incoterm</span>
+                    <span class="detail-field-value" id="detailIncoterm">-</span>
+                </div>
+            </div>
+
+            <!-- Calculations Tab -->
+            <div class="detail-tab-content active" id="calculationsTabContent">
+                <div class="detail-field">
+                    <span class="detail-field-label">Label</span>
+                    <span class="detail-field-value" id="calcLabel">Calculation Result</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Currency</span>
+                    <span class="detail-field-value" id="calcCurrency">EUR</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Sales Overview</span>
+                    <a class="detail-field-value detail-field-link" id="calcSalesOverview">Show</a>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Quantity</span>
+                    <span class="detail-field-value" id="calcQuantity">350</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Cost</span>
+                    <span class="detail-field-value" id="calcCost">1,558.52 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Customer Negotiated ...</span>
+                    <span class="detail-field-value" id="calcCustomerNeg">0.00 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">List Price</span>
+                    <span class="detail-field-value" id="calcListPrice">1,764.00 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Discount %</span>
+                    <span class="detail-field-value" id="calcDiscountPercent">0.00%</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Suggested Price</span>
+                    <span class="detail-field-value" id="calcSuggestedPrice">1,764.00 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Freight Charge</span>
+                    <span class="detail-field-value" id="calcFreight">0.00 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Warehousing Adjustm...</span>
+                    <span class="detail-field-value" id="calcWarehousing">35.28 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Packaging Adjustment</span>
+                    <span class="detail-field-value" id="calcPackaging">52.92 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Sales Tax Amount</span>
+                    <span class="detail-field-value" id="calcSalesTax">0.00 €</span>
+                </div>
+                <div class="detail-field">
+                    <span class="detail-field-label">Installation/Services/C...</span>
+                    <span class="detail-field-value" id="calcInstallation">0.00 €</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

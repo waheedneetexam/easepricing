@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Data Ingestor</title>
+    <link rel="stylesheet" href="data-ingestor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="header-title">
+                <svg class="header-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Universal Data Ingestor
+            </h1>
+            <p class="header-subtitle">Upload and map your CSV data in 1-click</p>
+        </div>
+        <div class="header-actions">
+            <button class="btn btn-secondary" onclick="clearAll()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                </svg>
+                Clear All
+            </button>
+        </div>
+    </header>
+
+    <main class="main-container">
+        
+        <!-- Step 1: Upload Section -->
+        <section class="upload-section" id="uploadSection">
+            <div class="upload-zone" id="uploadZone">
+                <input type="file" id="fileInput" accept=".csv" hidden>
+                <div class="upload-content">
+                    <div class="upload-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                    </div>
+                    <h2 class="upload-title">Drop your CSV file here</h2>
+                    <p class="upload-text">or click to browse</p>
+                    <p class="upload-hint">Supports .csv files up to 10MB</p>
+                </div>
+                <div class="upload-overlay" id="uploadOverlay">
+                    <span class="overlay-text">Release to upload</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 2: Preview & Mapping Section -->
+        <section class="mapping-section hidden" id="mappingSection">
+            
+            <!-- File Info -->
+            <div class="file-info">
+                <div class="file-details">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                        <polyline points="13 2 13 9 20 9"></polyline>
+                    </svg>
+                    <span class="file-name" id="fileName">data.csv</span>
+                    <span class="file-stats" id="fileStats">0 rows, 0 columns</span>
+                </div>
+                <button class="btn btn-sm btn-secondary" onclick="uploadNew()">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    Upload Different File
+                </button>
+            </div>
+
+            <!-- Column Mapping Interface -->
+            <div class="mapping-container">
+                <div class="mapping-header">
+                    <h2 class="section-title">Column Mapping</h2>
+                    <div class="mapping-status">
+                        <span class="status-indicator">
+                            <span class="status-dot status-mapped"></span>
+                            <span id="mappedCount">0</span> mapped
+                        </span>
+                        <span class="status-indicator">
+                            <span class="status-dot status-suggested"></span>
+                            <span id="suggestedCount">0</span> suggested
+                        </span>
+                        <span class="status-indicator">
+                            <span class="status-dot status-unmapped"></span>
+                            <span id="unmappedCount">0</span> unmapped
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="mapping-grid" id="mappingGrid">
+                    <!-- Mapping cards will be populated here -->
+                </div>
+            </div>
+
+            <!-- Data Preview -->
+            <div class="preview-container">
+                <div class="preview-header">
+                    <h2 class="section-title">Data Preview</h2>
+                    <span class="preview-hint">Showing first 10 rows</span>
+                </div>
+                <div class="preview-table-wrapper">
+                    <table class="preview-table" id="previewTable">
+                        <thead id="previewTableHead">
+                            <!-- Headers will be populated -->
+                        </thead>
+                        <tbody id="previewTableBody">
+                            <!-- Rows will be populated -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-bar">
+                <button class="btn btn-secondary" onclick="resetMapping()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+                    </svg>
+                    Reset Mapping
+                </button>
+                <div class="action-group">
+                    <button class="btn btn-secondary" onclick="exportData('csv')">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Export CSV
+                    </button>
+                    <button class="btn btn-secondary" onclick="exportData('json')">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Export JSON
+                    </button>
+                    <button class="btn btn-primary" onclick="saveConfiguration()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+                            <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                            <polyline points="7 3 7 8 15 8"></polyline>
+                        </svg>
+                        Save Configuration
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Success Notification -->
+    <div class="notification hidden" id="notification">
+        <div class="notification-content">
+            <svg class="notification-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span class="notification-text" id="notificationText">Configuration saved successfully!</span>
+        </div>
+    </div>
+
+    <script src="data-ingestor.js"></script>
+</body>
+
+</html>

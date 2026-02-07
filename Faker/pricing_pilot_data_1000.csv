@@ -1,0 +1,1001 @@
+Transaction_ID,Transaction_Date,SKU_ID,Product_Category,Customer_Name,Customer_Segment,List_Price,Invoice_Price,Unit_Cost,Quantity,On_Invoice_Disc,Off_Invoice_Rebate,Freight_Cost
+TXN-1000,2026-01-24,PUMP-01,Industrial,Figueroa and Sons,Mid-Market,486.02,445.67,261.61,88,40.35,8.75,17.4
+TXN-1001,2026-01-09,MOTOR-X,Electronics,"Garcia, Yang and Gardner",Mid-Market,1517.42,1398.45,795.18,20,118.97,52.19,29.39
+TXN-1002,2026-01-22,HOSE-09,Accessories,Johnson and Sons,Mid-Market,46.2,35.31,14.02,72,10.89,0.71,5.17
+TXN-1003,2026-01-09,PUMP-01,Industrial,"Johnson, Gonzalez and Santos",Strategic,483.27,415.34,260.15,96,67.93,10.66,13.4
+TXN-1004,2026-01-21,SEAL-05,Accessories,Cole LLC,Strategic,11.5,9.95,5.3,10,1.55,0.08,20.8
+TXN-1005,2026-01-30,PUMP-01,Industrial,Blake and Sons,Mid-Market,479.04,425.92,232.6,17,53.12,2.56,27.31
+TXN-1006,2026-01-26,MOTOR-X,Electronics,Ramirez-Lewis,Strategic,1534.0,1477.79,759.98,79,56.21,70.41,15.52
+TXN-1007,2026-01-29,VALVE-22,Hydraulics,Davis Inc,Distributor,125.38,96.79,57.06,2,28.59,0.07,25.19
+TXN-1008,2026-01-14,SEAL-05,Accessories,Munoz-Roman,Mid-Market,12.19,9.29,4.66,81,2.9,0.36,28.07
+TXN-1009,2026-01-28,MOTOR-X,Electronics,"Martinez, Nielsen and Miller",Retail,1513.31,1391.53,749.12,18,121.78,2.08,8.84
+TXN-1010,2026-01-11,PUMP-01,Industrial,"Montgomery, Hensley and Ray",Strategic,481.34,415.63,226.05,77,65.71,8.58,13.65
+TXN-1011,2026-01-27,HOSE-09,Accessories,Stanley LLC,Mid-Market,45.62,39.11,13.66,95,6.51,1.42,20.59
+TXN-1012,2026-02-06,VALVE-22,Hydraulics,Delacruz Group,Strategic,115.28,105.24,55.96,65,10.04,2.18,18.49
+TXN-1013,2026-01-11,PUMP-01,Industrial,"Flowers, Martin and Kelly",Mid-Market,497.41,490.58,233.23,95,6.83,1.31,20.68
+TXN-1014,2026-01-25,HOSE-09,Accessories,"Zuniga, Wong and Lynch",Retail,44.53,41.01,14.36,6,3.52,1.8,6.56
+TXN-1015,2026-01-07,HOSE-09,Accessories,"Sanchez, Ford and Nelson",Retail,44.82,37.41,14.82,35,7.41,0.11,5.75
+TXN-1016,2026-02-04,PUMP-01,Industrial,"Hawkins, Cohen and Cameron",Strategic,500.83,391.12,240.5,12,109.71,0.48,27.03
+TXN-1017,2026-01-29,HOSE-09,Accessories,Underwood LLC,Mid-Market,43.28,37.4,13.75,48,5.88,1.31,11.99
+TXN-1018,2026-01-15,HOSE-09,Accessories,Clark PLC,Distributor,44.24,38.68,14.71,29,5.56,0.98,14.94
+TXN-1019,2026-02-02,MOTOR-X,Electronics,Lewis-Porter,Distributor,1511.76,1433.02,842.21,58,78.74,36.67,28.45
+TXN-1020,2026-02-02,PUMP-01,Industrial,"Ellis, Baker and Wright",Distributor,488.9,403.13,232.52,61,85.77,3.51,20.87
+TXN-1021,2026-01-21,HOSE-09,Accessories,Burgess-Patterson,Retail,44.77,39.73,16.1,56,5.04,0.23,24.14
+TXN-1022,2026-01-22,HOSE-09,Accessories,Robinson-Bright,Mid-Market,42.84,34.95,14.93,12,7.89,0.92,25.71
+TXN-1023,2026-01-19,SEAL-05,Accessories,Campos Inc,Strategic,12.05,11.39,5.13,48,0.66,0.17,27.53
+TXN-1024,2026-01-06,VALVE-22,Hydraulics,Conner Group,Distributor,116.61,110.82,61.74,44,5.79,3.81,12.0
+TXN-1025,2026-01-23,SEAL-05,Accessories,James-Ferrell,Retail,12.5,10.57,4.51,7,1.93,0.48,14.41
+TXN-1026,2026-01-20,VALVE-22,Hydraulics,"Valencia, Smith and Le",Distributor,117.2,105.79,56.6,51,11.41,1.37,29.11
+TXN-1027,2026-01-26,PUMP-01,Industrial,"Potter, Mack and Peterson",Mid-Market,515.53,487.81,260.21,14,27.72,1.65,6.56
+TXN-1028,2026-01-11,HOSE-09,Accessories,Chavez Ltd,Mid-Market,46.37,42.12,15.2,80,4.25,1.83,17.05
+TXN-1029,2026-02-02,VALVE-22,Hydraulics,Stanton-Gill,Distributor,124.99,102.67,56.16,40,22.32,0.75,17.49
+TXN-1030,2026-01-19,SEAL-05,Accessories,Harrell LLC,Retail,11.65,8.99,4.82,64,2.66,0.18,11.83
+TXN-1031,2026-02-01,SEAL-05,Accessories,"Lynch, Hernandez and Farmer",Distributor,11.42,9.66,4.98,22,1.76,0.38,19.76
+TXN-1032,2026-01-20,MOTOR-X,Electronics,"Sellers, George and Burns",Retail,1474.9,1218.29,820.77,34,256.61,6.71,24.43
+TXN-1033,2026-01-05,SEAL-05,Accessories,Koch-Decker,Distributor,11.88,11.85,4.62,29,0.03,0.22,15.37
+TXN-1034,2026-01-12,HOSE-09,Accessories,Allen PLC,Distributor,43.88,39.38,14.57,49,4.5,1.59,16.12
+TXN-1035,2026-02-05,PUMP-01,Industrial,Dennis Inc,Mid-Market,481.49,421.14,263.54,31,60.35,15.56,5.61
+TXN-1036,2026-02-06,VALVE-22,Hydraulics,"Cannon, Anderson and Alvarez",Mid-Market,124.67,115.55,56.14,26,9.12,3.38,10.31
+TXN-1037,2026-01-21,VALVE-22,Hydraulics,Rose-Obrien,Strategic,114.54,90.54,63.13,65,24.0,0.71,17.12
+TXN-1038,2026-02-05,MOTOR-X,Electronics,"Campos, Vaughn and Marquez",Strategic,1528.67,1479.43,723.68,90,49.24,66.18,17.14
+TXN-1039,2026-01-15,HOSE-09,Accessories,"Santos, Kim and Holmes",Distributor,47.18,44.52,15.6,28,2.66,1.68,23.9
+TXN-1040,2026-01-05,HOSE-09,Accessories,Brown Inc,Retail,44.18,37.42,15.44,60,6.76,1.22,26.46
+TXN-1041,2026-01-22,PUMP-01,Industrial,Chapman Inc,Distributor,510.37,403.51,225.94,34,106.86,0.29,7.15
+TXN-1042,2026-01-03,VALVE-22,Hydraulics,"Brown, Jones and Johnson",Strategic,116.7,95.27,62.51,11,21.43,3.27,12.58
+TXN-1043,2026-01-13,HOSE-09,Accessories,"Young, Caldwell and Lewis",Distributor,46.05,35.53,14.05,100,10.52,1.61,10.6
+TXN-1044,2026-01-05,PUMP-01,Industrial,"Johnston, Sanchez and Kennedy",Strategic,518.31,392.17,262.3,31,126.14,2.59,27.71
+TXN-1045,2026-01-16,PUMP-01,Industrial,Davis Group,Retail,477.98,392.52,235.72,45,85.46,9.95,25.84
+TXN-1046,2026-01-14,VALVE-22,Hydraulics,Owens-Daniel,Strategic,122.09,118.11,55.34,69,3.98,2.3,25.02
+TXN-1047,2026-01-25,VALVE-22,Hydraulics,"Garcia, Powell and Morgan",Strategic,116.04,95.66,63.88,73,20.38,0.72,14.61
+TXN-1048,2026-02-01,HOSE-09,Accessories,Lee PLC,Strategic,46.0,43.13,15.36,93,2.87,1.75,26.46
+TXN-1049,2026-01-17,PUMP-01,Industrial,White-Ford,Mid-Market,504.81,393.86,261.67,38,110.95,5.77,9.15
+TXN-1050,2026-02-02,PUMP-01,Industrial,Ramos PLC,Retail,481.12,431.03,239.55,87,50.09,8.16,22.02
+TXN-1051,2026-01-04,HOSE-09,Accessories,"Kidd, Huff and Novak",Retail,46.14,36.46,15.09,47,9.68,0.36,14.81
+TXN-1052,2026-02-04,SEAL-05,Accessories,Martin Group,Distributor,12.38,10.41,5.12,38,1.97,0.37,16.01
+TXN-1053,2026-01-18,HOSE-09,Accessories,Barrera-Martin,Strategic,45.7,37.59,14.04,30,8.11,1.72,27.05
+TXN-1054,2026-01-01,VALVE-22,Hydraulics,Baker-Bowers,Mid-Market,121.39,91.55,56.44,47,29.84,2.17,28.35
+TXN-1055,2026-01-17,HOSE-09,Accessories,Horton-Cross,Strategic,43.73,39.82,15.19,77,3.91,1.97,13.32
+TXN-1056,2026-01-29,MOTOR-X,Electronics,"Higgins, Moore and Phillips",Strategic,1452.55,1127.43,871.88,76,325.12,38.42,8.52
+TXN-1057,2026-02-05,HOSE-09,Accessories,"Fitzgerald, Brown and Edwards",Retail,46.54,40.66,15.04,97,5.88,1.9,20.69
+TXN-1058,2026-01-02,MOTOR-X,Electronics,Shaw-Farrell,Distributor,1555.14,1431.21,773.86,77,123.93,2.27,19.04
+TXN-1059,2026-01-06,VALVE-22,Hydraulics,"Miller, Lopez and Larson",Distributor,124.51,110.79,60.84,29,13.72,2.99,22.5
+TXN-1060,2026-01-25,HOSE-09,Accessories,Powell PLC,Strategic,43.65,38.15,15.72,11,5.5,0.69,25.02
+TXN-1061,2026-01-10,SEAL-05,Accessories,"Williams, Miller and Sandoval",Distributor,12.43,10.46,5.22,93,1.97,0.2,9.81
+TXN-1062,2026-01-21,VALVE-22,Hydraulics,Donovan-Harris,Strategic,125.85,124.26,64.17,59,1.59,3.15,7.33
+TXN-1063,2026-01-27,VALVE-22,Hydraulics,Baker and Sons,Strategic,115.44,107.64,62.37,4,7.8,3.19,22.39
+TXN-1064,2026-01-25,PUMP-01,Industrial,Bryant-Hickman,Retail,485.92,395.91,250.73,37,90.01,11.21,23.24
+TXN-1065,2026-02-04,VALVE-22,Hydraulics,Ellis PLC,Retail,123.21,109.53,63.69,1,13.68,3.48,20.97
+TXN-1066,2026-02-06,MOTOR-X,Electronics,Medina PLC,Strategic,1498.73,1252.45,811.37,89,246.28,30.53,24.59
+TXN-1067,2026-01-10,PUMP-01,Industrial,Ibarra-Suarez,Retail,521.3,488.79,255.59,17,32.51,1.95,17.25
+TXN-1068,2026-01-14,VALVE-22,Hydraulics,Kim PLC,Strategic,115.62,109.31,62.94,35,6.31,3.34,11.14
+TXN-1069,2026-01-27,HOSE-09,Accessories,"Riggs, Roman and Rice",Strategic,43.57,32.75,16.33,53,10.82,1.24,25.28
+TXN-1070,2026-01-25,VALVE-22,Hydraulics,"Evans, Alvarado and Mcmillan",Strategic,114.04,99.58,63.62,25,14.46,4.79,6.18
+TXN-1071,2026-01-05,MOTOR-X,Electronics,Preston Ltd,Distributor,1494.65,1455.36,784.76,57,39.29,40.53,26.68
+TXN-1072,2026-01-21,HOSE-09,Accessories,Campbell-Clark,Distributor,43.74,36.75,16.04,35,6.99,1.5,24.19
+TXN-1073,2026-01-13,PUMP-01,Industrial,"Walters, Baker and Freeman",Distributor,521.45,394.37,274.35,40,127.08,5.41,11.69
+TXN-1074,2026-02-03,HOSE-09,Accessories,Davis Group,Retail,44.39,41.41,16.33,38,2.98,0.87,23.2
+TXN-1075,2026-01-31,HOSE-09,Accessories,Smith and Sons,Mid-Market,44.65,37.94,15.03,15,6.71,1.57,23.17
+TXN-1076,2026-01-24,SEAL-05,Accessories,Martin-Ramos,Distributor,12.39,9.6,5.17,35,2.79,0.03,14.2
+TXN-1077,2026-01-27,PUMP-01,Industrial,"Smith, Jones and Ware",Distributor,490.17,378.47,238.25,94,111.7,16.87,14.73
+TXN-1078,2026-02-03,HOSE-09,Accessories,"Johnson, Wood and Tran",Strategic,44.88,44.37,15.14,31,0.51,0.77,26.28
+TXN-1079,2026-01-16,PUMP-01,Industrial,Parker Inc,Strategic,507.83,490.49,237.78,16,17.34,11.99,12.14
+TXN-1080,2026-02-03,SEAL-05,Accessories,Fleming Ltd,Distributor,11.95,10.1,5.43,99,1.85,0.47,24.08
+TXN-1081,2026-01-04,VALVE-22,Hydraulics,"Henson, Russell and Oliver",Distributor,122.35,104.71,59.25,9,17.64,3.16,10.34
+TXN-1082,2026-01-06,HOSE-09,Accessories,Hancock and Sons,Distributor,44.46,35.46,14.67,63,9.0,1.67,24.81
+TXN-1083,2026-02-02,VALVE-22,Hydraulics,White LLC,Mid-Market,125.37,116.25,60.0,39,9.12,1.29,11.99
+TXN-1084,2026-01-29,HOSE-09,Accessories,Pham-Shields,Strategic,45.67,44.69,15.15,74,0.98,1.58,28.0
+TXN-1085,2026-01-30,MOTOR-X,Electronics,Moore-Haynes,Retail,1475.28,1331.78,787.2,48,143.5,35.29,29.16
+TXN-1086,2026-01-15,HOSE-09,Accessories,Garrison and Sons,Retail,44.09,36.82,14.61,84,7.27,0.19,29.32
+TXN-1087,2026-01-08,VALVE-22,Hydraulics,Bailey-Hoover,Retail,119.73,93.52,57.8,58,26.21,1.09,6.37
+TXN-1088,2026-02-02,PUMP-01,Industrial,Johnson and Sons,Strategic,523.82,405.14,232.31,31,118.68,2.24,7.18
+TXN-1089,2026-01-15,SEAL-05,Accessories,Lin-Rasmussen,Mid-Market,11.61,11.48,5.34,77,0.13,0.47,18.58
+TXN-1090,2026-01-11,HOSE-09,Accessories,"Hicks, Frazier and Anthony",Mid-Market,42.92,37.82,14.21,98,5.1,1.12,10.78
+TXN-1091,2026-01-13,SEAL-05,Accessories,Wilson LLC,Distributor,11.49,10.15,5.01,33,1.34,0.4,5.45
+TXN-1092,2026-01-07,HOSE-09,Accessories,Johnson-Carlson,Retail,44.45,33.88,14.92,53,10.57,0.87,15.52
+TXN-1093,2026-01-13,SEAL-05,Accessories,Graham-Joyce,Mid-Market,11.94,10.68,4.64,94,1.26,0.11,13.96
+TXN-1094,2026-01-05,VALVE-22,Hydraulics,"Lee, Williams and Graham",Distributor,117.48,88.16,57.02,10,29.32,2.65,15.31
+TXN-1095,2026-01-20,HOSE-09,Accessories,"Mcdaniel, Bentley and Mclaughlin",Mid-Market,45.1,40.4,14.02,29,4.7,0.19,23.85
+TXN-1096,2026-01-08,PUMP-01,Industrial,Jones-Beck,Mid-Market,480.76,470.11,259.65,71,10.65,11.64,28.22
+TXN-1097,2026-01-13,SEAL-05,Accessories,Alvarado-Martinez,Strategic,12.21,9.75,4.75,76,2.46,0.12,6.05
+TXN-1098,2026-02-03,MOTOR-X,Electronics,"Parker, Ortiz and Powell",Mid-Market,1553.71,1405.32,813.8,57,148.39,41.78,22.03
+TXN-1099,2026-01-11,PUMP-01,Industrial,Lee Ltd,Strategic,501.46,444.32,247.62,40,57.14,5.74,16.0
+TXN-1100,2026-02-04,HOSE-09,Accessories,"Adkins, Thompson and Carroll",Retail,46.5,42.59,13.68,74,3.91,2.01,24.43
+TXN-1101,2026-01-16,PUMP-01,Industrial,Torres and Sons,Retail,480.4,428.33,251.77,60,52.07,8.79,23.42
+TXN-1102,2026-01-16,SEAL-05,Accessories,"Lawson, Morris and Ramos",Distributor,12.38,11.07,5.24,13,1.31,0.49,14.23
+TXN-1103,2026-01-25,HOSE-09,Accessories,"Kennedy, Santana and Flynn",Mid-Market,44.32,34.02,14.72,21,10.3,0.43,27.13
+TXN-1104,2026-01-07,HOSE-09,Accessories,Campbell Ltd,Strategic,44.18,42.31,13.73,79,1.87,1.69,25.03
+TXN-1105,2026-01-24,SEAL-05,Accessories,Davis-Crane,Retail,12.5,10.33,4.67,3,2.17,0.23,16.87
+TXN-1106,2026-01-09,PUMP-01,Industrial,Walker-Gonzalez,Strategic,483.82,442.31,252.56,60,41.51,12.16,24.29
+TXN-1107,2026-01-01,PUMP-01,Industrial,Riggs PLC,Strategic,490.99,397.29,226.96,72,93.7,13.16,11.73
+TXN-1108,2026-02-01,MOTOR-X,Electronics,Gibson Ltd,Distributor,1523.78,1370.08,787.77,100,153.7,58.02,29.13
+TXN-1109,2026-01-22,SEAL-05,Accessories,"Horton, Snyder and Sanchez",Mid-Market,11.92,8.96,5.38,10,2.96,0.14,17.77
+TXN-1110,2026-01-25,SEAL-05,Accessories,Stafford Inc,Retail,12.59,9.59,4.83,30,3.0,0.27,29.24
+TXN-1111,2026-01-29,PUMP-01,Industrial,Thompson Ltd,Strategic,479.02,359.89,265.68,92,119.13,8.16,15.99
+TXN-1112,2026-01-20,MOTOR-X,Electronics,Grant Inc,Strategic,1569.36,1451.3,817.78,74,118.06,37.94,9.92
+TXN-1113,2026-01-17,MOTOR-X,Electronics,Contreras-Travis,Distributor,1438.13,1124.95,781.74,95,313.18,36.03,6.3
+TXN-1114,2026-01-23,MOTOR-X,Electronics,Salazar-Ball,Mid-Market,1505.13,1171.65,868.13,37,333.48,15.78,26.78
+TXN-1115,2026-01-19,PUMP-01,Industrial,"Griffin, Moore and Hensley",Mid-Market,479.65,393.47,233.12,14,86.18,3.75,10.21
+TXN-1116,2026-01-17,VALVE-22,Hydraulics,Larsen LLC,Strategic,115.72,114.9,56.05,61,0.82,5.25,27.47
+TXN-1117,2026-01-29,HOSE-09,Accessories,"Washington, Allen and Gonzales",Strategic,43.57,40.59,13.83,64,2.98,1.18,17.93
+TXN-1118,2026-01-27,PUMP-01,Industrial,Nelson LLC,Retail,491.93,413.5,225.48,67,78.43,5.45,28.72
+TXN-1119,2026-02-03,PUMP-01,Industrial,Taylor and Sons,Mid-Market,477.25,467.98,239.08,24,9.27,1.97,25.92
+TXN-1120,2026-01-15,SEAL-05,Accessories,Mccarthy Inc,Distributor,12.58,11.24,5.27,77,1.34,0.51,14.19
+TXN-1121,2026-01-16,SEAL-05,Accessories,Daniels-Perry,Mid-Market,11.56,8.89,4.88,59,2.67,0.35,14.7
+TXN-1122,2026-01-08,HOSE-09,Accessories,Price-Carrillo,Retail,44.11,34.2,15.7,14,9.91,0.73,27.22
+TXN-1123,2026-02-05,VALVE-22,Hydraulics,Gates PLC,Retail,125.09,108.84,57.95,22,16.25,0.13,9.03
+TXN-1124,2026-01-15,HOSE-09,Accessories,Bender LLC,Strategic,43.87,42.51,13.66,54,1.36,1.38,9.16
+TXN-1125,2026-01-28,HOSE-09,Accessories,Medina-Navarro,Strategic,43.6,33.24,15.49,2,10.36,0.58,25.92
+TXN-1126,2026-01-30,PUMP-01,Industrial,Freeman LLC,Retail,481.58,386.82,260.25,40,94.76,10.44,15.02
+TXN-1127,2026-01-17,PUMP-01,Industrial,Price Ltd,Retail,517.41,450.87,253.53,44,66.54,20.18,13.07
+TXN-1128,2026-01-26,SEAL-05,Accessories,Ramsey-Pittman,Retail,12.4,10.75,4.75,66,1.65,0.3,12.66
+TXN-1129,2026-02-04,SEAL-05,Accessories,"Ferguson, Meadows and Vargas",Mid-Market,11.56,10.0,4.73,67,1.56,0.15,28.73
+TXN-1130,2026-01-25,VALVE-22,Hydraulics,Day and Sons,Distributor,114.13,99.58,55.61,24,14.55,4.76,25.16
+TXN-1131,2026-02-02,SEAL-05,Accessories,Williams Group,Strategic,12.2,9.27,4.72,21,2.93,0.32,20.56
+TXN-1132,2026-01-13,MOTOR-X,Electronics,Murphy-Juarez,Distributor,1457.34,1164.35,815.57,98,292.99,34.11,17.9
+TXN-1133,2026-01-15,MOTOR-X,Electronics,King-Miller,Strategic,1562.13,1342.36,737.86,9,219.77,8.94,12.37
+TXN-1134,2026-01-01,MOTOR-X,Electronics,"Williams, Crane and Walker",Distributor,1507.77,1282.66,820.51,76,225.11,14.62,7.34
+TXN-1135,2026-01-03,VALVE-22,Hydraulics,"Williams, Johnson and Wright",Retail,123.01,95.9,54.75,50,27.11,1.74,22.72
+TXN-1136,2026-02-01,MOTOR-X,Electronics,"Hernandez, Martinez and Caldwell",Strategic,1519.21,1157.3,756.28,57,361.91,31.25,11.46
+TXN-1137,2026-01-21,VALVE-22,Hydraulics,Marshall LLC,Strategic,118.14,113.59,64.7,77,4.55,3.7,25.59
+TXN-1138,2026-01-29,PUMP-01,Industrial,Obrien Ltd,Mid-Market,523.43,513.4,264.21,25,10.03,19.37,14.53
+TXN-1139,2026-01-27,VALVE-22,Hydraulics,Oconnell Inc,Retail,124.35,117.56,61.95,45,6.79,0.95,13.33
+TXN-1140,2026-01-22,MOTOR-X,Electronics,Johnston-Odonnell,Strategic,1532.01,1221.87,816.26,74,310.14,53.63,11.9
+TXN-1141,2026-01-14,PUMP-01,Industrial,"Gonzalez, Vargas and Rivas",Retail,511.66,393.39,261.02,63,118.27,3.79,13.13
+TXN-1142,2026-01-09,PUMP-01,Industrial,"Barton, Jefferson and Burke",Retail,480.41,417.97,232.25,41,62.44,16.93,22.43
+TXN-1143,2026-01-05,VALVE-22,Hydraulics,"Patton, Reed and Patterson",Mid-Market,121.97,97.09,61.4,61,24.88,3.94,7.68
+TXN-1144,2026-01-14,MOTOR-X,Electronics,"Holland, Smith and Fisher",Retail,1444.96,1373.71,773.1,2,71.25,62.89,16.94
+TXN-1145,2026-01-19,PUMP-01,Industrial,Yu-Reid,Strategic,476.1,464.62,268.75,8,11.48,5.49,26.1
+TXN-1146,2026-01-31,VALVE-22,Hydraulics,"Hernandez, Thompson and Boyd",Retail,122.3,110.14,58.53,90,12.16,3.41,29.95
+TXN-1147,2026-01-25,PUMP-01,Industrial,"Morton, Medina and Webb",Distributor,512.76,453.85,248.25,75,58.91,10.71,28.4
+TXN-1148,2026-01-17,VALVE-22,Hydraulics,"Vargas, Morris and Sanchez",Strategic,120.73,98.71,56.96,74,22.02,1.76,24.52
+TXN-1149,2026-02-04,HOSE-09,Accessories,Keith-Sanchez,Mid-Market,47.24,38.03,14.72,92,9.21,0.66,10.55
+TXN-1150,2026-01-18,VALVE-22,Hydraulics,"Barnett, Rogers and Snyder",Retail,120.34,107.21,56.09,80,13.13,2.28,9.45
+TXN-1151,2026-01-13,PUMP-01,Industrial,Lewis-Salinas,Strategic,486.14,433.46,273.74,68,52.68,9.52,24.32
+TXN-1152,2026-01-13,VALVE-22,Hydraulics,"Haynes, Hill and Smith",Strategic,115.65,87.2,61.15,69,28.45,2.52,21.73
+TXN-1153,2026-02-05,VALVE-22,Hydraulics,Allen Group,Mid-Market,118.65,92.25,65.64,14,26.4,4.36,10.07
+TXN-1154,2026-01-19,HOSE-09,Accessories,Vaughn Ltd,Mid-Market,45.32,36.59,15.83,68,8.73,0.52,14.22
+TXN-1155,2026-01-27,HOSE-09,Accessories,Mcguire-Davis,Mid-Market,44.02,34.71,15.58,9,9.31,1.19,28.76
+TXN-1156,2026-01-09,MOTOR-X,Electronics,"Sanchez, Beck and Wood",Mid-Market,1540.1,1515.7,781.58,16,24.4,22.19,19.32
+TXN-1157,2026-01-21,SEAL-05,Accessories,Coleman-Reese,Mid-Market,11.7,10.67,4.86,72,1.03,0.38,27.85
+TXN-1158,2026-01-13,SEAL-05,Accessories,"Chavez, Parker and Hall",Distributor,12.21,10.49,5.19,99,1.72,0.52,22.56
+TXN-1159,2026-01-27,PUMP-01,Industrial,Wilson-Herrera,Retail,478.24,477.06,231.62,92,1.18,8.99,11.8
+TXN-1160,2026-01-29,PUMP-01,Industrial,Lee Ltd,Retail,488.77,406.35,233.44,99,82.42,0.68,18.03
+TXN-1161,2026-01-18,SEAL-05,Accessories,"Lawrence, Wolf and Carlson",Retail,12.22,10.37,4.91,92,1.85,0.01,12.13
+TXN-1162,2026-02-06,HOSE-09,Accessories,Phillips LLC,Retail,44.39,40.24,14.52,11,4.15,1.85,23.6
+TXN-1163,2026-01-07,SEAL-05,Accessories,Erickson and Sons,Strategic,12.57,11.54,5.4,70,1.03,0.33,25.54
+TXN-1164,2026-01-11,HOSE-09,Accessories,Tran Ltd,Mid-Market,43.32,35.06,15.48,15,8.26,1.48,16.15
+TXN-1165,2026-02-04,MOTOR-X,Electronics,"Oneill, Henry and Salas",Strategic,1557.62,1409.44,721.12,6,148.18,24.2,17.53
+TXN-1166,2026-01-22,SEAL-05,Accessories,Mendoza-Peterson,Retail,12.5,11.95,5.44,78,0.55,0.35,29.15
+TXN-1167,2026-02-05,PUMP-01,Industrial,Everett-Woods,Mid-Market,517.95,406.07,266.09,69,111.88,2.8,9.77
+TXN-1168,2026-01-31,HOSE-09,Accessories,Vasquez-Ray,Strategic,43.29,36.97,15.78,32,6.32,1.17,13.28
+TXN-1169,2026-01-26,HOSE-09,Accessories,Hernandez PLC,Strategic,43.91,35.73,15.5,3,8.18,1.66,11.87
+TXN-1170,2026-02-05,HOSE-09,Accessories,Mcknight Inc,Mid-Market,44.92,37.17,14.2,14,7.75,0.2,21.19
+TXN-1171,2026-01-21,VALVE-22,Hydraulics,Obrien-Gibbs,Mid-Market,122.15,95.77,64.67,28,26.38,2.69,17.98
+TXN-1172,2026-01-09,PUMP-01,Industrial,"James, Kerr and Evans",Retail,514.56,413.64,244.02,41,100.92,14.53,19.53
+TXN-1173,2026-01-22,SEAL-05,Accessories,Torres-Oliver,Distributor,12.34,9.69,4.81,76,2.65,0.41,14.37
+TXN-1174,2026-01-23,SEAL-05,Accessories,"Garcia, Farmer and Garrett",Strategic,12.19,10.06,5.05,67,2.13,0.18,11.9
+TXN-1175,2026-01-10,VALVE-22,Hydraulics,Moore and Sons,Strategic,116.47,93.71,61.29,59,22.76,0.74,16.98
+TXN-1176,2026-01-21,SEAL-05,Accessories,Smith Group,Distributor,12.18,9.55,4.71,61,2.63,0.48,21.26
+TXN-1177,2026-01-26,SEAL-05,Accessories,Carter-Hall,Distributor,12.51,10.3,5.38,100,2.21,0.4,9.01
+TXN-1178,2026-01-27,SEAL-05,Accessories,"Heath, Jones and Hall",Retail,11.79,10.68,5.06,99,1.11,0.48,5.32
+TXN-1179,2026-01-10,HOSE-09,Accessories,"Lawrence, Lara and Gonzalez",Strategic,43.2,32.76,15.6,85,10.44,0.55,17.82
+TXN-1180,2026-01-05,HOSE-09,Accessories,Holland LLC,Retail,44.98,39.25,16.4,57,5.73,0.6,22.18
+TXN-1181,2026-01-31,PUMP-01,Industrial,Brown LLC,Strategic,519.43,422.54,249.18,74,96.89,19.94,13.9
+TXN-1182,2026-01-23,VALVE-22,Hydraulics,"Morse, Gonzales and Harrison",Retail,114.69,112.72,59.22,44,1.97,1.15,15.87
+TXN-1183,2026-01-12,PUMP-01,Industrial,Bender-Mason,Retail,516.05,492.64,228.84,16,23.41,0.27,9.33
+TXN-1184,2026-01-19,MOTOR-X,Electronics,George Group,Mid-Market,1473.45,1350.41,822.98,24,123.04,1.4,10.39
+TXN-1185,2026-01-28,MOTOR-X,Electronics,"Wright, Davis and Hayden",Mid-Market,1442.83,1126.81,802.8,35,316.02,31.83,29.12
+TXN-1186,2026-01-31,PUMP-01,Industrial,"Matthews, Smith and Hubbard",Strategic,492.89,403.96,259.98,81,88.93,12.36,6.8
+TXN-1187,2026-01-31,PUMP-01,Industrial,"Williams, Avila and Ruiz",Strategic,476.3,466.83,259.74,5,9.47,7.31,14.07
+TXN-1188,2026-01-25,VALVE-22,Hydraulics,White-Richards,Distributor,124.9,94.16,56.14,21,30.74,3.95,23.75
+TXN-1189,2026-01-24,PUMP-01,Industrial,Costa-Harrison,Strategic,524.01,467.9,246.13,19,56.11,4.88,5.45
+TXN-1190,2026-01-16,HOSE-09,Accessories,Santiago-Hodge,Mid-Market,44.04,42.21,16.29,10,1.83,0.55,23.63
+TXN-1191,2026-01-13,PUMP-01,Industrial,"Simpson, Bates and Morales",Distributor,475.66,366.97,274.93,24,108.69,6.54,10.75
+TXN-1192,2026-01-29,MOTOR-X,Electronics,Gibson LLC,Mid-Market,1514.41,1354.01,768.94,13,160.4,1.5,25.0
+TXN-1193,2026-01-10,SEAL-05,Accessories,Cordova Group,Strategic,12.36,10.33,5.35,71,2.03,0.16,5.93
+TXN-1194,2026-02-02,VALVE-22,Hydraulics,Sandoval PLC,Mid-Market,123.09,112.47,63.72,10,10.62,1.08,28.76
+TXN-1195,2026-01-18,PUMP-01,Industrial,Lopez LLC,Strategic,496.68,422.02,250.27,57,74.66,5.76,19.02
+TXN-1196,2026-01-24,VALVE-22,Hydraulics,Garrett-Wolf,Mid-Market,119.08,118.42,62.42,31,0.66,0.51,12.66
+TXN-1197,2026-01-08,HOSE-09,Accessories,"Anderson, Roberts and Gilmore",Strategic,46.4,39.72,15.11,60,6.68,1.83,17.12
+TXN-1198,2026-01-18,MOTOR-X,Electronics,Dudley PLC,Strategic,1518.36,1451.98,858.27,73,66.38,14.07,8.51
+TXN-1199,2026-01-30,SEAL-05,Accessories,"Moore, Pierce and Tran",Distributor,11.54,9.49,4.65,10,2.05,0.13,21.08
+TXN-1200,2026-01-04,MOTOR-X,Electronics,Murray Inc,Mid-Market,1474.63,1345.71,761.12,7,128.92,19.4,8.63
+TXN-1201,2026-01-24,HOSE-09,Accessories,Jimenez Ltd,Retail,46.67,37.59,15.25,96,9.08,0.88,20.65
+TXN-1202,2026-01-11,HOSE-09,Accessories,"Hill, Davenport and Baird",Mid-Market,45.56,36.43,16.1,71,9.13,0.97,25.72
+TXN-1203,2026-01-10,HOSE-09,Accessories,"Thomas, Lee and Greene",Strategic,43.26,38.57,15.16,64,4.69,1.1,18.91
+TXN-1204,2026-01-28,SEAL-05,Accessories,Shields LLC,Mid-Market,11.73,10.06,5.16,60,1.67,0.43,9.06
+TXN-1205,2026-01-29,MOTOR-X,Electronics,Morgan-French,Retail,1427.39,1372.49,738.17,81,54.9,27.38,25.7
+TXN-1206,2026-01-10,VALVE-22,Hydraulics,Campbell LLC,Mid-Market,122.44,100.17,64.03,16,22.27,4.55,26.15
+TXN-1207,2026-01-31,PUMP-01,Industrial,"Duarte, Burns and Hernandez",Strategic,488.55,375.97,249.74,74,112.58,8.59,15.17
+TXN-1208,2026-01-20,VALVE-22,Hydraulics,Cook-Hines,Mid-Market,117.3,104.81,64.68,72,12.49,1.74,26.04
+TXN-1209,2026-01-14,VALVE-22,Hydraulics,Kane-Pollard,Mid-Market,124.76,121.77,56.0,46,2.99,4.54,11.84
+TXN-1210,2026-01-09,MOTOR-X,Electronics,Hall-Rowe,Strategic,1491.47,1489.69,865.59,42,1.78,14.4,8.7
+TXN-1211,2026-01-02,VALVE-22,Hydraulics,"Kennedy, Mcintyre and James",Retail,123.58,99.87,65.32,68,23.71,1.11,12.2
+TXN-1212,2026-02-06,HOSE-09,Accessories,"Pollard, Simpson and Johnson",Distributor,44.1,36.99,15.3,81,7.11,0.9,17.02
+TXN-1213,2026-01-19,HOSE-09,Accessories,"Rivera, Garcia and Kirk",Strategic,45.26,38.68,16.42,61,6.58,0.13,21.15
+TXN-1214,2026-01-04,SEAL-05,Accessories,Smith-Thomas,Distributor,11.47,8.75,4.76,28,2.72,0.08,13.72
+TXN-1215,2026-02-02,HOSE-09,Accessories,Jones LLC,Retail,42.97,36.38,14.49,48,6.59,1.3,27.44
+TXN-1216,2026-01-13,MOTOR-X,Electronics,"Sanders, Miller and Murphy",Strategic,1506.89,1203.8,862.21,50,303.09,57.91,27.22
+TXN-1217,2026-01-25,PUMP-01,Industrial,"James, Stewart and Higgins",Mid-Market,482.42,386.06,268.77,65,96.36,6.52,13.0
+TXN-1218,2026-01-29,VALVE-22,Hydraulics,"Johnson, Jones and Welch",Distributor,122.89,98.38,65.55,68,24.51,2.39,15.74
+TXN-1219,2026-02-04,SEAL-05,Accessories,Francis Group,Mid-Market,12.6,10.51,5.04,46,2.09,0.47,18.28
+TXN-1220,2026-02-06,MOTOR-X,Electronics,"Padilla, Garcia and Jackson",Retail,1475.86,1328.0,828.13,71,147.86,35.22,12.45
+TXN-1221,2026-01-12,MOTOR-X,Electronics,Williams Inc,Distributor,1563.79,1471.32,788.48,18,92.47,64.9,9.72
+TXN-1222,2026-01-11,SEAL-05,Accessories,Jordan-Sanchez,Retail,11.54,11.53,4.72,65,0.01,0.09,5.8
+TXN-1223,2026-01-16,MOTOR-X,Electronics,"Sparks, Jackson and Miller",Retail,1554.37,1229.37,836.72,74,325.0,8.79,17.35
+TXN-1224,2026-02-02,MOTOR-X,Electronics,"Vega, Jimenez and Aguilar",Strategic,1542.87,1343.62,805.46,60,199.25,34.82,28.31
+TXN-1225,2026-01-09,MOTOR-X,Electronics,"King, Scott and Smith",Distributor,1463.92,1370.23,860.37,78,93.69,16.68,15.58
+TXN-1226,2026-01-30,PUMP-01,Industrial,Byrd-Moore,Mid-Market,512.31,395.63,245.34,35,116.68,6.72,24.93
+TXN-1227,2026-01-17,HOSE-09,Accessories,Huerta-Evans,Distributor,44.57,42.19,16.36,7,2.38,1.05,8.51
+TXN-1228,2026-02-05,SEAL-05,Accessories,"Wright, Bruce and Gonzalez",Mid-Market,12.27,11.5,4.82,66,0.77,0.52,25.8
+TXN-1229,2026-01-15,SEAL-05,Accessories,Rodriguez-James,Strategic,12.41,11.29,4.74,19,1.12,0.02,17.55
+TXN-1230,2026-01-14,HOSE-09,Accessories,Haney-Phillips,Distributor,45.23,36.88,14.16,85,8.35,0.66,10.79
+TXN-1231,2026-02-06,PUMP-01,Industrial,"Foster, Smith and Grimes",Distributor,475.44,432.57,254.93,19,42.87,8.78,27.52
+TXN-1232,2026-01-29,MOTOR-X,Electronics,Lozano Ltd,Strategic,1459.94,1433.6,859.88,26,26.34,8.81,20.37
+TXN-1233,2026-01-19,PUMP-01,Industrial,Parsons-Hall,Strategic,520.29,440.66,241.52,3,79.63,21.04,23.32
+TXN-1234,2026-01-30,SEAL-05,Accessories,Fields PLC,Distributor,11.41,8.59,4.56,90,2.82,0.07,25.58
+TXN-1235,2026-01-10,VALVE-22,Hydraulics,"Saunders, Becker and Taylor",Strategic,123.66,105.29,55.58,50,18.37,4.15,23.22
+TXN-1236,2026-01-04,VALVE-22,Hydraulics,"Lucas, Parker and Alexander",Strategic,124.72,103.47,56.37,58,21.25,0.46,9.25
+TXN-1237,2026-01-22,VALVE-22,Hydraulics,"Anderson, Browning and Murphy",Distributor,116.46,101.27,61.57,82,15.19,4.12,10.61
+TXN-1238,2026-01-16,PUMP-01,Industrial,Anderson PLC,Distributor,479.12,451.67,263.35,53,27.45,17.66,25.89
+TXN-1239,2026-02-02,MOTOR-X,Electronics,Schmidt-Mcintyre,Distributor,1460.0,1165.26,866.34,77,294.74,22.35,20.82
+TXN-1240,2026-01-31,MOTOR-X,Electronics,Sloan-Raymond,Retail,1514.67,1273.9,825.67,48,240.77,11.07,8.98
+TXN-1241,2026-02-05,VALVE-22,Hydraulics,Francis-Morgan,Distributor,119.7,106.81,60.34,39,12.89,2.35,22.36
+TXN-1242,2026-01-05,MOTOR-X,Electronics,Taylor and Sons,Mid-Market,1473.95,1262.15,771.7,99,211.8,53.76,9.17
+TXN-1243,2026-02-01,SEAL-05,Accessories,"Craig, Sanders and Singleton",Mid-Market,11.84,10.91,4.99,42,0.93,0.2,25.19
+TXN-1244,2026-01-21,VALVE-22,Hydraulics,Gibbs Inc,Mid-Market,120.43,101.38,60.16,22,19.05,0.4,15.38
+TXN-1245,2026-01-10,PUMP-01,Industrial,Gibson Ltd,Distributor,521.27,497.87,256.43,50,23.4,14.13,15.61
+TXN-1246,2026-01-28,MOTOR-X,Electronics,Richards-Carson,Retail,1509.67,1391.61,744.7,27,118.06,17.26,17.5
+TXN-1247,2026-02-04,MOTOR-X,Electronics,Leonard Group,Distributor,1549.33,1297.21,769.86,77,252.12,48.6,18.82
+TXN-1248,2026-01-01,SEAL-05,Accessories,"Murphy, Bishop and Holland",Strategic,11.69,11.14,5.47,21,0.55,0.11,18.16
+TXN-1249,2026-01-24,HOSE-09,Accessories,Blankenship-Turner,Retail,46.07,43.44,15.96,43,2.63,0.67,21.8
+TXN-1250,2026-01-16,VALVE-22,Hydraulics,Williams Inc,Mid-Market,119.25,118.93,61.33,98,0.32,4.86,27.98
+TXN-1251,2026-01-12,HOSE-09,Accessories,Wilson-Young,Strategic,42.94,40.55,15.52,22,2.39,0.01,9.03
+TXN-1252,2026-01-20,PUMP-01,Industrial,Chavez-Santiago,Retail,521.85,484.94,273.74,60,36.91,13.45,8.13
+TXN-1253,2026-01-28,VALVE-22,Hydraulics,"Barnes, Newton and Moore",Distributor,120.5,111.45,54.45,61,9.05,3.38,6.25
+TXN-1254,2026-01-16,SEAL-05,Accessories,Bass PLC,Distributor,12.28,9.49,4.56,4,2.79,0.25,15.09
+TXN-1255,2026-01-16,HOSE-09,Accessories,Johnson-Wood,Mid-Market,46.15,43.09,14.54,92,3.06,0.78,5.01
+TXN-1256,2026-01-17,VALVE-22,Hydraulics,Foley Inc,Mid-Market,117.55,93.98,57.9,59,23.57,0.86,14.62
+TXN-1257,2026-02-06,PUMP-01,Industrial,Stephens-Levine,Retail,504.33,378.8,269.55,66,125.53,13.89,8.41
+TXN-1258,2026-01-14,SEAL-05,Accessories,Hill-Donaldson,Mid-Market,11.78,9.25,5.12,42,2.53,0.44,7.9
+TXN-1259,2026-02-05,MOTOR-X,Electronics,Davis-Lewis,Distributor,1546.03,1275.82,822.59,74,270.21,32.23,5.08
+TXN-1260,2026-01-24,SEAL-05,Accessories,Williams LLC,Distributor,12.04,10.73,5.49,40,1.31,0.14,15.78
+TXN-1261,2026-01-10,HOSE-09,Accessories,Buchanan and Sons,Retail,44.84,36.4,14.95,13,8.44,0.91,27.74
+TXN-1262,2026-01-03,HOSE-09,Accessories,"Clark, Robinson and Kane",Distributor,44.42,34.97,13.55,91,9.45,0.89,21.11
+TXN-1263,2026-01-13,PUMP-01,Industrial,Kramer PLC,Retail,485.98,384.35,248.81,32,101.63,0.55,15.7
+TXN-1264,2026-01-01,MOTOR-X,Electronics,Huerta PLC,Strategic,1572.92,1349.16,810.07,14,223.76,13.96,5.26
+TXN-1265,2026-01-10,SEAL-05,Accessories,Rodriguez Inc,Mid-Market,11.65,10.07,4.67,98,1.58,0.19,27.75
+TXN-1266,2026-01-05,MOTOR-X,Electronics,Tyler-Young,Strategic,1497.66,1125.47,774.67,39,372.19,53.93,14.95
+TXN-1267,2026-01-12,SEAL-05,Accessories,Baker and Sons,Retail,11.54,9.52,4.97,57,2.02,0.05,17.38
+TXN-1268,2026-01-28,SEAL-05,Accessories,"Wilson, Brown and West",Distributor,11.46,10.3,4.91,8,1.16,0.36,29.52
+TXN-1269,2026-01-14,HOSE-09,Accessories,"Rodriguez, Gordon and Dougherty",Strategic,46.06,42.67,15.49,51,3.39,1.37,14.66
+TXN-1270,2026-01-02,PUMP-01,Industrial,"Boyd, Ellis and Maynard",Distributor,483.74,464.19,230.88,91,19.55,20.78,29.46
+TXN-1271,2026-01-03,PUMP-01,Industrial,Boone-Simmons,Retail,519.13,407.26,270.39,50,111.87,17.97,6.36
+TXN-1272,2026-01-04,MOTOR-X,Electronics,"Browning, Jones and Miller",Strategic,1525.22,1303.97,844.04,27,221.25,14.71,11.8
+TXN-1273,2026-01-23,VALVE-22,Hydraulics,Martinez PLC,Strategic,121.2,113.53,55.03,69,7.67,1.98,29.87
+TXN-1274,2026-01-24,PUMP-01,Industrial,"Joseph, James and Harper",Distributor,509.04,414.44,246.27,100,94.6,3.23,10.86
+TXN-1275,2026-01-11,PUMP-01,Industrial,"Jacobs, Garcia and Miles",Strategic,518.74,466.03,272.82,14,52.71,10.29,20.33
+TXN-1276,2026-02-01,PUMP-01,Industrial,"Rich, Arnold and Glenn",Mid-Market,475.28,375.0,259.14,81,100.28,9.46,25.04
+TXN-1277,2026-01-16,HOSE-09,Accessories,Gutierrez Group,Mid-Market,45.56,44.18,13.52,99,1.38,1.29,23.91
+TXN-1278,2026-01-15,HOSE-09,Accessories,"Davis, Simmons and Ortega",Mid-Market,45.12,33.94,13.65,5,11.18,0.53,8.03
+TXN-1279,2026-01-14,PUMP-01,Industrial,Mcdaniel Group,Mid-Market,496.13,406.91,271.66,45,89.22,6.93,5.04
+TXN-1280,2026-01-03,VALVE-22,Hydraulics,Davis Inc,Strategic,120.23,112.66,63.39,93,7.57,3.01,20.96
+TXN-1281,2026-01-28,SEAL-05,Accessories,Cain-Hawkins,Distributor,11.64,9.7,4.65,42,1.94,0.34,25.27
+TXN-1282,2026-01-22,SEAL-05,Accessories,"Hoffman, Santiago and Jenkins",Distributor,11.91,8.99,5.18,95,2.92,0.28,23.67
+TXN-1283,2026-02-02,SEAL-05,Accessories,Parrish-Griffith,Distributor,12.37,10.99,4.99,73,1.38,0.43,22.16
+TXN-1284,2026-02-05,VALVE-22,Hydraulics,"Edwards, Garcia and Romero",Mid-Market,119.53,103.4,57.05,31,16.13,2.09,25.14
+TXN-1285,2026-01-06,PUMP-01,Industrial,Walker-Rodriguez,Strategic,523.4,518.33,240.9,74,5.07,4.43,27.24
+TXN-1286,2026-02-01,HOSE-09,Accessories,Wilson-Ramirez,Mid-Market,46.71,44.06,13.69,81,2.65,0.13,14.94
+TXN-1287,2026-01-09,PUMP-01,Industrial,Bruce-Villegas,Mid-Market,508.1,442.44,239.35,79,65.66,6.01,19.6
+TXN-1288,2026-01-31,PUMP-01,Industrial,"Leonard, Hawkins and Lynch",Strategic,476.25,377.67,271.87,35,98.58,0.02,12.03
+TXN-1289,2026-01-25,SEAL-05,Accessories,"Adams, White and Park",Retail,11.99,11.71,5.14,56,0.28,0.23,21.43
+TXN-1290,2026-01-12,HOSE-09,Accessories,Bell-White,Mid-Market,43.5,42.3,14.8,18,1.2,1.77,14.16
+TXN-1291,2026-01-06,PUMP-01,Industrial,"Morales, Thomas and Schultz",Retail,497.58,424.08,251.25,62,73.5,10.28,12.17
+TXN-1292,2026-01-02,MOTOR-X,Electronics,"Moreno, Bennett and Chavez",Retail,1439.92,1123.29,752.97,81,316.63,45.94,25.2
+TXN-1293,2026-01-06,PUMP-01,Industrial,Griffith-Frank,Strategic,509.32,464.2,249.92,66,45.12,8.76,12.42
+TXN-1294,2026-01-22,MOTOR-X,Electronics,Ware and Sons,Mid-Market,1570.16,1228.4,728.03,38,341.76,34.45,6.78
+TXN-1295,2026-01-06,HOSE-09,Accessories,"Williams, Miller and Ramos",Retail,44.66,39.76,15.82,19,4.9,0.52,20.8
+TXN-1296,2026-01-16,PUMP-01,Industrial,"Ramos, Nelson and Fischer",Retail,510.57,445.74,226.64,6,64.83,6.33,16.28
+TXN-1297,2026-01-05,PUMP-01,Industrial,Rodriguez-Gregory,Distributor,505.12,465.31,273.46,10,39.81,18.71,28.88
+TXN-1298,2026-01-22,SEAL-05,Accessories,"Estrada, Williams and Foster",Mid-Market,12.59,10.68,5.04,10,1.91,0.29,11.05
+TXN-1299,2026-01-23,HOSE-09,Accessories,Harris and Sons,Strategic,42.99,33.91,14.66,27,9.08,0.7,15.08
+TXN-1300,2026-01-29,HOSE-09,Accessories,Roberts-Wilson,Distributor,43.45,37.31,15.91,82,6.14,0.08,25.14
+TXN-1301,2026-01-19,MOTOR-X,Electronics,Thompson-James,Retail,1433.32,1242.68,811.71,85,190.64,14.74,22.15
+TXN-1302,2026-01-27,VALVE-22,Hydraulics,"Hansen, Barnett and Gomez",Mid-Market,125.15,122.98,61.33,50,2.17,2.54,13.46
+TXN-1303,2026-01-15,MOTOR-X,Electronics,"Williams, Smith and Morse",Distributor,1525.33,1487.45,853.85,71,37.88,0.42,29.41
+TXN-1304,2026-02-01,MOTOR-X,Electronics,"Patterson, Sullivan and Bowman",Retail,1573.22,1379.57,777.49,18,193.65,10.91,16.54
+TXN-1305,2026-01-11,VALVE-22,Hydraulics,Smith-Nguyen,Distributor,118.84,104.76,60.77,80,14.08,5.16,21.27
+TXN-1306,2026-01-30,SEAL-05,Accessories,"Stevens, Norris and Cox",Mid-Market,11.6,9.65,5.2,95,1.95,0.15,28.37
+TXN-1307,2026-01-17,HOSE-09,Accessories,Sanchez PLC,Strategic,43.52,38.48,16.39,71,5.04,0.28,25.15
+TXN-1308,2026-01-15,PUMP-01,Industrial,Foster LLC,Retail,513.5,464.23,249.72,7,49.27,2.28,11.57
+TXN-1309,2026-01-28,SEAL-05,Accessories,Cook and Sons,Distributor,12.36,10.68,4.63,52,1.68,0.13,29.61
+TXN-1310,2026-01-03,PUMP-01,Industrial,"Wilson, Hicks and Bullock",Retail,511.37,425.5,259.24,85,85.87,12.19,16.36
+TXN-1311,2026-01-13,VALVE-22,Hydraulics,"Mullen, Brewer and Hernandez",Strategic,122.76,105.43,65.33,13,17.33,2.49,10.42
+TXN-1312,2026-01-04,PUMP-01,Industrial,Gonzalez-Morrison,Mid-Market,482.8,442.29,260.2,89,40.51,9.5,7.69
+TXN-1313,2026-01-29,VALVE-22,Hydraulics,"Jones, Bean and Burton",Distributor,121.44,108.04,54.55,73,13.4,4.48,29.67
+TXN-1314,2026-01-18,SEAL-05,Accessories,"Wolf, Cole and Glass",Retail,12.0,10.38,4.85,32,1.62,0.35,9.43
+TXN-1315,2026-01-21,PUMP-01,Industrial,"Downs, Morris and Maddox",Mid-Market,475.77,434.3,267.85,35,41.47,6.24,9.79
+TXN-1316,2026-01-12,PUMP-01,Industrial,Jones-Ramos,Retail,479.23,473.1,272.7,47,6.13,20.88,28.98
+TXN-1317,2026-01-12,HOSE-09,Accessories,Vargas-Bell,Retail,44.16,35.69,14.71,87,8.47,0.24,13.17
+TXN-1318,2026-01-03,MOTOR-X,Electronics,Hayes-Brown,Mid-Market,1516.06,1411.98,728.9,47,104.08,47.13,26.71
+TXN-1319,2026-01-31,MOTOR-X,Electronics,Newman Inc,Retail,1545.06,1544.51,831.8,77,0.55,50.58,29.17
+TXN-1320,2026-01-23,VALVE-22,Hydraulics,"Cruz, Carpenter and Best",Strategic,117.52,90.11,58.84,34,27.41,4.25,13.16
+TXN-1321,2026-01-28,PUMP-01,Industrial,Cole PLC,Retail,512.02,495.87,272.99,36,16.15,13.33,24.85
+TXN-1322,2026-01-25,MOTOR-X,Electronics,Jacobs-Mason,Strategic,1472.82,1460.62,796.18,77,12.2,68.0,15.09
+TXN-1323,2026-02-05,VALVE-22,Hydraulics,Garcia-Nolan,Mid-Market,122.78,114.38,65.96,2,8.4,0.45,11.03
+TXN-1324,2026-01-13,HOSE-09,Accessories,"Miller, Lucas and Williams",Mid-Market,44.58,43.68,15.85,27,0.9,1.91,12.72
+TXN-1325,2026-01-27,SEAL-05,Accessories,Warren-Bishop,Strategic,11.46,9.97,4.65,69,1.49,0.17,24.19
+TXN-1326,2026-01-14,SEAL-05,Accessories,Hughes-Schroeder,Distributor,12.42,11.45,4.88,89,0.97,0.36,17.77
+TXN-1327,2026-01-26,PUMP-01,Industrial,Mccormick Ltd,Strategic,521.33,491.99,230.62,74,29.34,4.49,23.18
+TXN-1328,2026-01-13,VALVE-22,Hydraulics,Davis-Gregory,Retail,120.92,104.47,62.2,18,16.45,2.71,19.05
+TXN-1329,2026-01-11,SEAL-05,Accessories,"York, Brandt and Morrison",Mid-Market,11.98,9.72,5.05,83,2.26,0.16,9.83
+TXN-1330,2026-01-06,PUMP-01,Industrial,Aguilar and Sons,Retail,495.91,440.75,229.84,87,55.16,12.96,24.88
+TXN-1331,2026-02-03,SEAL-05,Accessories,Ponce-Hale,Mid-Market,12.43,10.92,5.15,94,1.51,0.08,7.89
+TXN-1332,2026-01-15,MOTOR-X,Electronics,"Fletcher, Miller and Hansen",Retail,1427.55,1106.14,826.4,74,321.41,29.5,25.6
+TXN-1333,2026-01-24,PUMP-01,Industrial,Li-Santiago,Distributor,492.37,431.66,246.17,60,60.71,19.52,7.59
+TXN-1334,2026-01-31,HOSE-09,Accessories,"Osborn, Gaines and Davis",Strategic,45.25,43.82,14.02,70,1.43,1.3,27.58
+TXN-1335,2026-01-25,VALVE-22,Hydraulics,"Cox, Cox and White",Mid-Market,117.06,106.38,65.12,73,10.68,3.09,16.43
+TXN-1336,2026-01-08,PUMP-01,Industrial,Lee-Cooke,Strategic,490.82,398.39,267.53,54,92.43,12.07,9.24
+TXN-1337,2026-01-06,HOSE-09,Accessories,Richard-Garcia,Retail,45.33,36.73,13.69,73,8.6,1.51,23.41
+TXN-1338,2026-01-29,MOTOR-X,Electronics,"Stephenson, Johnson and Rogers",Mid-Market,1534.94,1364.09,776.9,97,170.85,11.65,21.11
+TXN-1339,2026-01-29,SEAL-05,Accessories,Harper and Sons,Distributor,11.4,10.85,4.57,62,0.55,0.42,28.46
+TXN-1340,2026-01-07,VALVE-22,Hydraulics,"Wise, Lamb and Martin",Retail,117.75,115.79,60.84,7,1.96,0.67,11.6
+TXN-1341,2026-01-17,PUMP-01,Industrial,Diaz-Ball,Retail,520.24,472.5,253.77,49,47.74,1.06,16.01
+TXN-1342,2026-02-05,VALVE-22,Hydraulics,"Mitchell, Goodman and Cole",Strategic,118.4,106.56,60.25,17,11.84,1.97,23.53
+TXN-1343,2026-01-20,HOSE-09,Accessories,Sheppard-Mueller,Strategic,46.23,38.48,15.07,87,7.75,0.34,7.14
+TXN-1344,2026-02-03,SEAL-05,Accessories,Richardson PLC,Distributor,12.44,11.3,5.25,67,1.14,0.54,17.62
+TXN-1345,2026-02-06,VALVE-22,Hydraulics,Hammond-Strickland,Mid-Market,120.23,92.81,64.06,38,27.42,1.05,26.66
+TXN-1346,2026-01-19,PUMP-01,Industrial,Burch-Montoya,Retail,481.88,383.63,234.31,54,98.25,1.07,7.91
+TXN-1347,2026-01-30,HOSE-09,Accessories,Salas Inc,Mid-Market,45.06,38.71,13.8,10,6.35,1.68,16.67
+TXN-1348,2026-01-24,SEAL-05,Accessories,Spencer-Garcia,Distributor,11.89,11.25,4.5,95,0.64,0.19,21.42
+TXN-1349,2026-02-01,HOSE-09,Accessories,Mitchell and Sons,Distributor,46.58,45.47,13.62,84,1.11,0.19,19.62
+TXN-1350,2026-01-11,SEAL-05,Accessories,"Hernandez, Kim and Potts",Retail,11.98,10.84,4.77,15,1.14,0.11,29.8
+TXN-1351,2026-01-09,MOTOR-X,Electronics,Wilkerson-Arias,Strategic,1525.21,1437.4,724.06,67,87.81,69.99,26.47
+TXN-1352,2026-01-16,SEAL-05,Accessories,Shaw-Young,Retail,11.81,10.53,5.28,80,1.28,0.38,27.92
+TXN-1353,2026-02-06,SEAL-05,Accessories,Walker-Flores,Mid-Market,12.52,9.94,5.05,97,2.58,0.13,21.96
+TXN-1354,2026-01-04,HOSE-09,Accessories,"Santos, Moody and Taylor",Retail,46.9,37.49,14.0,64,9.41,1.17,10.54
+TXN-1355,2026-01-11,MOTOR-X,Electronics,Horton-Taylor,Retail,1574.66,1525.78,840.55,1,48.88,42.01,28.81
+TXN-1356,2026-01-27,SEAL-05,Accessories,Gilbert-Bullock,Retail,12.49,11.66,4.84,50,0.83,0.35,15.37
+TXN-1357,2026-01-01,HOSE-09,Accessories,Conley PLC,Retail,46.81,45.12,15.57,44,1.69,1.78,13.22
+TXN-1358,2026-02-04,MOTOR-X,Electronics,"Rose, Rodriguez and Roberts",Strategic,1485.17,1324.78,865.59,6,160.39,32.84,23.89
+TXN-1359,2026-01-12,PUMP-01,Industrial,Allen Ltd,Distributor,507.58,416.04,229.02,96,91.54,0.29,7.14
+TXN-1360,2026-01-30,PUMP-01,Industrial,Brown-Copeland,Mid-Market,480.27,390.78,243.46,68,89.49,12.39,22.53
+TXN-1361,2026-01-19,VALVE-22,Hydraulics,"Smith, Robertson and Allen",Retail,120.88,103.97,61.45,87,16.91,0.57,25.86
+TXN-1362,2026-01-06,HOSE-09,Accessories,Smith-Gomez,Strategic,44.63,35.57,14.41,73,9.06,0.32,17.41
+TXN-1363,2026-01-22,HOSE-09,Accessories,Beck Inc,Retail,45.41,43.82,15.6,55,1.59,0.99,12.6
+TXN-1364,2026-01-20,HOSE-09,Accessories,Jones-Fox,Retail,44.43,38.35,13.92,85,6.08,1.85,10.42
+TXN-1365,2026-01-19,MOTOR-X,Electronics,"Spencer, Myers and Harrison",Strategic,1477.71,1304.61,837.47,60,173.1,65.12,16.77
+TXN-1366,2026-01-24,VALVE-22,Hydraulics,King-Smith,Strategic,118.07,91.58,61.47,67,26.49,3.95,25.0
+TXN-1367,2026-01-30,SEAL-05,Accessories,Allen-Sandoval,Distributor,11.46,8.8,5.18,55,2.66,0.18,18.66
+TXN-1368,2026-01-04,MOTOR-X,Electronics,"Moss, Cook and Williams",Mid-Market,1480.78,1364.42,870.6,38,116.36,21.93,16.47
+TXN-1369,2026-01-21,SEAL-05,Accessories,"Thompson, Maxwell and Marshall",Distributor,11.71,10.86,5.29,96,0.85,0.31,16.76
+TXN-1370,2026-01-26,MOTOR-X,Electronics,"White, Taylor and Baldwin",Mid-Market,1476.71,1162.23,820.24,26,314.48,12.58,16.01
+TXN-1371,2026-02-04,MOTOR-X,Electronics,Carter Inc,Retail,1429.51,1276.15,787.68,35,153.36,50.63,21.27
+TXN-1372,2026-01-30,VALVE-22,Hydraulics,Stewart LLC,Strategic,125.01,97.98,54.76,66,27.03,0.57,6.14
+TXN-1373,2026-01-20,PUMP-01,Industrial,"Kennedy, Johnson and Lucas",Retail,510.12,390.76,256.89,13,119.36,4.01,10.63
+TXN-1374,2026-01-11,VALVE-22,Hydraulics,Glenn LLC,Mid-Market,118.12,117.03,55.76,17,1.09,0.56,6.14
+TXN-1375,2026-01-11,HOSE-09,Accessories,Kim-Ross,Retail,43.89,39.28,15.59,61,4.61,0.86,5.6
+TXN-1376,2026-01-17,SEAL-05,Accessories,Morgan-Lopez,Strategic,12.28,12.13,4.78,96,0.15,0.35,22.1
+TXN-1377,2026-01-26,MOTOR-X,Electronics,Glass-Stone,Mid-Market,1551.45,1368.04,830.55,90,183.41,51.61,5.13
+TXN-1378,2026-01-30,MOTOR-X,Electronics,"Coleman, Jordan and Carney",Retail,1465.2,1138.0,809.72,30,327.2,54.93,8.63
+TXN-1379,2026-01-07,PUMP-01,Industrial,Morris-Miller,Retail,524.6,518.88,268.33,44,5.72,11.19,28.18
+TXN-1380,2026-01-25,MOTOR-X,Electronics,Griffin-Robbins,Distributor,1487.37,1178.99,849.93,7,308.38,42.05,20.58
+TXN-1381,2026-01-07,MOTOR-X,Electronics,Bell-Williams,Distributor,1451.76,1148.22,782.49,94,303.54,12.05,9.56
+TXN-1382,2026-02-02,HOSE-09,Accessories,Mendez-Graham,Distributor,44.84,39.59,14.69,11,5.25,1.47,26.6
+TXN-1383,2026-01-24,VALVE-22,Hydraulics,Jones Ltd,Distributor,119.95,117.27,56.03,41,2.68,1.44,27.7
+TXN-1384,2026-01-16,HOSE-09,Accessories,"Owen, Shelton and Cisneros",Mid-Market,44.87,35.67,16.29,19,9.2,0.2,22.88
+TXN-1385,2026-01-06,MOTOR-X,Electronics,"Gregory, Kim and Martinez",Retail,1499.56,1160.92,802.04,36,338.64,22.09,13.12
+TXN-1386,2026-01-09,MOTOR-X,Electronics,"Diaz, Reyes and Bradley",Retail,1476.53,1295.53,852.87,12,181.0,42.26,18.06
+TXN-1387,2026-01-23,HOSE-09,Accessories,"Cole, Watson and Wallace",Distributor,46.19,43.02,14.59,26,3.17,0.98,26.06
+TXN-1388,2026-01-03,PUMP-01,Industrial,Moreno Group,Distributor,498.21,415.15,233.64,17,83.06,1.01,15.82
+TXN-1389,2026-01-12,VALVE-22,Hydraulics,Wright-Wilson,Mid-Market,118.92,114.5,65.88,67,4.42,4.5,12.16
+TXN-1390,2026-01-28,MOTOR-X,Electronics,Holmes-Mcintyre,Mid-Market,1532.1,1309.4,776.88,23,222.7,5.87,27.94
+TXN-1391,2026-01-05,PUMP-01,Industrial,Padilla-Lewis,Retail,507.16,463.11,248.32,100,44.05,9.71,8.03
+TXN-1392,2026-01-23,VALVE-22,Hydraulics,"Hendricks, Henry and Martinez",Distributor,118.17,100.25,59.99,8,17.92,3.05,19.05
+TXN-1393,2026-02-01,PUMP-01,Industrial,Thompson-Reeves,Distributor,519.46,414.16,262.03,46,105.3,12.52,22.27
+TXN-1394,2026-02-06,HOSE-09,Accessories,"Ponce, Downs and Contreras",Strategic,46.9,42.39,15.71,93,4.51,1.91,22.26
+TXN-1395,2026-01-27,MOTOR-X,Electronics,"Daniels, Vance and York",Retail,1479.21,1226.18,770.84,5,253.03,43.11,5.49
+TXN-1396,2026-01-27,HOSE-09,Accessories,"Little, Leon and Hicks",Retail,45.92,38.31,13.57,77,7.61,0.59,21.11
+TXN-1397,2026-01-05,MOTOR-X,Electronics,Conner and Sons,Mid-Market,1524.57,1240.94,721.66,31,283.63,37.73,15.25
+TXN-1398,2026-01-30,VALVE-22,Hydraulics,Ward PLC,Strategic,122.49,113.4,63.48,12,9.09,3.77,23.36
+TXN-1399,2026-01-14,SEAL-05,Accessories,"Anderson, Henson and Jones",Distributor,12.42,9.56,5.02,27,2.86,0.35,18.88
+TXN-1400,2026-01-15,HOSE-09,Accessories,"Higgins, Fox and Hammond",Distributor,43.13,32.41,15.77,75,10.72,0.0,26.68
+TXN-1401,2026-01-31,MOTOR-X,Electronics,Martinez LLC,Mid-Market,1457.66,1391.13,738.59,61,66.53,15.43,29.3
+TXN-1402,2026-01-24,SEAL-05,Accessories,Owens-Holmes,Distributor,11.74,9.72,4.64,44,2.02,0.34,18.65
+TXN-1403,2026-01-05,HOSE-09,Accessories,"Bowman, White and Burch",Strategic,43.61,34.56,14.54,81,9.05,0.03,26.74
+TXN-1404,2026-01-17,MOTOR-X,Electronics,Guerra PLC,Retail,1522.71,1419.68,837.16,35,103.03,49.8,19.18
+TXN-1405,2026-01-06,SEAL-05,Accessories,Martin Ltd,Retail,12.22,11.49,4.55,55,0.73,0.42,15.62
+TXN-1406,2026-01-09,HOSE-09,Accessories,"Jacobson, Singleton and King",Strategic,46.09,42.24,14.89,29,3.85,2.03,12.35
+TXN-1407,2026-01-24,PUMP-01,Industrial,"Hill, Weber and Mendez",Retail,482.18,481.07,232.04,54,1.11,14.28,6.48
+TXN-1408,2026-01-04,MOTOR-X,Electronics,"Jackson, David and Moore",Strategic,1460.49,1163.51,840.12,68,296.98,5.75,6.82
+TXN-1409,2026-01-25,SEAL-05,Accessories,"Winters, Morgan and Bradshaw",Retail,11.69,11.42,5.26,76,0.27,0.06,11.09
+TXN-1410,2026-01-02,HOSE-09,Accessories,Miller Ltd,Retail,45.91,43.64,15.92,38,2.27,0.13,13.6
+TXN-1411,2026-01-29,HOSE-09,Accessories,Curtis-Wang,Strategic,44.26,43.74,14.21,44,0.52,1.6,13.47
+TXN-1412,2026-01-16,PUMP-01,Industrial,"Johnson, Small and Gardner",Mid-Market,488.14,473.53,270.49,37,14.61,6.09,6.16
+TXN-1413,2026-01-24,HOSE-09,Accessories,Webb-Ballard,Strategic,46.74,44.74,15.61,37,2.0,1.95,29.59
+TXN-1414,2026-01-26,HOSE-09,Accessories,Chavez-Barker,Mid-Market,43.64,43.47,16.47,72,0.17,0.6,12.39
+TXN-1415,2026-01-06,PUMP-01,Industrial,Washington-Harris,Strategic,522.08,438.73,249.49,20,83.35,15.36,15.17
+TXN-1416,2026-01-23,HOSE-09,Accessories,Hensley-Flores,Retail,43.06,36.22,16.34,29,6.84,1.33,24.47
+TXN-1417,2026-02-06,SEAL-05,Accessories,Hester-Anderson,Distributor,12.02,10.73,4.93,73,1.29,0.2,6.12
+TXN-1418,2026-01-14,SEAL-05,Accessories,"Rodriguez, Allen and Martinez",Mid-Market,12.31,11.67,5.39,27,0.64,0.03,7.51
+TXN-1419,2026-01-17,PUMP-01,Industrial,Davis LLC,Mid-Market,499.67,440.89,239.43,12,58.78,18.47,9.06
+TXN-1420,2026-02-04,HOSE-09,Accessories,"Barnes, Estes and Barrera",Strategic,44.52,34.85,13.53,70,9.67,0.87,19.04
+TXN-1421,2026-01-31,HOSE-09,Accessories,"Griffith, Lee and Moore",Strategic,45.67,36.17,14.87,95,9.5,0.07,12.03
+TXN-1422,2026-02-06,SEAL-05,Accessories,Jimenez-Parker,Strategic,12.43,12.41,4.78,66,0.02,0.19,14.0
+TXN-1423,2026-01-01,HOSE-09,Accessories,Wagner-Levy,Distributor,42.91,40.06,15.58,50,2.85,1.0,24.7
+TXN-1424,2026-01-08,MOTOR-X,Electronics,Williams-Campbell,Mid-Market,1486.0,1293.92,786.29,56,192.08,18.84,26.73
+TXN-1425,2026-01-23,HOSE-09,Accessories,"Chambers, Mitchell and Smith",Distributor,47.16,40.29,16.3,25,6.87,1.96,17.18
+TXN-1426,2026-01-04,SEAL-05,Accessories,Khan Ltd,Retail,11.65,10.38,4.96,48,1.27,0.47,7.73
+TXN-1427,2026-01-14,SEAL-05,Accessories,Diaz-Morales,Strategic,12.34,11.73,5.31,91,0.61,0.54,8.2
+TXN-1428,2026-01-22,SEAL-05,Accessories,Cox LLC,Strategic,11.49,10.56,4.88,52,0.93,0.28,6.65
+TXN-1429,2026-01-03,HOSE-09,Accessories,"Cole, Pierce and Bryan",Mid-Market,44.95,41.41,13.84,26,3.54,0.66,21.43
+TXN-1430,2026-01-24,SEAL-05,Accessories,"Wilson, Hester and Long",Retail,12.3,10.01,4.8,22,2.29,0.31,23.46
+TXN-1431,2026-01-30,SEAL-05,Accessories,Grant-Diaz,Distributor,12.07,11.38,5.1,9,0.69,0.22,19.17
+TXN-1432,2026-01-06,MOTOR-X,Electronics,"Hicks, Porter and Williams",Mid-Market,1510.37,1228.91,848.37,21,281.46,15.55,16.44
+TXN-1433,2026-01-06,SEAL-05,Accessories,Brock-Stone,Strategic,12.46,9.76,4.97,52,2.7,0.37,20.44
+TXN-1434,2026-01-06,HOSE-09,Accessories,"Taylor, Velazquez and Flores",Mid-Market,46.43,42.89,16.27,11,3.54,0.68,7.9
+TXN-1435,2026-01-15,HOSE-09,Accessories,"Stevenson, Evans and Rogers",Retail,45.39,40.12,14.14,85,5.27,0.18,12.1
+TXN-1436,2026-01-31,HOSE-09,Accessories,"Burns, Hart and Wells",Distributor,45.07,36.87,13.9,91,8.2,0.02,5.89
+TXN-1437,2026-01-01,HOSE-09,Accessories,Nunez-Whitney,Strategic,45.35,37.46,14.32,48,7.89,0.41,11.3
+TXN-1438,2026-01-22,MOTOR-X,Electronics,"Wiggins, Soto and Carlson",Strategic,1517.31,1450.9,864.24,69,66.41,32.35,10.69
+TXN-1439,2026-01-10,MOTOR-X,Electronics,"Patton, Parsons and Lane",Mid-Market,1530.64,1423.19,769.69,39,107.45,1.59,26.04
+TXN-1440,2026-01-27,MOTOR-X,Electronics,"Castillo, Warren and Griffith",Strategic,1532.62,1252.27,727.31,14,280.35,24.36,28.81
+TXN-1441,2026-01-29,HOSE-09,Accessories,Hernandez-Becker,Strategic,42.93,33.26,14.6,55,9.67,0.33,15.52
+TXN-1442,2026-01-02,MOTOR-X,Electronics,"Rodriguez, Smith and Edwards",Strategic,1538.8,1192.34,770.56,52,346.46,5.39,19.75
+TXN-1443,2026-01-06,MOTOR-X,Electronics,"Harris, Shaw and Carr",Distributor,1477.19,1228.5,724.44,50,248.69,5.23,20.66
+TXN-1444,2026-01-18,HOSE-09,Accessories,"Luna, Thornton and Stone",Retail,44.34,40.48,15.18,56,3.86,1.03,11.43
+TXN-1445,2026-01-21,SEAL-05,Accessories,"Mendoza, Bennett and Frye",Distributor,12.36,12.36,4.87,35,0.0,0.24,27.93
+TXN-1446,2026-01-18,HOSE-09,Accessories,"Peterson, Gomez and Ingram",Mid-Market,47.15,44.81,13.61,6,2.34,0.32,21.44
+TXN-1447,2026-01-27,HOSE-09,Accessories,"Lara, Baker and Washington",Mid-Market,45.68,38.96,15.65,56,6.72,0.22,27.14
+TXN-1448,2026-02-05,MOTOR-X,Electronics,Grant-Walker,Mid-Market,1515.21,1426.03,815.73,66,89.18,44.51,19.8
+TXN-1449,2026-02-05,VALVE-22,Hydraulics,Wise-Bush,Retail,122.4,103.77,55.31,2,18.63,3.32,16.3
+TXN-1450,2026-01-26,MOTOR-X,Electronics,Stewart-Bailey,Strategic,1454.62,1178.54,786.44,41,276.08,32.01,20.6
+TXN-1451,2026-02-04,PUMP-01,Industrial,"Hill, Martinez and Rhodes",Strategic,508.84,390.29,229.57,56,118.55,5.13,20.04
+TXN-1452,2026-01-15,HOSE-09,Accessories,Cardenas-Blevins,Mid-Market,44.89,43.89,14.9,73,1.0,1.85,25.66
+TXN-1453,2026-01-30,PUMP-01,Industrial,Williams-Moses,Retail,510.02,447.6,226.56,11,62.42,5.36,23.91
+TXN-1454,2026-01-03,HOSE-09,Accessories,Douglas-Burgess,Mid-Market,44.12,35.31,13.77,51,8.81,1.48,17.33
+TXN-1455,2026-01-08,MOTOR-X,Electronics,"Nelson, Hoffman and Nelson",Retail,1434.6,1101.41,778.25,89,333.19,35.26,15.32
+TXN-1456,2026-01-05,HOSE-09,Accessories,"Matthews, Sanchez and Santiago",Mid-Market,44.92,44.71,16.12,78,0.21,0.08,23.37
+TXN-1457,2026-01-20,PUMP-01,Industrial,"Hall, Garcia and Rivera",Retail,498.04,482.17,263.19,7,15.87,20.6,17.24
+TXN-1458,2026-01-18,VALVE-22,Hydraulics,"Townsend, Smith and Pierce",Retail,119.3,100.5,56.3,87,18.8,4.79,9.08
+TXN-1459,2026-02-04,PUMP-01,Industrial,Delgado-Gilmore,Strategic,493.84,438.69,272.7,43,55.15,8.7,8.93
+TXN-1460,2026-01-18,PUMP-01,Industrial,"Gonzalez, Maynard and Morris",Mid-Market,513.85,418.38,236.57,57,95.47,14.91,26.57
+TXN-1461,2026-01-24,HOSE-09,Accessories,Pearson and Sons,Retail,43.65,33.06,14.83,33,10.59,0.83,24.05
+TXN-1462,2026-01-20,SEAL-05,Accessories,"Jefferson, Johnson and Dorsey",Distributor,12.29,9.27,5.21,69,3.02,0.05,17.5
+TXN-1463,2026-01-16,VALVE-22,Hydraulics,Peck Inc,Retail,117.76,101.78,61.65,43,15.98,0.56,5.13
+TXN-1464,2026-02-06,MOTOR-X,Electronics,French-Lopez,Distributor,1439.34,1201.69,849.66,29,237.65,46.86,22.28
+TXN-1465,2026-01-28,PUMP-01,Industrial,Mcdowell-Smith,Distributor,495.49,490.01,247.06,55,5.48,4.1,12.65
+TXN-1466,2026-01-22,SEAL-05,Accessories,Hebert LLC,Mid-Market,11.54,9.39,5.07,23,2.15,0.29,28.86
+TXN-1467,2026-01-11,HOSE-09,Accessories,"Daniels, Snyder and Mays",Retail,43.26,42.36,15.04,89,0.9,1.72,16.11
+TXN-1468,2026-02-01,VALVE-22,Hydraulics,Nelson-Lamb,Retail,123.83,121.68,64.22,32,2.15,2.37,19.5
+TXN-1469,2026-01-13,HOSE-09,Accessories,"Stevens, Scott and Lopez",Retail,46.5,36.47,14.27,83,10.03,1.79,12.69
+TXN-1470,2026-01-28,MOTOR-X,Electronics,Bradley-Todd,Strategic,1427.55,1310.71,780.6,37,116.84,31.54,8.21
+TXN-1471,2026-01-07,PUMP-01,Industrial,"Prince, Wilcox and Robertson",Strategic,506.38,423.21,236.48,83,83.17,5.93,20.04
+TXN-1472,2026-01-04,VALVE-22,Hydraulics,"Davis, Holden and Woods",Strategic,115.9,98.38,57.93,52,17.52,0.83,20.27
+TXN-1473,2026-02-04,MOTOR-X,Electronics,Green and Sons,Retail,1542.62,1473.49,801.97,60,69.13,12.92,21.98
+TXN-1474,2026-01-17,VALVE-22,Hydraulics,Finley-Turner,Distributor,124.96,110.0,56.92,34,14.96,2.9,24.86
+TXN-1475,2026-01-27,MOTOR-X,Electronics,Green LLC,Distributor,1550.09,1495.48,844.56,26,54.61,21.83,26.3
+TXN-1476,2026-01-26,PUMP-01,Industrial,Contreras Group,Distributor,481.56,396.63,271.86,52,84.93,1.84,16.6
+TXN-1477,2026-01-12,HOSE-09,Accessories,Parks-Leblanc,Mid-Market,46.27,35.29,15.07,74,10.98,0.2,5.99
+TXN-1478,2026-02-02,HOSE-09,Accessories,Vaughn-Fowler,Strategic,43.9,38.92,13.62,32,4.98,0.46,28.44
+TXN-1479,2026-02-04,VALVE-22,Hydraulics,Mendez-Robinson,Retail,114.2,107.26,60.89,94,6.94,2.43,15.61
+TXN-1480,2026-01-05,HOSE-09,Accessories,Gibson PLC,Strategic,46.9,42.0,14.8,7,4.9,1.6,15.96
+TXN-1481,2026-01-14,HOSE-09,Accessories,"Dunn, Ruiz and Medina",Retail,44.14,35.7,14.13,71,8.44,0.36,15.33
+TXN-1482,2026-01-25,SEAL-05,Accessories,Gill Ltd,Distributor,11.98,10.49,5.2,51,1.49,0.21,21.82
+TXN-1483,2026-01-28,HOSE-09,Accessories,Fox PLC,Distributor,44.92,33.79,15.61,88,11.13,0.44,27.76
+TXN-1484,2026-01-27,HOSE-09,Accessories,Stark Inc,Distributor,43.17,33.82,16.39,20,9.35,0.78,15.97
+TXN-1485,2026-01-03,SEAL-05,Accessories,"Leach, Harris and Herrera",Distributor,12.55,12.46,5.48,86,0.09,0.01,23.95
+TXN-1486,2026-01-07,MOTOR-X,Electronics,"Ramos, Frazier and Love",Mid-Market,1473.55,1156.05,781.8,21,317.5,38.31,12.49
+TXN-1487,2026-01-19,PUMP-01,Industrial,"Griffin, Brown and Anderson",Strategic,506.89,421.36,242.27,52,85.53,4.22,20.99
+TXN-1488,2026-01-16,VALVE-22,Hydraulics,"Brown, Ford and Roman",Distributor,115.88,110.47,54.87,90,5.41,4.86,16.66
+TXN-1489,2026-01-27,MOTOR-X,Electronics,Scott-Smith,Mid-Market,1535.15,1484.57,783.09,67,50.58,52.51,24.33
+TXN-1490,2026-01-09,PUMP-01,Industrial,Williams LLC,Retail,510.09,481.91,257.11,73,28.18,9.36,21.07
+TXN-1491,2026-01-26,HOSE-09,Accessories,"Mcknight, Michael and Jones",Mid-Market,45.42,34.49,13.64,4,10.93,1.25,16.48
+TXN-1492,2026-02-04,SEAL-05,Accessories,Mitchell and Sons,Mid-Market,11.88,10.59,4.87,72,1.29,0.18,23.51
+TXN-1493,2026-01-29,PUMP-01,Industrial,"Good, Brewer and Fisher",Retail,504.21,431.7,226.61,36,72.51,0.33,27.34
+TXN-1494,2026-02-06,SEAL-05,Accessories,West-Stark,Strategic,12.29,9.33,4.73,63,2.96,0.19,26.17
+TXN-1495,2026-01-14,HOSE-09,Accessories,Vega Ltd,Retail,44.62,38.83,15.71,77,5.79,1.35,22.47
+TXN-1496,2026-02-02,PUMP-01,Industrial,Valdez LLC,Mid-Market,517.73,498.92,255.47,67,18.81,4.73,10.9
+TXN-1497,2026-01-05,MOTOR-X,Electronics,"Long, Anderson and Irwin",Distributor,1503.38,1335.97,747.01,99,167.41,11.61,8.84
+TXN-1498,2026-01-31,VALVE-22,Hydraulics,Good Group,Distributor,125.86,111.31,65.17,10,14.55,2.06,9.06
+TXN-1499,2026-01-25,VALVE-22,Hydraulics,"Coleman, Gray and Hall",Distributor,119.29,99.99,61.05,1,19.3,0.86,10.77
+TXN-1500,2026-01-18,PUMP-01,Industrial,Hill Ltd,Retail,522.79,513.54,248.49,41,9.25,16.01,15.64
+TXN-1501,2026-01-29,PUMP-01,Industrial,Pacheco Group,Mid-Market,489.31,445.54,265.51,24,43.77,15.32,23.58
+TXN-1502,2026-01-23,VALVE-22,Hydraulics,Allen Inc,Strategic,124.23,118.82,62.79,94,5.41,2.92,5.0
+TXN-1503,2026-01-04,HOSE-09,Accessories,Griffin Ltd,Mid-Market,45.92,35.06,14.91,25,10.86,1.39,27.2
+TXN-1504,2026-01-27,HOSE-09,Accessories,Sanchez Inc,Strategic,45.36,36.13,14.35,85,9.23,1.58,19.14
+TXN-1505,2026-01-15,HOSE-09,Accessories,Fernandez Inc,Distributor,46.21,45.84,15.47,38,0.37,1.25,16.14
+TXN-1506,2026-01-06,PUMP-01,Industrial,Young-Hendricks,Retail,500.22,481.44,225.72,58,18.78,1.88,7.47
+TXN-1507,2026-01-22,SEAL-05,Accessories,"Harper, Chambers and Flores",Retail,11.8,11.41,4.73,55,0.39,0.29,18.38
+TXN-1508,2026-01-12,HOSE-09,Accessories,Odom PLC,Mid-Market,45.17,40.65,14.66,82,4.52,1.82,11.16
+TXN-1509,2026-01-09,MOTOR-X,Electronics,Hill-Hawkins,Mid-Market,1528.28,1190.33,777.77,85,337.95,24.88,28.07
+TXN-1510,2026-01-22,SEAL-05,Accessories,"Buck, Garrett and Simmons",Distributor,11.76,10.18,5.35,53,1.58,0.19,16.34
+TXN-1511,2026-01-19,MOTOR-X,Electronics,David-Powers,Mid-Market,1564.27,1305.0,852.92,31,259.27,40.66,7.63
+TXN-1512,2026-01-30,MOTOR-X,Electronics,Horton-Russell,Retail,1545.27,1498.79,770.82,42,46.48,2.54,6.17
+TXN-1513,2026-01-12,SEAL-05,Accessories,Webster Group,Mid-Market,11.54,10.28,5.38,47,1.26,0.31,8.33
+TXN-1514,2026-01-09,SEAL-05,Accessories,Turner Ltd,Strategic,12.41,11.52,5.26,42,0.89,0.44,12.38
+TXN-1515,2026-01-06,VALVE-22,Hydraulics,Melendez-Hart,Strategic,120.93,100.49,55.29,36,20.44,4.6,24.99
+TXN-1516,2026-02-05,MOTOR-X,Electronics,"Moreno, Price and Scott",Distributor,1432.17,1109.48,863.33,50,322.69,51.8,7.2
+TXN-1517,2026-01-13,SEAL-05,Accessories,Nielsen LLC,Retail,11.53,9.95,4.59,33,1.58,0.05,19.54
+TXN-1518,2026-01-04,PUMP-01,Industrial,"Calderon, Williams and Bennett",Distributor,513.25,391.44,225.4,14,121.81,11.09,10.0
+TXN-1519,2026-01-23,HOSE-09,Accessories,Russo and Sons,Mid-Market,43.29,40.75,16.22,30,2.54,0.23,9.65
+TXN-1520,2026-01-30,PUMP-01,Industrial,"Ramsey, Hansen and Mendoza",Strategic,516.91,445.23,227.87,55,71.68,6.1,7.1
+TXN-1521,2026-02-02,SEAL-05,Accessories,Turner-Stout,Distributor,11.42,11.09,4.58,66,0.33,0.21,28.95
+TXN-1522,2026-01-08,SEAL-05,Accessories,Hayden Inc,Mid-Market,11.59,9.56,5.13,35,2.03,0.02,22.21
+TXN-1523,2026-01-28,SEAL-05,Accessories,Rocha-Dominguez,Distributor,12.27,11.36,5.21,88,0.91,0.07,28.23
+TXN-1524,2026-01-27,PUMP-01,Industrial,Herman-Arnold,Retail,475.3,380.12,241.91,26,95.18,9.34,17.67
+TXN-1525,2026-01-29,PUMP-01,Industrial,Owens-Wong,Distributor,491.74,424.47,266.41,58,67.27,16.38,23.95
+TXN-1526,2026-01-12,PUMP-01,Industrial,Hunt-Crawford,Retail,510.64,455.42,244.16,92,55.22,6.56,19.06
+TXN-1527,2026-01-04,HOSE-09,Accessories,"Harrison, Franco and Rocha",Retail,45.17,41.27,16.49,6,3.9,0.19,20.37
+TXN-1528,2026-01-14,PUMP-01,Industrial,Williams-Shields,Strategic,489.92,443.03,232.74,10,46.89,4.78,18.59
+TXN-1529,2026-01-28,VALVE-22,Hydraulics,Green PLC,Mid-Market,118.27,95.12,54.86,10,23.15,3.29,7.22
+TXN-1530,2026-01-22,MOTOR-X,Electronics,Phillips-Gonzalez,Retail,1456.79,1333.82,764.65,79,122.97,63.42,27.46
+TXN-1531,2026-01-09,PUMP-01,Industrial,"Whitaker, Porter and Pena",Strategic,481.4,446.76,255.35,38,34.64,4.69,22.68
+TXN-1532,2026-01-26,HOSE-09,Accessories,Hines-Burns,Distributor,44.62,41.44,14.95,7,3.18,0.15,16.71
+TXN-1533,2026-01-27,PUMP-01,Industrial,"Henry, Jackson and Norton",Strategic,484.1,476.14,236.12,18,7.96,22.02,29.75
+TXN-1534,2026-01-07,VALVE-22,Hydraulics,"Payne, White and Preston",Retail,118.49,90.39,62.31,1,28.1,2.87,24.35
+TXN-1535,2026-02-06,PUMP-01,Industrial,Warren Inc,Mid-Market,517.49,472.55,268.52,73,44.94,2.51,29.98
+TXN-1536,2026-02-04,SEAL-05,Accessories,"Williams, Smith and Taylor",Mid-Market,11.83,10.13,4.92,58,1.7,0.44,10.56
+TXN-1537,2026-01-24,HOSE-09,Accessories,Mann Inc,Strategic,44.55,39.62,14.02,51,4.93,0.83,28.84
+TXN-1538,2026-01-09,SEAL-05,Accessories,Brooks-Williamson,Retail,12.54,11.42,4.94,8,1.12,0.27,18.94
+TXN-1539,2026-01-25,HOSE-09,Accessories,"Durham, Hopkins and Smith",Strategic,46.41,36.23,13.85,23,10.18,0.82,28.0
+TXN-1540,2026-01-20,VALVE-22,Hydraulics,Smith-Moreno,Retail,117.18,102.93,61.97,32,14.25,1.9,13.52
+TXN-1541,2026-01-11,SEAL-05,Accessories,Smith-Li,Strategic,11.52,9.83,4.66,18,1.69,0.04,17.3
+TXN-1542,2026-01-25,VALVE-22,Hydraulics,Rodriguez Inc,Strategic,119.25,108.02,57.86,46,11.23,4.89,19.84
+TXN-1543,2026-01-20,SEAL-05,Accessories,Lee PLC,Distributor,11.94,10.29,4.99,76,1.65,0.03,27.94
+TXN-1544,2026-01-10,HOSE-09,Accessories,Adams-Sanders,Distributor,43.29,42.57,15.37,83,0.72,1.33,12.87
+TXN-1545,2026-01-14,HOSE-09,Accessories,Stevens-Sanchez,Retail,46.06,35.62,14.5,64,10.44,1.77,6.35
+TXN-1546,2026-01-26,SEAL-05,Accessories,Sutton-Abbott,Mid-Market,12.48,9.58,5.13,68,2.9,0.39,27.77
+TXN-1547,2026-01-25,SEAL-05,Accessories,"Malone, Davis and Gray",Mid-Market,11.73,8.91,5.32,39,2.82,0.02,26.77
+TXN-1548,2026-01-21,HOSE-09,Accessories,Walsh Ltd,Retail,46.47,46.46,15.44,1,0.01,0.38,11.67
+TXN-1549,2026-01-07,MOTOR-X,Electronics,Bruce-Newman,Distributor,1554.99,1406.96,799.59,68,148.03,13.66,9.16
+TXN-1550,2026-01-13,VALVE-22,Hydraulics,Jacobson Inc,Strategic,123.1,96.74,65.76,46,26.36,1.7,19.86
+TXN-1551,2026-01-09,SEAL-05,Accessories,"Clay, Alvarez and Williams",Mid-Market,11.49,9.64,5.05,4,1.85,0.3,22.59
+TXN-1552,2026-01-03,VALVE-22,Hydraulics,Lam-Elliott,Distributor,121.69,118.34,57.86,48,3.35,3.2,15.29
+TXN-1553,2026-01-02,SEAL-05,Accessories,Smith-Clark,Strategic,12.4,10.38,5.45,61,2.02,0.11,29.85
+TXN-1554,2026-01-06,MOTOR-X,Electronics,"Nicholson, Hickman and Evans",Retail,1457.92,1302.37,723.84,38,155.55,53.92,12.7
+TXN-1555,2026-01-21,MOTOR-X,Electronics,"Davenport, Price and Mosley",Retail,1498.3,1335.23,809.32,47,163.07,44.45,7.81
+TXN-1556,2026-01-13,PUMP-01,Industrial,"Taylor, Hinton and Ramsey",Mid-Market,515.63,465.23,261.75,37,50.4,17.1,19.1
+TXN-1557,2026-01-19,MOTOR-X,Electronics,Brown-Kim,Mid-Market,1489.72,1236.09,802.66,27,253.63,6.95,11.99
+TXN-1558,2026-02-01,MOTOR-X,Electronics,Jacobs-Austin,Strategic,1545.82,1347.13,817.87,88,198.69,32.42,28.73
+TXN-1559,2026-01-23,HOSE-09,Accessories,Johnson-Nelson,Mid-Market,46.13,37.4,14.56,94,8.73,0.07,16.84
+TXN-1560,2026-02-06,VALVE-22,Hydraulics,Perez-Tran,Mid-Market,121.18,120.74,59.57,28,0.44,3.65,16.17
+TXN-1561,2026-01-14,SEAL-05,Accessories,Frazier Ltd,Distributor,11.9,11.81,5.41,44,0.09,0.28,29.44
+TXN-1562,2026-01-15,MOTOR-X,Electronics,"Phillips, Wright and Jones",Retail,1542.18,1189.72,852.34,64,352.46,24.83,25.48
+TXN-1563,2026-01-10,PUMP-01,Industrial,Dawson-Walters,Mid-Market,501.47,422.67,253.08,66,78.8,13.01,29.86
+TXN-1564,2026-01-28,HOSE-09,Accessories,Ward-Davis,Retail,44.91,34.97,15.43,43,9.94,0.54,7.02
+TXN-1565,2026-02-04,HOSE-09,Accessories,Ward-Nelson,Retail,43.3,43.27,16.39,36,0.03,1.24,28.55
+TXN-1566,2026-01-05,HOSE-09,Accessories,Jordan PLC,Retail,43.93,39.49,16.19,45,4.44,0.03,15.47
+TXN-1567,2026-01-21,SEAL-05,Accessories,Garcia-Davis,Strategic,12.0,9.8,5.08,46,2.2,0.22,19.85
+TXN-1568,2026-01-21,PUMP-01,Industrial,"George, Nguyen and Cruz",Retail,507.72,493.56,265.09,58,14.16,7.13,13.28
+TXN-1569,2026-01-11,MOTOR-X,Electronics,Maxwell-Hardy,Retail,1522.9,1280.91,852.54,87,241.99,38.42,25.3
+TXN-1570,2026-01-21,PUMP-01,Industrial,Armstrong and Sons,Mid-Market,489.74,463.82,270.94,42,25.92,3.02,19.41
+TXN-1571,2026-01-26,MOTOR-X,Electronics,Taylor LLC,Mid-Market,1573.02,1566.12,819.71,11,6.9,64.08,14.49
+TXN-1572,2026-01-10,SEAL-05,Accessories,Brown Group,Mid-Market,12.5,11.84,5.49,66,0.66,0.09,26.89
+TXN-1573,2026-01-11,SEAL-05,Accessories,Washington-Jones,Mid-Market,12.13,11.32,4.63,3,0.81,0.24,14.84
+TXN-1574,2026-01-10,HOSE-09,Accessories,Le Group,Distributor,46.54,45.53,13.93,18,1.01,1.65,14.59
+TXN-1575,2026-01-22,PUMP-01,Industrial,Ellis and Sons,Strategic,514.62,414.78,271.88,26,99.84,10.52,9.28
+TXN-1576,2026-01-12,VALVE-22,Hydraulics,Cook-Oliver,Distributor,123.6,116.11,57.01,20,7.49,5.45,15.48
+TXN-1577,2026-01-30,SEAL-05,Accessories,Alexander-Jordan,Mid-Market,12.14,11.08,5.0,89,1.06,0.13,24.12
+TXN-1578,2026-01-31,HOSE-09,Accessories,"Mccann, Taylor and Flores",Retail,45.11,35.3,16.04,90,9.81,0.98,8.89
+TXN-1579,2026-02-05,SEAL-05,Accessories,Mendoza and Sons,Mid-Market,12.31,9.52,5.31,66,2.79,0.42,27.24
+TXN-1580,2026-02-05,PUMP-01,Industrial,Carter-Neal,Mid-Market,478.79,389.69,245.28,46,89.1,18.25,20.75
+TXN-1581,2026-01-19,PUMP-01,Industrial,"Casey, Nguyen and Ramirez",Distributor,518.82,507.23,266.8,29,11.59,4.49,21.79
+TXN-1582,2026-01-30,HOSE-09,Accessories,Wilson-Elliott,Retail,45.28,43.19,14.7,23,2.09,0.99,25.05
+TXN-1583,2026-01-22,MOTOR-X,Electronics,"White, Saunders and Johnson",Retail,1478.18,1290.8,854.69,29,187.38,40.27,10.35
+TXN-1584,2026-01-27,PUMP-01,Industrial,"Clark, Salinas and Guerra",Mid-Market,485.92,429.77,271.03,76,56.15,17.22,5.75
+TXN-1585,2026-01-03,PUMP-01,Industrial,Chambers-Taylor,Strategic,501.2,438.98,247.6,53,62.22,8.92,17.91
+TXN-1586,2026-01-12,SEAL-05,Accessories,Hopkins-Espinoza,Strategic,12.59,10.01,5.16,44,2.58,0.06,27.1
+TXN-1587,2026-01-30,HOSE-09,Accessories,Cole PLC,Strategic,45.63,45.22,14.62,21,0.41,0.13,27.27
+TXN-1588,2026-01-18,VALVE-22,Hydraulics,Ferguson-Mclean,Distributor,119.69,91.16,60.05,85,28.53,2.52,9.7
+TXN-1589,2026-02-02,PUMP-01,Industrial,Stephens-Gibbs,Retail,499.74,439.08,254.07,19,60.66,0.25,16.06
+TXN-1590,2026-01-14,HOSE-09,Accessories,"Wheeler, Rocha and Rodriguez",Strategic,43.54,34.19,14.74,47,9.35,1.15,14.09
+TXN-1591,2026-01-10,VALVE-22,Hydraulics,"Kelly, Holland and Williams",Retail,115.83,90.73,58.91,37,25.1,1.11,7.0
+TXN-1592,2026-02-06,VALVE-22,Hydraulics,"Lucas, Rasmussen and Rivera",Mid-Market,125.74,104.44,57.87,61,21.3,2.22,29.01
+TXN-1593,2026-01-30,HOSE-09,Accessories,Smith LLC,Mid-Market,43.22,42.76,15.7,54,0.46,1.51,10.01
+TXN-1594,2026-01-09,VALVE-22,Hydraulics,"Stone, Carpenter and Johnston",Strategic,122.63,93.11,54.84,54,29.52,4.42,20.44
+TXN-1595,2026-01-17,MOTOR-X,Electronics,Ford-Frazier,Mid-Market,1545.87,1429.43,843.76,19,116.44,20.06,21.64
+TXN-1596,2026-01-26,HOSE-09,Accessories,Cooper Inc,Distributor,46.33,38.1,15.68,84,8.23,1.29,7.37
+TXN-1597,2026-01-18,HOSE-09,Accessories,Perry-Nixon,Strategic,47.19,45.82,14.46,52,1.37,2.01,7.94
+TXN-1598,2026-01-05,SEAL-05,Accessories,"Thomas, Collins and Gibson",Distributor,11.49,9.64,5.07,31,1.85,0.4,10.17
+TXN-1599,2026-01-08,HOSE-09,Accessories,Bailey-Davis,Distributor,45.53,44.99,14.48,66,0.54,1.93,26.76
+TXN-1600,2026-01-27,MOTOR-X,Electronics,Flores-Evans,Retail,1474.31,1164.36,781.22,34,309.95,46.9,10.91
+TXN-1601,2026-01-30,MOTOR-X,Electronics,Johnson LLC,Retail,1433.94,1292.1,727.87,31,141.84,5.9,7.35
+TXN-1602,2026-01-24,VALVE-22,Hydraulics,"Marsh, Spears and Yang",Retail,124.81,124.13,64.94,32,0.68,6.0,11.2
+TXN-1603,2026-01-20,VALVE-22,Hydraulics,"Moore, Castro and Mullen",Mid-Market,117.57,117.55,58.99,40,0.02,5.07,15.39
+TXN-1604,2026-01-09,VALVE-22,Hydraulics,Soto-Lopez,Mid-Market,118.69,111.6,62.41,78,7.09,0.36,11.72
+TXN-1605,2026-01-25,MOTOR-X,Electronics,Johnson-Mendez,Distributor,1518.24,1149.77,736.76,5,368.47,54.06,13.05
+TXN-1606,2026-01-08,PUMP-01,Industrial,"Jordan, Smith and Lewis",Retail,494.56,403.99,258.93,50,90.57,9.65,8.52
+TXN-1607,2026-01-11,VALVE-22,Hydraulics,"Stokes, Brown and Garcia",Mid-Market,115.43,102.47,58.85,2,12.96,1.13,12.08
+TXN-1608,2026-02-02,SEAL-05,Accessories,Diaz and Sons,Retail,12.26,11.14,5.38,51,1.12,0.4,6.54
+TXN-1609,2026-01-17,MOTOR-X,Electronics,Lambert-Burns,Strategic,1466.79,1205.73,733.09,57,261.06,37.61,13.67
+TXN-1610,2026-02-05,MOTOR-X,Electronics,Harper-Carr,Retail,1481.66,1121.83,749.52,55,359.83,18.97,15.01
+TXN-1611,2026-01-22,VALVE-22,Hydraulics,Bell-Ellis,Strategic,123.9,107.82,59.66,5,16.08,4.74,14.5
+TXN-1612,2026-01-07,SEAL-05,Accessories,"Mccarthy, Evans and Mendez",Mid-Market,11.74,11.54,4.79,79,0.2,0.09,8.47
+TXN-1613,2026-01-04,VALVE-22,Hydraulics,Edwards and Sons,Distributor,115.07,107.03,56.42,77,8.04,0.94,8.52
+TXN-1614,2026-01-12,SEAL-05,Accessories,Brooks and Sons,Mid-Market,11.62,9.06,5.0,16,2.56,0.12,18.67
+TXN-1615,2026-01-19,MOTOR-X,Electronics,Carlson-Andrews,Strategic,1430.09,1185.83,720.47,22,244.26,49.49,5.42
+TXN-1616,2026-01-16,PUMP-01,Industrial,Reid-Steele,Mid-Market,496.94,377.07,255.76,98,119.87,3.16,5.46
+TXN-1617,2026-01-24,HOSE-09,Accessories,Peters Group,Strategic,46.87,43.62,14.08,4,3.25,1.59,8.73
+TXN-1618,2026-01-11,HOSE-09,Accessories,Edwards Group,Retail,45.03,34.64,14.27,99,10.39,1.25,19.67
+TXN-1619,2026-01-23,PUMP-01,Industrial,Crane-Washington,Retail,478.42,414.25,255.23,1,64.17,9.58,18.54
+TXN-1620,2026-01-08,VALVE-22,Hydraulics,Maynard-Wagner,Retail,124.2,118.37,61.32,95,5.83,5.77,17.09
+TXN-1621,2026-01-19,SEAL-05,Accessories,"Vasquez, Mckinney and Wallace",Mid-Market,12.4,11.59,5.18,88,0.81,0.23,19.85
+TXN-1622,2026-01-07,SEAL-05,Accessories,"Johnson, Juarez and Carter",Retail,12.25,10.19,5.09,14,2.06,0.49,20.12
+TXN-1623,2026-01-11,HOSE-09,Accessories,"Roberts, Norman and Cunningham",Distributor,46.97,37.65,16.41,56,9.32,0.4,15.82
+TXN-1624,2026-01-29,MOTOR-X,Electronics,Dunn-Wilson,Strategic,1536.54,1525.7,788.22,62,10.84,73.41,13.29
+TXN-1625,2026-01-05,MOTOR-X,Electronics,"Morrow, Richardson and Carson",Mid-Market,1463.93,1329.62,739.09,28,134.31,55.17,10.85
+TXN-1626,2026-01-02,SEAL-05,Accessories,"Alexander, Robinson and Coleman",Mid-Market,12.45,10.1,4.82,80,2.35,0.06,27.22
+TXN-1627,2026-01-28,MOTOR-X,Electronics,"Potter, Evans and Kidd",Distributor,1491.22,1153.11,746.32,31,338.11,7.21,5.45
+TXN-1628,2026-01-17,MOTOR-X,Electronics,Atkins-Miller,Strategic,1432.53,1125.4,820.2,45,307.13,29.63,15.71
+TXN-1629,2026-02-02,VALVE-22,Hydraulics,Rowe and Sons,Distributor,119.62,102.15,62.51,26,17.47,2.95,14.36
+TXN-1630,2026-01-08,HOSE-09,Accessories,"Matthews, Bell and Page",Distributor,46.87,36.61,15.91,33,10.26,0.76,11.34
+TXN-1631,2026-01-24,HOSE-09,Accessories,Jensen and Sons,Distributor,46.37,40.09,14.8,80,6.28,1.33,6.24
+TXN-1632,2026-01-31,PUMP-01,Industrial,Hudson PLC,Strategic,514.3,492.95,272.32,90,21.35,6.2,19.77
+TXN-1633,2026-01-11,SEAL-05,Accessories,"Jackson, Werner and Carter",Retail,12.47,11.97,4.59,30,0.5,0.12,17.45
+TXN-1634,2026-01-22,MOTOR-X,Electronics,"Duke, Shelton and Davis",Strategic,1546.22,1209.5,782.92,20,336.72,19.13,25.62
+TXN-1635,2026-02-05,MOTOR-X,Electronics,Sellers-Riddle,Retail,1518.83,1315.12,741.77,53,203.71,12.15,23.44
+TXN-1636,2026-02-02,SEAL-05,Accessories,Miles and Sons,Retail,12.09,9.82,4.52,8,2.27,0.46,9.13
+TXN-1637,2026-01-10,MOTOR-X,Electronics,"Morris, Wright and Bridges",Strategic,1539.44,1260.37,745.26,52,279.07,7.54,14.45
+TXN-1638,2026-01-15,HOSE-09,Accessories,Ray LLC,Distributor,44.72,36.1,13.58,96,8.62,0.03,18.58
+TXN-1639,2026-01-24,SEAL-05,Accessories,Hayes-Schultz,Retail,12.54,10.6,4.52,83,1.94,0.08,20.25
+TXN-1640,2026-02-02,HOSE-09,Accessories,Powell Ltd,Mid-Market,43.51,41.17,16.2,80,2.34,1.98,17.88
+TXN-1641,2026-01-11,SEAL-05,Accessories,Gibson-Freeman,Distributor,11.58,10.94,5.22,54,0.64,0.16,16.96
+TXN-1642,2026-01-22,VALVE-22,Hydraulics,"Davis, Stanton and Reid",Strategic,118.72,115.7,61.83,37,3.02,3.99,25.08
+TXN-1643,2026-01-26,SEAL-05,Accessories,Flynn Group,Mid-Market,12.21,11.41,4.77,28,0.8,0.07,5.13
+TXN-1644,2026-01-09,PUMP-01,Industrial,Summers-Simpson,Retail,504.04,458.97,266.04,75,45.07,7.72,14.8
+TXN-1645,2026-01-12,MOTOR-X,Electronics,Morgan-Lane,Distributor,1499.53,1266.72,763.91,8,232.81,23.25,23.44
+TXN-1646,2026-01-21,VALVE-22,Hydraulics,Kramer-Shannon,Strategic,124.1,119.29,60.15,14,4.81,5.52,22.87
+TXN-1647,2026-01-29,MOTOR-X,Electronics,Garcia Group,Distributor,1502.78,1268.08,790.05,27,234.7,19.18,25.82
+TXN-1648,2026-01-01,VALVE-22,Hydraulics,Alexander Inc,Retail,125.9,104.92,64.19,45,20.98,1.2,29.16
+TXN-1649,2026-02-06,MOTOR-X,Electronics,Harris-Barker,Retail,1474.38,1380.02,777.25,100,94.36,28.28,17.37
+TXN-1650,2026-01-05,HOSE-09,Accessories,"Turner, Baxter and Mcdowell",Strategic,44.68,42.6,15.79,78,2.08,1.33,22.74
+TXN-1651,2026-01-04,VALVE-22,Hydraulics,Wright-Watson,Distributor,121.14,98.15,60.72,17,22.99,3.37,7.03
+TXN-1652,2026-02-03,PUMP-01,Industrial,Williams Ltd,Strategic,487.78,455.12,260.89,63,32.66,0.66,11.87
+TXN-1653,2026-01-12,SEAL-05,Accessories,"Fischer, Patterson and Davis",Strategic,12.32,11.87,5.08,98,0.45,0.18,27.2
+TXN-1654,2026-01-04,VALVE-22,Hydraulics,Woods and Sons,Strategic,123.93,101.63,56.36,96,22.3,3.91,26.76
+TXN-1655,2026-01-22,PUMP-01,Industrial,"Frazier, Smith and Dominguez",Mid-Market,489.43,463.64,274.54,15,25.79,21.88,22.2
+TXN-1656,2026-01-31,PUMP-01,Industrial,Benson-Woods,Retail,502.99,399.4,225.53,28,103.59,6.33,8.26
+TXN-1657,2026-01-09,MOTOR-X,Electronics,Cross Inc,Distributor,1506.45,1391.42,752.74,87,115.03,50.56,19.81
+TXN-1658,2026-01-04,HOSE-09,Accessories,Ibarra-Taylor,Distributor,46.4,40.98,15.14,26,5.42,0.4,6.69
+TXN-1659,2026-01-29,VALVE-22,Hydraulics,May Ltd,Distributor,124.91,107.24,59.87,98,17.67,0.16,21.84
+TXN-1660,2026-01-06,VALVE-22,Hydraulics,"Elliott, Bishop and Martin",Retail,122.59,107.64,65.69,60,14.95,1.87,12.16
+TXN-1661,2026-01-13,HOSE-09,Accessories,Fuller and Sons,Strategic,44.55,41.45,14.4,6,3.1,0.36,20.84
+TXN-1662,2026-02-04,SEAL-05,Accessories,"Parks, Heath and Miller",Strategic,12.17,9.92,4.74,29,2.25,0.33,20.06
+TXN-1663,2026-01-04,MOTOR-X,Electronics,Lawrence Group,Distributor,1527.99,1311.2,858.37,90,216.79,47.31,18.12
+TXN-1664,2026-01-14,HOSE-09,Accessories,Edwards-Taylor,Strategic,47.07,44.35,14.21,94,2.72,0.64,29.59
+TXN-1665,2026-01-11,MOTOR-X,Electronics,Wright PLC,Distributor,1557.45,1377.85,796.48,98,179.6,11.28,17.02
+TXN-1666,2026-01-23,VALVE-22,Hydraulics,"Mitchell, Pugh and Johnson",Mid-Market,122.79,120.69,59.23,80,2.1,5.5,20.93
+TXN-1667,2026-02-01,VALVE-22,Hydraulics,Harris-Lawson,Strategic,117.06,95.76,59.73,6,21.3,1.98,9.1
+TXN-1668,2026-01-07,HOSE-09,Accessories,Phillips-Brown,Mid-Market,42.81,41.12,15.01,1,1.69,1.47,26.6
+TXN-1669,2026-02-03,PUMP-01,Industrial,Simpson Inc,Distributor,493.55,388.37,270.79,21,105.18,8.1,17.26
+TXN-1670,2026-01-09,PUMP-01,Industrial,"Wheeler, Rice and Levine",Distributor,514.64,497.74,238.3,34,16.9,6.01,20.63
+TXN-1671,2026-02-06,VALVE-22,Hydraulics,Anderson-Valencia,Retail,115.4,93.11,60.4,73,22.29,3.94,18.08
+TXN-1672,2026-01-22,HOSE-09,Accessories,Payne-Thompson,Strategic,45.03,35.85,15.98,32,9.18,1.09,7.99
+TXN-1673,2026-01-18,PUMP-01,Industrial,Smith Inc,Mid-Market,522.68,419.94,270.66,43,102.74,5.35,11.49
+TXN-1674,2026-01-01,VALVE-22,Hydraulics,Williams Inc,Mid-Market,116.38,89.8,55.26,55,26.58,0.12,14.73
+TXN-1675,2026-02-05,HOSE-09,Accessories,Hunter-Fuller,Retail,46.29,35.13,15.58,92,11.16,0.14,23.42
+TXN-1676,2026-01-19,SEAL-05,Accessories,Henderson-Morales,Strategic,11.43,9.43,4.51,42,2.0,0.14,14.04
+TXN-1677,2026-01-24,VALVE-22,Hydraulics,"Jensen, Ramirez and Collins",Strategic,119.66,91.82,64.52,11,27.84,1.72,18.92
+TXN-1678,2026-01-19,HOSE-09,Accessories,Mccann and Sons,Strategic,43.04,42.54,15.57,70,0.5,0.39,27.88
+TXN-1679,2026-01-20,VALVE-22,Hydraulics,Willis-Hines,Strategic,117.43,108.56,56.26,66,8.87,3.18,8.68
+TXN-1680,2026-01-25,HOSE-09,Accessories,"Jones, Hale and Blair",Retail,43.49,37.29,16.05,47,6.2,1.36,22.02
+TXN-1681,2026-02-01,VALVE-22,Hydraulics,Sanchez Group,Strategic,125.89,105.93,64.47,33,19.96,2.74,16.69
+TXN-1682,2026-01-05,VALVE-22,Hydraulics,"Lynch, Parker and Harmon",Strategic,124.34,120.15,63.03,73,4.19,2.96,27.26
+TXN-1683,2026-01-28,PUMP-01,Industrial,Smith and Sons,Distributor,520.49,414.65,235.98,16,105.84,16.01,5.63
+TXN-1684,2026-01-26,HOSE-09,Accessories,Crawford LLC,Strategic,47.13,36.71,13.55,28,10.42,0.47,13.79
+TXN-1685,2026-01-20,VALVE-22,Hydraulics,"Green, Watson and Brady",Distributor,122.35,99.98,63.88,50,22.37,1.73,29.55
+TXN-1686,2026-02-02,HOSE-09,Accessories,"Tanner, Wise and Johnson",Strategic,45.78,44.67,16.31,78,1.11,0.53,13.97
+TXN-1687,2026-01-30,VALVE-22,Hydraulics,Warren-Baker,Distributor,119.49,104.83,63.24,70,14.66,0.88,28.19
+TXN-1688,2026-02-06,VALVE-22,Hydraulics,"Jones, Gibson and Ward",Retail,121.15,91.81,62.72,81,29.34,1.36,28.91
+TXN-1689,2026-01-19,MOTOR-X,Electronics,"Jackson, Moore and Ayala",Retail,1490.52,1250.95,819.23,72,239.57,49.61,27.87
+TXN-1690,2026-02-03,VALVE-22,Hydraulics,"Sharp, Perez and Hicks",Retail,120.28,91.0,55.4,17,29.28,4.43,25.57
+TXN-1691,2026-01-02,PUMP-01,Industrial,Sanchez Group,Strategic,501.32,487.27,228.25,31,14.05,2.01,22.91
+TXN-1692,2026-01-14,MOTOR-X,Electronics,White Inc,Mid-Market,1520.82,1220.83,846.26,99,299.99,25.76,13.4
+TXN-1693,2026-01-21,SEAL-05,Accessories,"Yang, Barnes and Morris",Retail,12.08,9.47,4.59,80,2.61,0.38,13.06
+TXN-1694,2026-01-16,HOSE-09,Accessories,"Flores, Mckenzie and Duncan",Retail,46.37,40.22,15.28,45,6.15,0.19,29.62
+TXN-1695,2026-01-05,MOTOR-X,Electronics,"Winters, White and Brock",Strategic,1491.18,1467.03,751.2,34,24.15,4.53,27.87
+TXN-1696,2026-02-06,HOSE-09,Accessories,Jones-Marshall,Mid-Market,43.06,37.4,14.93,61,5.66,1.47,9.79
+TXN-1697,2026-01-11,MOTOR-X,Electronics,Murphy-Tran,Retail,1553.57,1232.44,723.34,24,321.13,4.81,10.95
+TXN-1698,2026-01-01,MOTOR-X,Electronics,Carter LLC,Mid-Market,1453.19,1439.07,741.08,13,14.12,4.21,19.37
+TXN-1699,2026-01-28,PUMP-01,Industrial,Marshall PLC,Retail,497.3,458.87,246.99,88,38.43,21.34,11.44
+TXN-1700,2026-02-05,VALVE-22,Hydraulics,Oconnor PLC,Strategic,120.35,119.96,61.5,82,0.39,1.05,22.71
+TXN-1701,2026-01-29,MOTOR-X,Electronics,Hernandez Group,Mid-Market,1537.42,1301.12,755.71,89,236.3,29.9,15.1
+TXN-1702,2026-01-01,VALVE-22,Hydraulics,"Reed, Franco and Wiley",Distributor,118.36,94.02,64.83,47,24.34,4.33,25.56
+TXN-1703,2026-02-05,MOTOR-X,Electronics,Blake Group,Mid-Market,1529.28,1396.74,834.15,72,132.54,23.48,8.9
+TXN-1704,2026-02-01,PUMP-01,Industrial,"Parker, Harris and Bird",Distributor,523.43,476.44,243.57,77,46.99,13.12,24.53
+TXN-1705,2026-01-16,SEAL-05,Accessories,Kaufman and Sons,Mid-Market,12.04,9.71,5.36,37,2.33,0.2,10.17
+TXN-1706,2026-01-27,HOSE-09,Accessories,Williams and Sons,Retail,45.73,40.69,13.84,17,5.04,1.52,7.88
+TXN-1707,2026-02-03,MOTOR-X,Electronics,"Gutierrez, Huang and Ellis",Strategic,1554.7,1258.31,868.19,49,296.39,33.32,11.16
+TXN-1708,2026-01-28,MOTOR-X,Electronics,"Davis, Anderson and Wilkins",Retail,1454.15,1387.83,859.73,69,66.32,66.33,5.94
+TXN-1709,2026-01-03,MOTOR-X,Electronics,"Brown, Bates and Anderson",Mid-Market,1487.62,1162.2,823.94,68,325.42,2.38,10.09
+TXN-1710,2026-01-11,VALVE-22,Hydraulics,Howe-Long,Strategic,125.11,109.87,63.69,73,15.24,2.18,8.19
+TXN-1711,2026-01-31,HOSE-09,Accessories,Stewart-Nelson,Retail,43.78,42.04,16.45,61,1.74,0.23,6.66
+TXN-1712,2026-01-03,SEAL-05,Accessories,Taylor PLC,Distributor,12.42,11.85,4.67,9,0.57,0.03,16.23
+TXN-1713,2026-01-05,MOTOR-X,Electronics,Martin Group,Distributor,1509.8,1209.04,732.54,63,300.76,43.41,18.21
+TXN-1714,2026-01-12,HOSE-09,Accessories,Herrera and Sons,Strategic,45.79,42.18,15.05,27,3.61,1.13,7.39
+TXN-1715,2026-01-17,MOTOR-X,Electronics,Baker-Wilson,Retail,1521.45,1262.17,790.59,38,259.28,12.59,15.85
+TXN-1716,2026-01-06,SEAL-05,Accessories,"Torres, Bush and Morrison",Strategic,12.57,10.49,5.48,94,2.08,0.5,18.91
+TXN-1717,2026-01-08,PUMP-01,Industrial,Hernandez-Dawson,Mid-Market,516.86,493.53,233.11,10,23.33,19.45,10.82
+TXN-1718,2026-02-05,VALVE-22,Hydraulics,Palmer-Byrd,Retail,119.22,97.19,56.63,95,22.03,2.98,25.93
+TXN-1719,2026-01-10,PUMP-01,Industrial,Johnson Group,Mid-Market,507.94,461.7,267.79,5,46.24,10.28,13.25
+TXN-1720,2026-02-01,HOSE-09,Accessories,"Adkins, Wright and Murray",Retail,46.1,41.75,15.09,25,4.35,0.37,26.94
+TXN-1721,2026-01-30,MOTOR-X,Electronics,Martinez Inc,Strategic,1429.39,1199.98,824.3,63,229.41,55.9,12.16
+TXN-1722,2026-01-31,PUMP-01,Industrial,Anderson Group,Mid-Market,520.41,461.73,234.21,41,58.68,0.22,11.05
+TXN-1723,2026-01-14,PUMP-01,Industrial,"Pace, Miller and Willis",Mid-Market,520.32,472.84,229.79,46,47.48,20.73,15.43
+TXN-1724,2026-02-03,HOSE-09,Accessories,Johnson Inc,Distributor,44.35,42.67,14.32,85,1.68,0.68,29.17
+TXN-1725,2026-01-08,PUMP-01,Industrial,"Ramos, Anderson and Stein",Mid-Market,478.1,469.78,238.75,78,8.32,14.78,23.22
+TXN-1726,2026-01-31,PUMP-01,Industrial,Martinez-Dunlap,Distributor,521.31,504.22,272.44,88,17.09,15.33,18.11
+TXN-1727,2026-01-02,VALVE-22,Hydraulics,"Hamilton, Ramsey and Crawford",Strategic,117.51,98.64,62.7,91,18.87,4.79,22.06
+TXN-1728,2026-01-15,SEAL-05,Accessories,Thompson-Lewis,Distributor,12.39,9.42,4.51,54,2.97,0.06,9.38
+TXN-1729,2026-01-07,VALVE-22,Hydraulics,Griffin-Hernandez,Retail,114.55,98.35,60.15,90,16.2,4.59,24.47
+TXN-1730,2026-01-23,SEAL-05,Accessories,"Sanchez, Phillips and Jenkins",Retail,12.0,9.3,5.27,68,2.7,0.3,29.52
+TXN-1731,2026-01-21,HOSE-09,Accessories,Miller Group,Mid-Market,47.13,44.91,15.84,47,2.22,0.93,7.28
+TXN-1732,2026-01-06,VALVE-22,Hydraulics,Day PLC,Retail,119.01,111.61,63.62,20,7.4,1.63,21.63
+TXN-1733,2026-01-10,HOSE-09,Accessories,"Norton, Mayo and Casey",Mid-Market,45.85,42.34,15.74,46,3.51,1.86,6.74
+TXN-1734,2026-01-14,HOSE-09,Accessories,"Harrington, Cooper and Cunningham",Mid-Market,45.48,35.6,15.36,9,9.88,0.02,18.59
+TXN-1735,2026-01-12,MOTOR-X,Electronics,White-Flores,Strategic,1518.48,1288.66,720.09,85,229.82,40.74,27.49
+TXN-1736,2026-01-09,PUMP-01,Industrial,Brown-Frey,Distributor,490.28,453.24,231.48,89,37.04,14.72,25.38
+TXN-1737,2026-01-20,VALVE-22,Hydraulics,"Key, Dickson and Garcia",Strategic,119.52,118.62,58.0,23,0.9,0.38,17.05
+TXN-1738,2026-01-25,SEAL-05,Accessories,Ferguson-Moody,Strategic,12.6,10.5,5.11,56,2.1,0.16,27.85
+TXN-1739,2026-01-28,VALVE-22,Hydraulics,Johnston Group,Strategic,123.69,114.33,65.7,27,9.36,4.7,21.86
+TXN-1740,2026-01-14,VALVE-22,Hydraulics,Thompson PLC,Mid-Market,119.37,94.29,63.14,80,25.08,2.2,27.8
+TXN-1741,2026-01-12,MOTOR-X,Electronics,"Wolfe, Sloan and Johnson",Retail,1432.69,1214.75,750.86,95,217.94,39.29,11.49
+TXN-1742,2026-01-26,MOTOR-X,Electronics,"Elliott, Hart and Lopez",Strategic,1494.25,1279.25,791.31,24,215.0,27.52,7.63
+TXN-1743,2026-02-06,VALVE-22,Hydraulics,Weaver-Thompson,Distributor,117.39,98.08,59.03,23,19.31,2.69,25.16
+TXN-1744,2026-01-02,HOSE-09,Accessories,Hall and Sons,Mid-Market,43.15,38.04,15.91,86,5.11,0.65,20.47
+TXN-1745,2026-01-01,MOTOR-X,Electronics,Smith-Hardin,Mid-Market,1537.55,1423.02,762.05,38,114.53,18.3,15.22
+TXN-1746,2026-01-08,PUMP-01,Industrial,Peterson and Sons,Distributor,524.94,488.47,227.52,6,36.47,21.63,21.12
+TXN-1747,2026-02-03,PUMP-01,Industrial,Brown-Hernandez,Distributor,519.53,483.06,254.07,44,36.47,24.03,9.38
+TXN-1748,2026-01-27,VALVE-22,Hydraulics,Schroeder PLC,Strategic,115.89,101.15,58.18,36,14.74,4.74,21.72
+TXN-1749,2026-02-01,HOSE-09,Accessories,Brooks Ltd,Distributor,47.06,37.17,13.74,36,9.89,0.65,21.97
+TXN-1750,2026-01-15,PUMP-01,Industrial,Rogers LLC,Retail,477.61,405.75,244.66,71,71.86,15.12,26.55
+TXN-1751,2026-01-06,MOTOR-X,Electronics,Oconnor Group,Mid-Market,1507.08,1410.56,834.73,31,96.52,65.59,28.85
+TXN-1752,2026-01-30,SEAL-05,Accessories,Banks-Thompson,Strategic,11.87,10.77,4.64,61,1.1,0.21,7.62
+TXN-1753,2026-02-05,MOTOR-X,Electronics,"Preston, Austin and Kelly",Mid-Market,1555.82,1259.22,865.92,13,296.6,38.62,5.7
+TXN-1754,2026-01-25,SEAL-05,Accessories,Gray Ltd,Retail,12.28,12.18,4.97,15,0.1,0.38,22.12
+TXN-1755,2026-01-26,SEAL-05,Accessories,Thompson Inc,Strategic,12.58,11.48,5.37,16,1.1,0.49,23.7
+TXN-1756,2026-02-05,VALVE-22,Hydraulics,"Myers, Gamble and Sanford",Distributor,124.84,101.28,60.86,71,23.56,1.25,7.62
+TXN-1757,2026-01-02,MOTOR-X,Electronics,"Flores, Lamb and Carr",Mid-Market,1443.9,1213.98,778.57,69,229.92,2.82,27.26
+TXN-1758,2026-01-24,HOSE-09,Accessories,Zuniga and Sons,Distributor,45.25,41.95,13.63,51,3.3,0.72,23.9
+TXN-1759,2026-01-13,HOSE-09,Accessories,Young LLC,Mid-Market,43.02,41.29,14.78,68,1.73,1.3,11.08
+TXN-1760,2026-01-07,HOSE-09,Accessories,Underwood Ltd,Strategic,46.97,40.82,14.78,96,6.15,0.5,7.93
+TXN-1761,2026-01-24,SEAL-05,Accessories,Griffin-Baker,Retail,12.11,9.61,5.04,21,2.5,0.04,25.7
+TXN-1762,2026-01-10,VALVE-22,Hydraulics,Bell Inc,Strategic,114.81,89.31,63.52,99,25.5,4.37,28.34
+TXN-1763,2026-01-27,VALVE-22,Hydraulics,Cruz Ltd,Retail,115.03,88.77,57.88,19,26.26,1.07,21.37
+TXN-1764,2026-01-16,MOTOR-X,Electronics,Wilkerson Group,Retail,1545.85,1268.75,743.14,7,277.1,54.31,26.83
+TXN-1765,2026-02-02,PUMP-01,Industrial,Payne-Garcia,Retail,515.55,420.67,270.99,48,94.88,11.86,15.35
+TXN-1766,2026-01-18,SEAL-05,Accessories,"Curtis, Mcdaniel and Martin",Mid-Market,11.96,9.14,4.76,52,2.82,0.21,15.98
+TXN-1767,2026-01-03,PUMP-01,Industrial,Phillips LLC,Mid-Market,487.82,441.11,252.77,11,46.71,15.67,27.48
+TXN-1768,2026-01-10,PUMP-01,Industrial,Jones and Sons,Distributor,475.72,443.08,252.51,19,32.64,22.1,20.98
+TXN-1769,2026-02-02,HOSE-09,Accessories,Dennis PLC,Retail,44.14,39.1,14.13,64,5.04,1.67,18.82
+TXN-1770,2026-02-04,HOSE-09,Accessories,Morgan PLC,Strategic,45.45,40.86,14.95,39,4.59,1.86,27.68
+TXN-1771,2026-02-03,MOTOR-X,Electronics,"Johnson, Dunlap and Martin",Retail,1531.05,1355.16,783.51,11,175.89,23.98,25.15
+TXN-1772,2026-02-02,HOSE-09,Accessories,Brown LLC,Mid-Market,44.41,39.54,14.21,10,4.87,0.1,20.73
+TXN-1773,2026-01-08,MOTOR-X,Electronics,Ortiz PLC,Mid-Market,1513.69,1308.01,878.18,98,205.68,40.73,20.71
+TXN-1774,2026-01-27,HOSE-09,Accessories,"Fernandez, Guerrero and Evans",Mid-Market,46.2,37.88,16.19,37,8.32,0.17,10.5
+TXN-1775,2026-01-04,PUMP-01,Industrial,Armstrong-Larsen,Strategic,505.1,442.74,244.78,60,62.36,10.98,13.22
+TXN-1776,2026-01-06,SEAL-05,Accessories,Smith-Miller,Retail,12.35,10.62,5.23,86,1.73,0.44,18.44
+TXN-1777,2026-01-31,HOSE-09,Accessories,"Greene, Gonzalez and Johnson",Retail,47.12,39.41,16.07,95,7.71,0.44,20.93
+TXN-1778,2026-01-07,VALVE-22,Hydraulics,Rowland-Wells,Retail,120.61,93.12,61.84,70,27.49,1.73,20.72
+TXN-1779,2026-01-05,SEAL-05,Accessories,Ruiz-Jacobson,Mid-Market,12.27,10.31,5.18,97,1.96,0.05,21.27
+TXN-1780,2026-01-10,SEAL-05,Accessories,"Stephens, Lopez and Mcclure",Distributor,11.41,8.97,4.72,87,2.44,0.05,6.35
+TXN-1781,2026-01-14,VALVE-22,Hydraulics,Williams-Gonzales,Distributor,121.6,108.17,55.13,20,13.43,0.85,11.81
+TXN-1782,2026-01-10,PUMP-01,Industrial,Elliott-Hernandez,Distributor,511.0,475.89,255.43,73,35.11,22.19,15.32
+TXN-1783,2026-01-26,HOSE-09,Accessories,Miller LLC,Distributor,42.79,39.08,15.64,68,3.71,1.25,13.16
+TXN-1784,2026-01-30,PUMP-01,Industrial,Arellano-Lawrence,Distributor,507.13,475.84,238.69,68,31.29,20.84,14.32
+TXN-1785,2026-01-21,HOSE-09,Accessories,Cardenas-Barnes,Strategic,46.28,43.35,14.93,60,2.93,0.99,21.13
+TXN-1786,2026-01-20,SEAL-05,Accessories,Armstrong-Young,Strategic,12.47,11.89,4.82,84,0.58,0.06,14.94
+TXN-1787,2026-01-12,HOSE-09,Accessories,Orr-Klein,Strategic,46.59,46.2,13.75,38,0.39,0.33,6.66
+TXN-1788,2026-01-19,MOTOR-X,Electronics,"Mcbride, Byrd and Oliver",Retail,1474.07,1454.44,784.99,99,19.63,15.57,26.29
+TXN-1789,2026-01-05,SEAL-05,Accessories,Thompson-Joyce,Distributor,11.44,8.67,4.77,92,2.77,0.32,21.76
+TXN-1790,2026-02-05,MOTOR-X,Electronics,Martinez Group,Retail,1464.3,1410.21,784.88,80,54.09,59.83,9.68
+TXN-1791,2026-01-03,VALVE-22,Hydraulics,"Graham, Osborn and Burton",Mid-Market,120.27,108.56,56.11,90,11.71,0.83,19.7
+TXN-1792,2026-01-31,MOTOR-X,Electronics,Flores-Acosta,Retail,1535.74,1409.02,729.17,97,126.72,33.05,6.84
+TXN-1793,2026-01-30,SEAL-05,Accessories,Hughes Group,Mid-Market,12.42,12.17,5.06,73,0.25,0.3,27.29
+TXN-1794,2026-01-21,SEAL-05,Accessories,Stone-Stark,Retail,12.23,9.66,5.33,84,2.57,0.25,23.17
+TXN-1795,2026-01-01,VALVE-22,Hydraulics,"Dean, Mills and Barnes",Mid-Market,123.32,121.23,59.72,14,2.09,4.38,21.36
+TXN-1796,2026-01-16,PUMP-01,Industrial,Knight PLC,Retail,490.41,391.84,260.86,30,98.57,10.21,12.15
+TXN-1797,2026-01-29,MOTOR-X,Electronics,Buckley PLC,Retail,1528.03,1229.96,781.14,72,298.07,57.59,14.51
+TXN-1798,2026-01-29,MOTOR-X,Electronics,Dillon-Beard,Distributor,1558.76,1367.78,873.28,65,190.98,1.05,23.57
+TXN-1799,2026-02-02,MOTOR-X,Electronics,Reyes-Washington,Mid-Market,1501.15,1352.12,857.17,83,149.03,1.47,15.79
+TXN-1800,2026-01-23,PUMP-01,Industrial,Jackson Group,Strategic,492.84,447.25,234.99,85,45.59,8.97,22.55
+TXN-1801,2026-01-06,HOSE-09,Accessories,"Becker, Morales and Foster",Retail,43.64,34.41,14.3,54,9.23,0.52,8.08
+TXN-1802,2026-02-02,SEAL-05,Accessories,"Young, Reese and Mccall",Strategic,12.05,10.07,4.61,9,1.98,0.44,5.28
+TXN-1803,2026-02-03,VALVE-22,Hydraulics,Morgan LLC,Retail,125.31,112.38,58.26,64,12.93,4.34,24.99
+TXN-1804,2026-01-12,PUMP-01,Industrial,Garrison-Cohen,Retail,497.42,374.58,269.53,14,122.84,2.64,23.3
+TXN-1805,2026-02-05,VALVE-22,Hydraulics,Taylor Ltd,Retail,118.73,92.79,55.45,74,25.94,4.43,29.1
+TXN-1806,2026-01-17,MOTOR-X,Electronics,Adams-Butler,Mid-Market,1507.98,1274.31,852.0,64,233.67,14.55,9.29
+TXN-1807,2026-01-24,SEAL-05,Accessories,Alexander Group,Mid-Market,12.43,12.32,4.86,51,0.11,0.3,21.08
+TXN-1808,2026-01-28,SEAL-05,Accessories,"Camacho, Nicholson and Robertson",Strategic,12.01,9.62,5.09,24,2.39,0.05,25.45
+TXN-1809,2026-01-06,PUMP-01,Industrial,Mckinney-Powell,Retail,484.74,466.62,274.04,26,18.12,16.6,9.42
+TXN-1810,2026-01-29,VALVE-22,Hydraulics,"Suarez, Johnson and Lee",Mid-Market,116.91,102.78,65.17,17,14.13,3.98,25.33
+TXN-1811,2026-01-31,MOTOR-X,Electronics,Wright Group,Distributor,1476.31,1157.99,828.6,52,318.32,19.92,29.46
+TXN-1812,2026-01-02,MOTOR-X,Electronics,Bush-Hill,Strategic,1540.7,1507.64,787.83,20,33.06,27.64,5.7
+TXN-1813,2026-01-31,MOTOR-X,Electronics,"Sanders, Leblanc and Maldonado",Mid-Market,1536.59,1482.74,741.86,87,53.85,69.53,29.46
+TXN-1814,2026-01-09,VALVE-22,Hydraulics,Wheeler-Thompson,Retail,122.71,114.66,59.86,97,8.05,2.47,6.97
+TXN-1815,2026-02-02,VALVE-22,Hydraulics,"Arnold, Cooper and Monroe",Distributor,120.34,110.03,65.46,96,10.31,0.55,6.74
+TXN-1816,2026-01-10,MOTOR-X,Electronics,"Davis, Johnson and Williams",Mid-Market,1495.33,1387.11,767.01,6,108.22,23.56,18.61
+TXN-1817,2026-02-01,MOTOR-X,Electronics,Vincent Ltd,Retail,1547.81,1289.6,725.9,40,258.21,59.21,29.6
+TXN-1818,2026-01-09,MOTOR-X,Electronics,Adams Group,Strategic,1544.75,1384.46,816.37,83,160.29,12.38,10.33
+TXN-1819,2026-01-19,SEAL-05,Accessories,"Smith, Buck and Holland",Strategic,12.14,11.47,4.73,86,0.67,0.45,21.47
+TXN-1820,2026-01-23,MOTOR-X,Electronics,Walker PLC,Retail,1569.04,1235.81,783.5,10,333.23,19.58,26.3
+TXN-1821,2026-01-30,VALVE-22,Hydraulics,Marquez-Fletcher,Retail,114.43,92.41,54.84,14,22.02,3.01,9.94
+TXN-1822,2026-01-11,PUMP-01,Industrial,York-Stevens,Strategic,514.52,479.58,246.65,21,34.94,18.51,13.45
+TXN-1823,2026-01-09,PUMP-01,Industrial,Byrd-Holloway,Distributor,498.68,440.47,269.81,21,58.21,9.48,11.09
+TXN-1824,2026-01-15,MOTOR-X,Electronics,Smith Ltd,Mid-Market,1430.02,1382.64,878.24,10,47.38,52.26,5.98
+TXN-1825,2026-02-05,MOTOR-X,Electronics,Hoffman-Wheeler,Mid-Market,1491.35,1303.28,879.26,39,188.07,10.41,9.12
+TXN-1826,2026-01-11,PUMP-01,Industrial,"Rodriguez, Brown and Mcneil",Mid-Market,482.39,422.35,274.92,22,60.04,7.14,7.32
+TXN-1827,2026-01-24,SEAL-05,Accessories,Green-Dawson,Mid-Market,11.83,11.41,5.25,83,0.42,0.35,7.54
+TXN-1828,2026-02-03,VALVE-22,Hydraulics,Lopez-Holmes,Distributor,119.23,105.46,56.94,68,13.77,2.1,7.03
+TXN-1829,2026-01-09,MOTOR-X,Electronics,Trujillo PLC,Mid-Market,1489.9,1236.37,795.11,76,253.53,17.83,22.03
+TXN-1830,2026-01-15,VALVE-22,Hydraulics,Becker-Griffith,Distributor,119.8,104.83,59.51,82,14.97,2.63,5.86
+TXN-1831,2026-01-25,PUMP-01,Industrial,Green-Barnes,Mid-Market,499.28,451.24,272.45,6,48.04,0.16,10.03
+TXN-1832,2026-01-15,PUMP-01,Industrial,Aguilar PLC,Mid-Market,514.04,408.07,248.95,29,105.97,7.77,12.37
+TXN-1833,2026-01-31,VALVE-22,Hydraulics,Barber-Walker,Distributor,123.53,98.27,54.39,12,25.26,4.9,24.22
+TXN-1834,2026-01-20,MOTOR-X,Electronics,Knox-Powers,Retail,1549.87,1522.04,801.51,4,27.83,24.03,15.68
+TXN-1835,2026-01-19,SEAL-05,Accessories,Pittman PLC,Distributor,11.63,9.15,4.86,76,2.48,0.3,25.33
+TXN-1836,2026-01-07,PUMP-01,Industrial,Ruiz Ltd,Retail,515.0,390.72,232.71,42,124.28,14.67,29.58
+TXN-1837,2026-01-10,SEAL-05,Accessories,"Hines, White and Frazier",Mid-Market,12.29,10.48,4.53,86,1.81,0.28,19.94
+TXN-1838,2026-01-13,MOTOR-X,Electronics,Walker and Sons,Distributor,1505.45,1331.68,850.61,24,173.77,0.99,15.28
+TXN-1839,2026-01-28,PUMP-01,Industrial,Fisher-Eaton,Distributor,495.23,415.41,269.5,42,79.82,7.29,23.04
+TXN-1840,2026-01-14,MOTOR-X,Electronics,"Carter, York and Ruiz",Retail,1531.16,1510.01,755.91,96,21.15,35.99,13.44
+TXN-1841,2026-02-02,VALVE-22,Hydraulics,"Carpenter, Oliver and Kennedy",Strategic,122.5,98.24,58.55,83,24.26,0.22,23.17
+TXN-1842,2026-01-08,MOTOR-X,Electronics,Dillon Group,Retail,1559.66,1495.7,766.91,37,63.96,22.88,18.82
+TXN-1843,2026-01-20,SEAL-05,Accessories,Brown-Dickerson,Strategic,12.38,10.33,4.68,87,2.05,0.5,24.57
+TXN-1844,2026-01-06,VALVE-22,Hydraulics,Cooper PLC,Strategic,123.0,114.95,57.89,38,8.05,5.68,23.04
+TXN-1845,2026-02-03,MOTOR-X,Electronics,Thomas-Huffman,Retail,1480.35,1312.92,841.48,1,167.43,1.79,18.43
+TXN-1846,2026-01-07,MOTOR-X,Electronics,Freeman Ltd,Mid-Market,1559.79,1511.83,797.57,25,47.96,13.96,17.8
+TXN-1847,2026-02-06,SEAL-05,Accessories,Walters-Smith,Distributor,12.3,11.23,5.07,63,1.07,0.37,15.6
+TXN-1848,2026-01-11,VALVE-22,Hydraulics,Johnston and Sons,Distributor,122.82,95.07,55.67,21,27.75,0.42,10.96
+TXN-1849,2026-01-19,PUMP-01,Industrial,Anderson Group,Strategic,488.88,464.16,226.71,66,24.72,3.52,27.06
+TXN-1850,2026-01-24,VALVE-22,Hydraulics,Patterson-Woods,Mid-Market,122.34,107.41,65.26,1,14.93,4.4,27.53
+TXN-1851,2026-01-01,PUMP-01,Industrial,"Gonzalez, Watson and Smith",Retail,513.46,465.33,263.84,72,48.13,6.32,9.52
+TXN-1852,2026-01-12,SEAL-05,Accessories,"Lee, Rhodes and Sims",Distributor,12.31,10.78,4.84,52,1.53,0.22,28.32
+TXN-1853,2026-01-10,SEAL-05,Accessories,"Wiley, Collins and Garcia",Distributor,11.72,10.81,5.36,83,0.91,0.01,18.26
+TXN-1854,2026-01-19,SEAL-05,Accessories,Jackson-Colon,Mid-Market,11.47,11.35,4.59,12,0.12,0.44,9.95
+TXN-1855,2026-01-12,VALVE-22,Hydraulics,Bryant-Meyer,Mid-Market,122.33,113.61,62.06,96,8.72,1.35,27.95
+TXN-1856,2026-01-20,MOTOR-X,Electronics,Barron-Cowan,Distributor,1467.58,1210.95,780.19,42,256.63,5.27,6.19
+TXN-1857,2026-01-13,MOTOR-X,Electronics,Howard-Lopez,Distributor,1554.98,1420.82,829.43,69,134.16,9.04,28.31
+TXN-1858,2026-02-05,VALVE-22,Hydraulics,Smith-Walker,Mid-Market,124.56,115.6,61.62,64,8.96,3.55,26.0
+TXN-1859,2026-02-06,PUMP-01,Industrial,Gross PLC,Distributor,512.52,472.78,225.82,33,39.74,7.04,20.63
+TXN-1860,2026-01-19,SEAL-05,Accessories,Richardson Ltd,Strategic,11.47,9.97,5.06,37,1.5,0.24,14.65
+TXN-1861,2026-01-30,HOSE-09,Accessories,Mcdowell-Scott,Retail,43.38,36.48,15.63,41,6.9,0.56,11.34
+TXN-1862,2026-01-20,VALVE-22,Hydraulics,Wheeler Inc,Retail,120.65,105.09,55.96,78,15.56,4.74,6.06
+TXN-1863,2026-01-25,SEAL-05,Accessories,"Huff, Williams and Wilson",Distributor,12.58,10.15,5.39,4,2.43,0.15,29.58
+TXN-1864,2026-01-17,VALVE-22,Hydraulics,Kelley Group,Retail,115.84,112.34,57.38,46,3.5,2.17,14.15
+TXN-1865,2026-01-26,PUMP-01,Industrial,Neal Ltd,Retail,476.21,391.6,232.47,20,84.61,10.32,13.5
+TXN-1866,2026-01-01,MOTOR-X,Electronics,Stanley-Bates,Retail,1532.19,1251.92,752.48,96,280.27,31.21,5.08
+TXN-1867,2026-01-10,MOTOR-X,Electronics,"Haynes, Barnes and Roach",Retail,1511.11,1239.98,816.52,16,271.13,3.05,17.06
+TXN-1868,2026-01-19,MOTOR-X,Electronics,"Wilson, Wilson and Rodriguez",Strategic,1448.76,1397.98,822.13,75,50.78,42.31,7.9
+TXN-1869,2026-01-08,VALVE-22,Hydraulics,Strickland PLC,Retail,123.95,122.97,58.31,47,0.98,2.85,26.34
+TXN-1870,2026-02-06,VALVE-22,Hydraulics,Warner-Phillips,Distributor,116.54,93.94,59.6,8,22.6,2.86,6.87
+TXN-1871,2026-01-02,PUMP-01,Industrial,Lozano-Watts,Strategic,486.23,438.15,230.69,30,48.08,4.98,24.94
+TXN-1872,2026-01-18,VALVE-22,Hydraulics,Smith Ltd,Mid-Market,120.93,105.68,65.77,82,15.25,2.72,17.0
+TXN-1873,2026-01-04,SEAL-05,Accessories,Conley Ltd,Mid-Market,11.88,10.25,5.21,77,1.63,0.34,12.35
+TXN-1874,2026-01-19,MOTOR-X,Electronics,Chan Inc,Mid-Market,1560.88,1215.22,753.45,91,345.66,29.89,6.97
+TXN-1875,2026-01-27,VALVE-22,Hydraulics,Conway Ltd,Mid-Market,120.56,109.09,56.77,48,11.47,3.94,11.21
+TXN-1876,2026-01-09,PUMP-01,Industrial,Baker-Williams,Mid-Market,475.37,386.72,264.43,62,88.65,0.59,24.62
+TXN-1877,2026-01-31,SEAL-05,Accessories,Phelps LLC,Mid-Market,12.26,11.91,5.28,52,0.35,0.23,12.94
+TXN-1878,2026-01-30,HOSE-09,Accessories,Simmons-Wilson,Distributor,45.88,34.45,16.05,56,11.43,0.12,12.13
+TXN-1879,2026-02-01,VALVE-22,Hydraulics,Smith and Sons,Strategic,123.59,101.86,57.74,64,21.73,4.43,13.53
+TXN-1880,2026-01-25,PUMP-01,Industrial,Murphy Group,Strategic,502.16,434.42,274.15,69,67.74,15.03,14.65
+TXN-1881,2026-02-05,PUMP-01,Industrial,Johns-Davis,Retail,491.4,384.09,241.25,1,107.31,4.63,19.06
+TXN-1882,2026-01-31,PUMP-01,Industrial,Wilson Group,Distributor,482.11,379.67,259.21,55,102.44,2.06,10.78
+TXN-1883,2026-02-05,MOTOR-X,Electronics,Houston-Vaughn,Retail,1547.97,1408.98,851.29,48,138.99,40.85,18.62
+TXN-1884,2026-01-18,HOSE-09,Accessories,Banks-Robles,Mid-Market,46.93,39.39,15.76,17,7.54,1.06,29.52
+TXN-1885,2026-01-05,PUMP-01,Industrial,"Barber, Jarvis and Richard",Mid-Market,511.54,483.22,270.43,55,28.32,19.53,11.62
+TXN-1886,2026-01-04,VALVE-22,Hydraulics,"Webb, Carroll and Kim",Strategic,115.78,113.46,56.33,72,2.32,0.88,17.41
+TXN-1887,2026-01-23,VALVE-22,Hydraulics,Carr-Huffman,Strategic,123.75,98.72,54.01,76,25.03,1.26,24.15
+TXN-1888,2026-02-02,PUMP-01,Industrial,"Mcpherson, Anderson and Knapp",Retail,508.33,422.24,271.27,6,86.09,12.27,15.71
+TXN-1889,2026-01-05,MOTOR-X,Electronics,Alexander-Brown,Distributor,1432.35,1155.42,776.67,85,276.93,22.43,6.5
+TXN-1890,2026-01-25,VALVE-22,Hydraulics,Bush Ltd,Retail,117.23,108.38,58.74,1,8.85,4.51,23.37
+TXN-1891,2026-01-20,VALVE-22,Hydraulics,"Ray, Cunningham and Levine",Distributor,117.54,114.26,65.59,10,3.28,2.99,9.08
+TXN-1892,2026-01-25,MOTOR-X,Electronics,Stone-Watts,Strategic,1486.31,1199.15,854.67,46,287.16,41.95,13.75
+TXN-1893,2026-01-23,VALVE-22,Hydraulics,Stanley-Wright,Strategic,115.13,102.27,56.77,17,12.86,0.35,29.24
+TXN-1894,2026-01-13,MOTOR-X,Electronics,"Davidson, Hernandez and Serrano",Distributor,1565.13,1322.03,877.17,23,243.1,64.44,12.13
+TXN-1895,2026-02-03,MOTOR-X,Electronics,"Brown, Schneider and Moore",Mid-Market,1485.42,1160.99,868.07,81,324.43,4.43,13.78
+TXN-1896,2026-02-01,MOTOR-X,Electronics,Booth-Jones,Distributor,1573.43,1520.71,869.97,39,52.72,12.16,29.6
+TXN-1897,2026-01-19,VALVE-22,Hydraulics,Rivera LLC,Strategic,116.81,88.57,59.44,27,28.24,1.81,13.85
+TXN-1898,2026-01-02,HOSE-09,Accessories,Pierce Group,Strategic,44.08,40.74,15.68,4,3.34,0.77,15.62
+TXN-1899,2026-01-15,MOTOR-X,Electronics,Miller Group,Strategic,1492.74,1392.91,875.51,75,99.83,11.48,8.8
+TXN-1900,2026-01-30,VALVE-22,Hydraulics,Miller-Jimenez,Retail,118.08,112.83,56.85,50,5.25,0.86,10.93
+TXN-1901,2026-01-12,MOTOR-X,Electronics,Mcgee-Smith,Retail,1487.18,1388.49,845.02,52,98.69,13.75,12.09
+TXN-1902,2026-01-15,HOSE-09,Accessories,Hawkins Inc,Retail,43.91,35.78,14.03,2,8.13,1.66,24.36
+TXN-1903,2026-01-31,PUMP-01,Industrial,"Richmond, Walsh and Wu",Retail,513.89,489.37,265.91,34,24.52,19.56,6.73
+TXN-1904,2026-01-21,PUMP-01,Industrial,"Powers, Clements and Cox",Mid-Market,479.59,418.47,241.77,42,61.12,18.31,28.82
+TXN-1905,2026-01-03,PUMP-01,Industrial,Richard LLC,Strategic,491.62,416.75,270.29,89,74.87,9.76,28.59
+TXN-1906,2026-01-21,MOTOR-X,Electronics,"Greene, Moran and Cox",Mid-Market,1559.73,1515.43,856.3,38,44.3,19.45,29.59
+TXN-1907,2026-01-17,MOTOR-X,Electronics,Malone and Sons,Distributor,1505.45,1451.12,802.33,60,54.33,7.33,24.94
+TXN-1908,2026-01-01,MOTOR-X,Electronics,Gallegos-Brandt,Distributor,1510.02,1461.91,820.23,63,48.11,14.0,15.89
+TXN-1909,2026-01-11,VALVE-22,Hydraulics,"Brooks, Rodriguez and Prince",Mid-Market,116.52,115.07,62.06,6,1.45,2.25,27.87
+TXN-1910,2026-01-19,PUMP-01,Industrial,"Newton, Ortiz and King",Distributor,492.03,455.8,227.22,21,36.23,0.79,12.32
+TXN-1911,2026-01-08,HOSE-09,Accessories,Conrad Group,Retail,44.48,33.62,16.1,11,10.86,0.72,22.39
+TXN-1912,2026-01-08,HOSE-09,Accessories,Love Inc,Distributor,46.9,38.09,14.04,72,8.81,0.93,23.33
+TXN-1913,2026-01-29,VALVE-22,Hydraulics,House Ltd,Mid-Market,122.92,99.55,61.62,7,23.37,1.93,25.87
+TXN-1914,2026-01-22,SEAL-05,Accessories,Ellis-Lawrence,Mid-Market,11.69,9.54,5.0,52,2.15,0.14,26.63
+TXN-1915,2026-01-19,SEAL-05,Accessories,Smith-Fitzgerald,Distributor,12.59,11.45,5.11,37,1.14,0.25,16.82
+TXN-1916,2026-01-21,VALVE-22,Hydraulics,Roberson-Webb,Strategic,121.86,96.96,58.06,54,24.9,0.66,14.6
+TXN-1917,2026-01-19,MOTOR-X,Electronics,Holt and Sons,Retail,1540.57,1438.97,726.55,71,101.6,41.88,16.48
+TXN-1918,2026-01-28,SEAL-05,Accessories,Garcia Ltd,Mid-Market,12.0,10.6,4.69,26,1.4,0.12,9.08
+TXN-1919,2026-01-23,HOSE-09,Accessories,Gordon-Cruz,Strategic,44.05,39.8,15.38,56,4.25,1.4,10.49
+TXN-1920,2026-02-06,PUMP-01,Industrial,"Farmer, Hill and Stuart",Strategic,500.68,443.59,231.76,54,57.09,7.26,7.67
+TXN-1921,2026-02-05,SEAL-05,Accessories,Ballard-Taylor,Mid-Market,12.35,12.17,4.51,18,0.18,0.06,23.71
+TXN-1922,2026-01-23,HOSE-09,Accessories,"Hunt, Cameron and Kelley",Retail,43.8,39.14,14.39,100,4.66,0.38,18.6
+TXN-1923,2026-01-12,MOTOR-X,Electronics,"Walls, Chen and Harris",Mid-Market,1553.33,1385.01,804.32,14,168.32,3.83,21.08
+TXN-1924,2026-01-24,SEAL-05,Accessories,Parks-Morse,Retail,12.02,9.59,4.62,91,2.43,0.43,16.92
+TXN-1925,2026-01-05,MOTOR-X,Electronics,"Santos, Mullen and Gordon",Mid-Market,1443.69,1229.18,766.24,42,214.51,33.95,15.94
+TXN-1926,2026-01-26,MOTOR-X,Electronics,Page-Hodges,Mid-Market,1498.65,1204.58,776.31,13,294.07,21.19,8.49
+TXN-1927,2026-01-21,MOTOR-X,Electronics,"Duncan, Contreras and Butler",Retail,1565.21,1375.52,784.59,66,189.69,66.93,19.79
+TXN-1928,2026-01-28,SEAL-05,Accessories,"Mitchell, Boone and Stokes",Distributor,12.18,11.52,5.32,20,0.66,0.33,20.88
+TXN-1929,2026-01-20,PUMP-01,Industrial,James Inc,Strategic,524.45,493.25,245.58,50,31.2,21.68,25.94
+TXN-1930,2026-01-25,VALVE-22,Hydraulics,Adams and Sons,Distributor,118.03,108.09,59.03,93,9.94,3.24,6.3
+TXN-1931,2026-02-06,SEAL-05,Accessories,"King, Franco and Vaughn",Strategic,12.56,10.32,5.13,21,2.24,0.12,9.87
+TXN-1932,2026-01-11,VALVE-22,Hydraulics,"Johnson, Cervantes and Garcia",Mid-Market,123.99,96.56,59.72,58,27.43,1.62,9.66
+TXN-1933,2026-02-02,VALVE-22,Hydraulics,"Hoffman, Walker and Holland",Retail,124.03,123.81,64.19,2,0.22,4.66,27.09
+TXN-1934,2026-01-15,SEAL-05,Accessories,"Mueller, Lindsey and Roberts",Distributor,11.81,10.22,5.08,22,1.59,0.08,26.33
+TXN-1935,2026-01-25,MOTOR-X,Electronics,Hughes-Frye,Distributor,1572.42,1227.19,741.51,86,345.23,45.04,18.89
+TXN-1936,2026-02-06,PUMP-01,Industrial,Church-Brown,Retail,502.56,449.18,237.51,72,53.38,19.38,23.45
+TXN-1937,2026-01-28,VALVE-22,Hydraulics,Oliver Group,Strategic,116.84,105.39,65.04,64,11.45,2.03,18.39
+TXN-1938,2026-01-31,HOSE-09,Accessories,"Bush, Holland and Fischer",Retail,43.31,35.23,14.21,55,8.08,1.72,7.67
+TXN-1939,2026-01-21,VALVE-22,Hydraulics,"Gonzalez, Hardy and Lee",Mid-Market,124.6,100.17,57.77,55,24.43,4.76,16.75
+TXN-1940,2026-01-17,HOSE-09,Accessories,"Jones, Rivers and Moss",Retail,44.32,41.43,15.9,93,2.89,1.96,25.92
+TXN-1941,2026-01-05,MOTOR-X,Electronics,Patterson PLC,Mid-Market,1468.01,1342.0,775.52,81,126.01,61.21,5.5
+TXN-1942,2026-01-10,HOSE-09,Accessories,Silva LLC,Mid-Market,45.17,37.06,15.21,23,8.11,1.28,10.77
+TXN-1943,2026-01-01,MOTOR-X,Electronics,Mckinney-Moore,Distributor,1546.12,1525.41,749.27,93,20.71,43.69,12.22
+TXN-1944,2026-01-06,VALVE-22,Hydraulics,Carlson-Ayala,Retail,122.44,93.97,65.66,95,28.47,3.33,17.53
+TXN-1945,2026-01-24,MOTOR-X,Electronics,"Turner, Tyler and Pierce",Distributor,1474.73,1286.7,721.2,80,188.03,63.98,22.35
+TXN-1946,2026-01-03,PUMP-01,Industrial,"Stewart, Robinson and White",Distributor,523.79,505.22,248.28,30,18.57,16.39,14.18
+TXN-1947,2026-01-03,SEAL-05,Accessories,"Moore, Daniels and Powell",Distributor,12.41,10.28,4.67,70,2.13,0.12,17.33
+TXN-1948,2026-01-13,VALVE-22,Hydraulics,Alvarado LLC,Retail,121.17,96.86,60.96,21,24.31,1.54,24.28
+TXN-1949,2026-01-14,SEAL-05,Accessories,Clements PLC,Distributor,12.29,11.99,4.99,12,0.3,0.32,15.71
+TXN-1950,2026-01-20,MOTOR-X,Electronics,"Colon, Zavala and Smith",Mid-Market,1513.42,1393.55,824.59,99,119.87,2.56,10.25
+TXN-1951,2026-01-25,PUMP-01,Industrial,Allen-May,Strategic,498.0,450.13,230.33,60,47.87,15.58,8.09
+TXN-1952,2026-02-03,VALVE-22,Hydraulics,Haley Ltd,Retail,117.43,93.65,55.01,93,23.78,3.78,15.34
+TXN-1953,2026-02-02,SEAL-05,Accessories,Moon-Landry,Mid-Market,11.82,11.19,5.05,35,0.63,0.21,8.09
+TXN-1954,2026-01-15,VALVE-22,Hydraulics,"Ramsey, Johnson and Black",Retail,117.52,88.58,64.01,65,28.94,1.94,25.03
+TXN-1955,2026-01-29,MOTOR-X,Electronics,"Lang, Griffin and Williams",Mid-Market,1455.42,1239.24,837.8,25,216.18,58.93,27.84
+TXN-1956,2026-02-03,MOTOR-X,Electronics,Flores Inc,Strategic,1479.39,1407.56,780.56,42,71.83,51.79,17.29
+TXN-1957,2026-02-05,SEAL-05,Accessories,Bonilla PLC,Mid-Market,11.63,10.13,5.28,40,1.5,0.07,19.33
+TXN-1958,2026-01-20,HOSE-09,Accessories,"Jones, Santiago and Ayala",Retail,47.23,37.4,16.2,74,9.83,0.98,27.32
+TXN-1959,2026-02-02,MOTOR-X,Electronics,Houston-Harris,Mid-Market,1493.73,1332.8,836.77,71,160.93,63.79,17.66
+TXN-1960,2026-01-31,MOTOR-X,Electronics,"Rowe, Lucas and Case",Distributor,1574.37,1498.59,793.03,65,75.78,2.9,16.11
+TXN-1961,2026-01-28,PUMP-01,Industrial,Johnson Ltd,Strategic,523.24,501.43,231.96,20,21.81,0.0,7.75
+TXN-1962,2026-01-13,VALVE-22,Hydraulics,Jones and Sons,Mid-Market,120.38,105.76,63.74,80,14.62,2.61,5.18
+TXN-1963,2026-01-30,SEAL-05,Accessories,"Jones, Underwood and Bartlett",Strategic,11.8,10.56,5.45,65,1.24,0.16,19.78
+TXN-1964,2026-01-16,PUMP-01,Industrial,Mccoy-Hamilton,Distributor,513.56,465.21,268.65,87,48.35,20.15,20.95
+TXN-1965,2026-01-01,MOTOR-X,Electronics,"Wilson, Smith and Cortez",Retail,1439.01,1425.45,800.07,5,13.56,54.7,14.52
+TXN-1966,2026-01-03,HOSE-09,Accessories,"Richards, Haynes and Jones",Strategic,43.89,39.08,15.1,43,4.81,1.37,6.47
+TXN-1967,2026-02-04,HOSE-09,Accessories,Roberts Ltd,Mid-Market,44.55,43.09,15.0,19,1.46,1.05,12.57
+TXN-1968,2026-01-12,HOSE-09,Accessories,Campbell Group,Strategic,45.32,38.05,13.52,62,7.27,1.12,12.5
+TXN-1969,2026-01-15,VALVE-22,Hydraulics,"Johnson, Moore and Robinson",Distributor,118.55,109.2,62.45,60,9.35,2.42,14.6
+TXN-1970,2026-01-28,SEAL-05,Accessories,"Phillips, Walters and Evans",Retail,12.34,9.71,4.76,43,2.63,0.42,11.68
+TXN-1971,2026-02-02,MOTOR-X,Electronics,"Wong, Bernard and Smith",Strategic,1505.17,1443.3,867.6,23,61.87,39.17,16.76
+TXN-1972,2026-02-02,MOTOR-X,Electronics,Martinez Inc,Retail,1513.45,1259.41,818.41,7,254.04,58.36,15.91
+TXN-1973,2026-01-22,SEAL-05,Accessories,Medina-Arroyo,Strategic,12.24,11.41,4.99,30,0.83,0.16,23.7
+TXN-1974,2026-01-12,MOTOR-X,Electronics,"Figueroa, Swanson and Lewis",Distributor,1466.01,1116.36,875.0,81,349.65,25.49,17.57
+TXN-1975,2026-02-03,VALVE-22,Hydraulics,"Thomas, White and Jensen",Mid-Market,118.55,104.59,62.65,49,13.96,1.12,7.53
+TXN-1976,2026-01-10,HOSE-09,Accessories,White PLC,Strategic,43.02,40.32,16.24,70,2.7,0.38,24.04
+TXN-1977,2026-02-01,VALVE-22,Hydraulics,"Murray, Dunn and Roberts",Retail,121.06,113.89,61.07,83,7.17,0.03,15.17
+TXN-1978,2026-01-03,SEAL-05,Accessories,Gonzalez PLC,Strategic,11.95,10.23,5.18,8,1.72,0.19,21.54
+TXN-1979,2026-01-19,MOTOR-X,Electronics,Howard-Lambert,Mid-Market,1546.47,1379.68,749.73,15,166.79,50.74,9.62
+TXN-1980,2026-01-09,SEAL-05,Accessories,Harvey-Mccullough,Distributor,12.26,9.82,4.61,44,2.44,0.06,13.21
+TXN-1981,2026-01-12,MOTOR-X,Electronics,Murphy-Hopkins,Mid-Market,1478.69,1150.97,771.37,51,327.72,17.04,7.18
+TXN-1982,2026-01-26,VALVE-22,Hydraulics,Cunningham LLC,Distributor,122.14,110.34,65.58,97,11.8,0.22,23.45
+TXN-1983,2026-01-30,MOTOR-X,Electronics,Jackson-Edwards,Strategic,1456.49,1186.21,796.52,71,270.28,3.47,8.52
+TXN-1984,2026-01-30,VALVE-22,Hydraulics,"Singh, Graham and Larsen",Distributor,118.47,90.77,55.92,71,27.7,0.15,5.03
+TXN-1985,2026-01-05,PUMP-01,Industrial,"Rivera, Castillo and Griffin",Mid-Market,518.54,515.15,237.36,77,3.39,16.11,10.1
+TXN-1986,2026-01-29,HOSE-09,Accessories,Arnold-Thompson,Mid-Market,46.98,36.18,15.06,35,10.8,0.42,20.37
+TXN-1987,2026-01-23,SEAL-05,Accessories,Trevino-Taylor,Mid-Market,12.28,11.38,4.77,68,0.9,0.29,26.76
+TXN-1988,2026-01-20,HOSE-09,Accessories,Gross-Sims,Mid-Market,46.2,43.68,15.44,69,2.52,1.76,15.34
+TXN-1989,2026-01-27,HOSE-09,Accessories,Atkinson Ltd,Mid-Market,45.08,41.51,14.92,90,3.57,0.08,17.8
+TXN-1990,2026-01-02,SEAL-05,Accessories,"Riley, Hammond and Lewis",Mid-Market,11.65,11.38,5.19,38,0.27,0.08,18.97
+TXN-1991,2026-01-02,HOSE-09,Accessories,Stephens-Lutz,Strategic,43.1,32.54,14.18,2,10.56,1.27,26.39
+TXN-1992,2026-01-18,SEAL-05,Accessories,Diaz and Sons,Strategic,12.21,11.82,4.78,19,0.39,0.49,9.12
+TXN-1993,2026-02-02,PUMP-01,Industrial,"Quinn, Carter and Marshall",Distributor,492.18,412.63,231.82,5,79.55,2.73,24.69
+TXN-1994,2026-01-19,HOSE-09,Accessories,Cox-Smith,Mid-Market,45.09,44.8,14.94,32,0.29,1.16,20.21
+TXN-1995,2026-01-09,PUMP-01,Industrial,"Sutton, Todd and Taylor",Distributor,480.71,399.28,236.72,25,81.43,18.16,9.45
+TXN-1996,2026-01-06,VALVE-22,Hydraulics,"Fry, Hopkins and Faulkner",Retail,124.32,118.38,55.36,34,5.94,3.32,21.78
+TXN-1997,2026-01-28,VALVE-22,Hydraulics,Crosby-Williams,Distributor,116.07,109.51,61.57,93,6.56,5.02,19.4
+TXN-1998,2026-01-29,HOSE-09,Accessories,Brown LLC,Retail,43.99,33.24,14.76,21,10.75,0.73,21.93
+TXN-1999,2026-01-09,MOTOR-X,Electronics,"Clark, Velez and Ward",Distributor,1462.44,1263.99,745.39,71,198.45,46.85,19.16

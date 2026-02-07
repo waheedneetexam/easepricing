@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes - PriceFx</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="quotes-list.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="list-page">
+
+    <!-- Main Container -->
+    <div class="list-container">
+
+        <!-- Left Sidebar - Categories -->
+        <aside class="categories-sidebar">
+            <h3 class="sidebar-title">Categories</h3>
+            <ul class="category-list">
+                <li class="category-item active">
+                    <span class="category-icon">📋</span>
+                    <span class="category-name">All Quotes</span>
+                </li>
+            </ul>
+            <button class="add-folder-btn">
+                <span>+</span> Add Folder
+            </button>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="quotes-main">
+
+            <!-- Header -->
+            <header class="quotes-header">
+                <h1 class="page-title">Quotes</h1>
+                <div class="header-actions">
+                    <button class="btn btn-primary" onclick="createNewQuote()">
+                        <span>+</span> New Quote
+                    </button>
+                    <button class="btn btn-secondary">Export</button>
+                    <button class="btn btn-icon">📌</button>
+                    <button class="btn btn-icon">⚙️</button>
+                    <button class="btn btn-icon">↻</button>
+                </div>
+            </header>
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <div class="active-filter">
+                    <span class="filter-icon">🔍</span>
+                    <span class="filter-text">Active Filter: "User Group (View Details)" not equal (match case)
+                        "trash"</span>
+                    <a href="#" class="filter-link" onclick="editFilter()">Edit Filter</a>
+                    <a href="#" class="filter-link" onclick="clearFilter()">Clear Filter</a>
+                </div>
+            </div>
+
+            <!-- Data Grid -->
+            <div class="grid-container">
+                <table class="quotes-grid">
+                    <thead>
+                        <tr>
+                            <th class="col-checkbox"><input type="checkbox" id="selectAll"></th>
+                            <th class="col-name sortable">Name ▲</th>
+                            <th class="col-label sortable">Label</th>
+                            <th class="col-external sortable">External R...</th>
+                            <th class="col-date sortable">Effective Date</th>
+                            <th class="col-workflow sortable">Workflow S...</th>
+                            <th class="col-date sortable">Last Update Date</th>
+                            <th class="col-date sortable">Created</th>
+                            <th class="col-date sortable">Expiry Date</th>
+                            <th class="col-status sortable">Status</th>
+                        </tr>
+                        <tr class="filter-row">
+                            <th></th>
+                            <th><input type="text" class="grid-search" placeholder="Search..."></th>
+                            <th><input type="text" class="grid-search" placeholder="Search..."></th>
+                            <th><input type="text" class="grid-search" placeholder="Sear..."></th>
+                            <th><input type="date" class="grid-search"></th>
+                            <th><select class="grid-search">
+                                    <option>Selec...</option>
+                                </select></th>
+                            <th><input type="date" class="grid-search" placeholder="Sear..."></th>
+                            <th><input type="date" class="grid-search" placeholder="Sear..."></th>
+                            <th><input type="date" class="grid-search" placeholder="Sear..."></th>
+                            <th><select class="grid-search">
+                                    <option>Selec...</option>
+                                </select></th>
+                        </tr>
+                    </thead>
+                    <tbody id="quotesTableBody">
+                        <!-- Rows will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Footer -->
+            <footer class="grid-footer">
+                <div class="row-count">169 rows</div>
+                <div class="pagination">
+                    <select class="page-size">
+                        <option>300 / page</option>
+                        <option>100 / page</option>
+                        <option>50 / page</option>
+                    </select>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <script src="quotes-list-data.js"></script>
+    <script src="quotes-list.js"></script>
+</body>
+
+</html>
