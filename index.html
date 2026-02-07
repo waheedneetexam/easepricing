@@ -49,7 +49,24 @@
                         <option value="saas">💻 SaaS Subscription Service</option>
                         <option value="fashion_retail">👗 Fashion Boutique Retail</option>
                     </select>
-                    <span class="template-hint">Select a pre-configured scenario to auto-populate pricing</span>
+
+                    <div class="currency-selector-container">
+                        <label for="currencySelect" class="template-label">
+                            <span class="template-icon">💱</span>
+                            Currency:
+                        </label>
+                        <select id="currencySelect" class="template-select currency-select"
+                            onchange="changeCurrency(this.value)">
+                            <option value="USD">🇺🇸 USD ($)</option>
+                            <option value="INR">🇮🇳 INR (₹)</option>
+                            <option value="GBP">🇬🇧 GBP (£)</option>
+                            <option value="AED">🇦🇪 AED (د.إ)</option>
+                            <option value="JPY">🇯🇵 JPY (¥)</option>
+                            <option value="LKR">🇱🇰 LKR (Rs)</option>
+                        </select>
+                    </div>
+
+                    <span class="template-hint">Select scenario and currency to auto-populate pricing</span>
                 </div>
             </div>
 

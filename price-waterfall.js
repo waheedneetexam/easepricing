@@ -12,7 +12,17 @@ let priceData = {
     freight: 8,
     handling: 2,
     paymentTerms: 1.5,
-    returns: 0.5
+    returns: 0.5,
+    currentCurrency: 'USD' // Default currency
+};
+
+const CURRENCIES = {
+    USD: { symbol: '$', name: 'US Dollar', flag: '🇺🇸' },
+    INR: { symbol: '₹', name: 'Indian Rupee', flag: '🇮🇳' },
+    GBP: { symbol: '£', name: 'UK Pound', flag: '🇬🇧' },
+    AED: { symbol: 'د.إ', name: 'UAE Dirham', flag: '🇦🇪' },
+    JPY: { symbol: '¥', name: 'Japan Yen', flag: '🇯🇵' },
+    LKR: { symbol: 'Rs', name: 'Sri Lankan Rupee', flag: '🇱🇰' }
 };
 
 let customComponents = []; // User-defined components
@@ -512,9 +522,9 @@ function updateMetrics() {
     const leakagePercent = (leakage / listPrice) * 100;
     const realization = (netPrice / listPrice) * 100;
 
-    document.getElementById('metricListPrice').textContent = `$${listPrice.toFixed(2)}`;
-    document.getElementById('metricNetPrice').textContent = `$${netPrice.toFixed(2)}`;
-    document.getElementById('metricLeakage').textContent = `$${leakage.toFixed(2)}`;
+    document.getElementById('metricListPrice').textContent = formatCurrency(listPrice);
+    document.getElementById('metricNetPrice').textContent = formatCurrency(netPrice);
+    document.getElementById('metricLeakage').textContent = formatCurrency(leakage);
     document.getElementById('metricLeakagePercent').textContent = `-${leakagePercent.toFixed(1)}%`;
     document.getElementById('metricRealization').textContent = `${realization.toFixed(1)}%`;
 }
@@ -550,7 +560,7 @@ function updateBreakdownTable() {
 
         // Amount
         const amountCell = document.createElement('td');
-        amountCell.textContent = `$${comp.value.toFixed(2)}`;
+        amountCell.textContent = formatCurrency(comp.value);
         row.appendChild(amountCell);
 
         // % of List
@@ -560,7 +570,7 @@ function updateBreakdownTable() {
 
         // Cumulative
         const cumulativeCell = document.createElement('td');
-        cumulativeCell.textContent = `$${comp.cumulative.toFixed(2)}`;
+        cumulativeCell.textContent = formatCurrency(comp.cumulative);
         row.appendChild(cumulativeCell);
 
         tbody.appendChild(row);
@@ -612,7 +622,7 @@ function drawWaterfall() {
         ctx.fillStyle = '#6b7a8f';
         ctx.font = '11px Inter';
         ctx.textAlign = 'right';
-        ctx.fillText(`$${value.toFixed(0)}`, padding.left - 10, y + 4);
+        ctx.fillText(formatCurrency(value, 0), padding.left - 10, y + 4);
     }
 
     // Draw zero line (emphasized)
@@ -676,7 +686,11 @@ function drawWaterfall() {
         ctx.font = 'bold 13px Inter';
         ctx.textAlign = 'center';
         const labelY = component.value >= 0 ? barY - 8 : barY + barHeight + 18;
-        ctx.fillText(`$${Math.abs(component.value).toFixed(1)}`, x + barWidth / 2, labelY);
+
+        // For chart labels, we often want only the absolute value without symbol 
+        // OR the full formatted value. Let's use the symbol + abs value for clarity.
+        const symbol = getCurrencySymbol();
+        ctx.fillText(`${symbol}${Math.abs(component.value).toFixed(1)}`, x + barWidth / 2, labelY);
 
         // Draw percentage label
         ctx.fillStyle = '#a8b2c1';
@@ -757,7 +771,7 @@ function setupChartInteractivity() {
         if (hoveredComponent) {
             // Show tooltip
             document.getElementById('tooltipTitle').textContent = hoveredComponent.name;
-            document.getElementById('tooltipValue').textContent = `$${hoveredComponent.value.toFixed(2)}`;
+            document.getElementById('tooltipValue').textContent = formatCurrency(hoveredComponent.value);
             document.getElementById('tooltipPercent').textContent = `${hoveredComponent.percentOfList.toFixed(1)}% of List Price`;
 
             tooltip.style.left = `${e.clientX - rect.left + 15}px`;
@@ -782,6 +796,7 @@ function setupChartInteractivity() {
 // ===================================
 function resetDefaults() {
     if (confirm('Reset all values to defaults?')) {
+        const savedCurrency = priceData.currentCurrency;
         priceData = {
             listPrice: 100,
             volumeDiscount: 10,
@@ -791,7 +806,8 @@ function resetDefaults() {
             freight: 8,
             handling: 2,
             paymentTerms: 1.5,
-            returns: 0.5
+            returns: 0.5,
+            currentCurrency: savedCurrency
         };
         loadDefaultValues();
         recalculate();
@@ -885,7 +901,8 @@ function closeAddComponentModal() {
 function updateCalculationLabel() {
     const method = document.getElementById('newComponentCalcMethod').value;
     const label = document.getElementById('newComponentValueLabel');
-    label.textContent = method === 'percent' ? 'Default Value (%)' : 'Default Value ($)';
+    const symbol = getCurrencySymbol();
+    label.textContent = method === 'percent' ? 'Default Value (%)' : `Default Value (${symbol})`;
 }
 
 // Add custom component
@@ -936,7 +953,8 @@ function renderCustomComponentsList() {
     emptyState.style.display = 'none';
 
     const html = customComponents.map(comp => {
-        const unit = comp.calcMethod === 'percent' ? '%' : '$';
+        const symbol = getCurrencySymbol();
+        const unit = comp.calcMethod === 'percent' ? '%' : symbol;
 
         // Determine emoji based on type
         const emoji = (comp.type === 'discount' || comp.type === 'cost') ? '➖' : '➕';
@@ -1029,7 +1047,7 @@ function loadTemplate(templateKey) {
 
     // Clear existing custom components
     customComponents = [];
-    
+
     // Add template custom components
     template.customComponents.forEach(comp => {
         const newComponent = {
@@ -1068,6 +1086,100 @@ function showTemplateNotification(templateName) {
     setTimeout(() => notification.classList.add('show'), 10);
 
     // Remove after 3 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 3000);
+}
+
+// ===================================
+// CURRENCY MANAGEMENT
+// ===================================
+
+// Helper to get current currency symbol
+function getCurrencySymbol() {
+    return CURRENCIES[priceData.currentCurrency]?.symbol || '$';
+}
+
+// Global currency formatter
+function formatCurrency(amount, decimals = 2) {
+    const symbol = getCurrencySymbol();
+    return `${symbol}${amount.toFixed(decimals)}`;
+}
+
+// Change global currency
+function changeCurrency(currencyCode) {
+    if (!CURRENCIES[currencyCode]) return;
+
+    priceData.currentCurrency = currencyCode;
+
+    // Update all UI elements that show currency
+    updateCurrencyUI();
+
+    // Save state (if we were using discovery scan/persistence, but here just local memory)
+    // In this app, we mostly just recalculate
+    recalculate();
+
+    // Show notification
+    showCurrencyNotification(CURRENCIES[currencyCode]);
+}
+
+// Update UI elements that depend on currency symbol
+function updateCurrencyUI() {
+    const symbol = getCurrencySymbol();
+
+    // Update input labels that show currency (e.g., "($)", "(₹)", "(د.إ)")
+    // We target common patterns like ($) or (₹) using a broad regex
+    // This allows sequential updates even after the initial ($) is gone
+    const labels = document.querySelectorAll('label, span, th, option');
+
+    // Pattern to match common currency symbols within parentheses
+    // This handles $, ₹, £, ¥, Rs, and UAE Dirham (د.إ)
+    const currencyRegex = /\((?:\$|₹|£|¥|Rs|د\.إ)\)/g;
+
+    labels.forEach(el => {
+        // Handle elements with simple text content
+        if (el.childNodes.length === 1 && el.childNodes[0].nodeType === 3) {
+            if (currencyRegex.test(el.textContent)) {
+                el.textContent = el.textContent.replace(currencyRegex, `(${symbol})`);
+            }
+        } else {
+            // Check innerHTML for more complex structures, but be careful not to break tags
+            // For labels and spans, this is generally safe if they only contain text + icon
+            if (currencyRegex.test(el.innerHTML)) {
+                // If it's an option, we just use textContent
+                if (el.tagName === 'OPTION') {
+                    el.textContent = el.textContent.replace(currencyRegex, `(${symbol})`);
+                } else {
+                    // For others, try to replace only in text nodes to be safer
+                    el.innerHTML = el.innerHTML.replace(currencyRegex, `(${symbol})`);
+                }
+            }
+        }
+    });
+
+    // Update calculation label in modal (if it's already defined)
+    if (typeof updateCalculationLabel === 'function') {
+        updateCalculationLabel();
+    }
+
+    // Update Custom Components list units
+    renderCustomComponentsList();
+}
+
+// Show currency changed notification
+function showCurrencyNotification(currency) {
+    const notification = document.createElement('div');
+    notification.className = 'template-notification'; // Reusing template notification style
+    notification.innerHTML = `
+        <div class="notification-content">
+            <span class="notification-icon">${currency.flag}</span>
+            <span class="notification-text">Currency set to: <strong>${currency.name} (${currency.symbol})</strong></span>
+        </div>
+    `;
+    document.body.appendChild(notification);
+
+    setTimeout(() => notification.classList.add('show'), 10);
     setTimeout(() => {
         notification.classList.remove('show');
         setTimeout(() => notification.remove(), 300);
