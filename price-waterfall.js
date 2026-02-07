@@ -1009,7 +1009,8 @@ function updateCustomComponentValue(id, newValue) {
 // Delete custom component
 function deleteCustomComponent(id) {
     if (confirm('Delete this custom component?')) {
-        customComponents = customComponents.filter(c => c.id !== id);
+        // Ensure we compare strings to avoid type mismatch (some IDs might be numbers from templates)
+        customComponents = customComponents.filter(c => String(c.id) !== String(id));
         saveCustomComponents();
         renderCustomComponentsList();
         recalculate();
@@ -1051,7 +1052,7 @@ function loadTemplate(templateKey) {
     // Add template custom components
     template.customComponents.forEach(comp => {
         const newComponent = {
-            id: Date.now() + Math.random(),
+            id: (Date.now() + Math.random()).toString(), // Ensure ID is a string
             name: comp.emoji ? `${comp.emoji} ${comp.name}` : comp.name,
             type: comp.type,
             calculation: comp.calculation,
