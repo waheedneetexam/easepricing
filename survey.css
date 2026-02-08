@@ -1,0 +1,410 @@
+/* Survey page inherits from main styles.css */
+/* This file contains survey-specific overrides and extensions */
+
+/* Survey Container */
+body {
+    background-color: var(--color-bg-main);
+}
+
+.survey-container {
+    width: 100%;
+    max-width: 900px;
+    margin: var(--spacing-xl) auto;
+    background-color: var(--color-bg-card);
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+    padding: var(--spacing-xl);
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: var(--spacing-md);
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-primary), #2196f3);
+    border-radius: 999px;
+    transition: width var(--transition-slow);
+}
+
+.progress-text {
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+/* Survey Content */
+.survey-content {
+    padding: var(--spacing-2xl);
+    min-height: 500px;
+    position: relative;
+}
+
+.survey-step {
+    display: none;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.survey-step.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.step-content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.step-icon {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.step-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-primary);
+}
+
+.step-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: var(--spacing-xl);
+}
+
+.form-label {
+    display: block;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.help-text {
+    display: block;
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+    color: var(--color-text-secondary);
+    margin-top: 4px;
+}
+
+.required {
+    color: var(--color-danger);
+}
+
+.form-input,
+.form-select {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: var(--font-size-base);
+    font-family: var(--font-family);
+    background-color: white;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-text-primary);
+    transition: all var(--transition-fast);
+}
+
+.form-input:hover,
+.form-select:hover {
+    border-color: var(--color-border-hover);
+}
+
+.form-input:focus,
+.form-select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+}
+
+.form-input::placeholder {
+    color: var(--color-text-tertiary);
+}
+
+.input-with-addon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-addon {
+    position: absolute;
+    left: 16px;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    pointer-events: none;
+}
+
+.input-with-addon .form-input {
+    padding-left: 40px;
+}
+
+.input-addon-right {
+    position: absolute;
+    right: 16px;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    pointer-events: none;
+}
+
+.input-with-addon .form-input:has(~ .input-addon-right) {
+    padding-right: 48px;
+}
+
+/* Template Grid */
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.template-card {
+    position: relative;
+    cursor: pointer;
+    transition: transform var(--transition-base);
+}
+
+.template-card:hover {
+    transform: translateY(-2px);
+}
+
+.template-card input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.template-card label {
+    display: block;
+    padding: var(--spacing-lg);
+    background-color: white;
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    height: 100%;
+}
+
+.template-card:hover label {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
+}
+
+.template-card input[type="radio"]:checked+label {
+    border-color: var(--color-primary);
+    background: linear-gradient(135deg, #e3f2fd 0%, #f3f4f6 100%);
+    box-shadow: var(--shadow-md), 0 0 0 3px rgba(25, 118, 210, 0.1);
+}
+
+.template-icon {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.template-name {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    text-align: center;
+    margin-bottom: var(--spacing-xs);
+}
+
+.template-desc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Navigation */
+.survey-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-lg) var(--spacing-xl);
+    background: linear-gradient(to right, #fafafa, #ffffff);
+    border-top: 1px solid var(--color-border);
+    gap: var(--spacing-md);
+}
+
+/* Buttons - reuse main styles but ensure consistency */
+.btn {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-family);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-hover);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-secondary {
+    background-color: white;
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+    background-color: #f5f5f5;
+    border-color: var(--color-border-hover);
+}
+
+.btn-text {
+    background: transparent;
+    color: var(--color-text-secondary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+}
+
+.btn-text:hover {
+    color: var(--color-primary);
+    background-color: rgba(25, 118, 210, 0.05);
+}
+
+.btn-finish {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.btn-finish:hover {
+    background-color: #2e7d32;
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .survey-container {
+        margin: 0;
+        border-radius: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .survey-content {
+        padding: var(--spacing-lg);
+        flex: 1;
+    }
+
+    .step-title {
+        font-size: 24px;
+    }
+
+    .step-subtitle {
+        font-size: var(--font-size-base);
+    }
+
+    .step-icon {
+        font-size: 3rem;
+    }
+
+    .template-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .survey-navigation {
+        flex-wrap: wrap;
+        position: sticky;
+        bottom: 0;
+        background-color: white;
+        border-top: 2px solid var(--color-border);
+        box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .btn-text {
+        order: -1;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .progress-bar-container {
+        padding: var(--spacing-lg);
+    }
+
+    .survey-content {
+        padding: var(--spacing-md);
+    }
+
+    .step-icon {
+        font-size: 2.5rem;
+    }
+
+    .step-title {
+        font-size: 20px;
+    }
+
+    .form-input,
+    .form-select {
+        font-size: var(--font-size-sm);
+        padding: 10px 12px;
+    }
+
+    .survey-navigation {
+        padding: var(--spacing-md);
+    }
+
+    .btn {
+        padding: 10px var(--spacing-md);
+        font-size: var(--font-size-sm);
+    }
+}

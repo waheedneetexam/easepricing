@@ -291,11 +291,50 @@ document.addEventListener('DOMContentLoaded', () => {
     chartCtx = chartCanvas.getContext('2d');
 
     loadCustomComponents();
+    loadSurveyData(); // Load data from survey if available
     loadDefaultValues();
     renderCustomComponentsList();
     recalculate();
     setupChartInteractivity();
 });
+
+// Load data from survey if available
+function loadSurveyData() {
+    const surveyDataStr = localStorage.getItem('pricefx_survey_data');
+    if (!surveyDataStr) return;
+
+    try {
+        const surveyData = JSON.parse(surveyDataStr);
+
+        // Apply survey data to priceData state
+        if (surveyData.listPrice) priceData.listPrice = surveyData.listPrice;
+        if (surveyData.unitCost) priceData.unitCost = surveyData.unitCost;
+        if (surveyData.volumeDiscount !== undefined) priceData.volumeDiscount = surveyData.volumeDiscount;
+        if (surveyData.customerRebate !== undefined) priceData.customerRebate = surveyData.customerRebate;
+        if (surveyData.promoDiscount !== undefined) priceData.promoDiscount = surveyData.promoDiscount;
+        if (surveyData.earlyPayment !== undefined) priceData.earlyPayment = surveyData.earlyPayment;
+        if (surveyData.freight !== undefined) priceData.freight = surveyData.freight;
+        if (surveyData.handling !== undefined) priceData.handling = surveyData.handling;
+        if (surveyData.paymentTerms !== undefined) priceData.paymentTerms = surveyData.paymentTerms;
+        if (surveyData.returns !== undefined) priceData.returns = surveyData.returns;
+        if (surveyData.currency) priceData.currentCurrency = surveyData.currency;
+
+        // Apply currency if present
+        if (surveyData.currency) {
+            const currencySelect = document.getElementById('currencySelect');
+            if (currencySelect) {
+                currencySelect.value = surveyData.currency;
+            }
+        }
+
+        // Clear survey data after loading
+        localStorage.removeItem('pricefx_survey_data');
+
+        console.log('Survey data loaded successfully');
+    } catch (e) {
+        console.error('Error loading survey data:', e);
+    }
+}
 
 // Load default values into inputs
 function loadDefaultValues() {
