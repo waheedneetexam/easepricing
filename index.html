@@ -130,6 +130,31 @@
                         </div>
                     </div>
 
+                    <div class="metric-card metric-info">
+                        <div class="metric-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <div class="metric-content">
+                            <div class="metric-label">
+                                Gross Margin
+                                <span class="help-icon"
+                                    data-tooltip="The profit remaining after deducting the cost of goods sold (COGS) from Net Pocket Price. This is your actual unit profit.">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="metric-value" id="metricGrossMargin">$20.00</div>
+                            <div class="metric-change positive" id="metricMarginPercent">20.0%</div>
+                        </div>
+                    </div>
+
                     <div class="metric-card metric-warning">
                         <div class="metric-icon">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -301,6 +326,12 @@
                                 <div class="config-group">
                                     <label class="config-label">Handling Charges ($)</label>
                                     <input type="number" class="config-input" id="inputHandling" value="2" min="0"
+                                        step="0.5" onchange="recalculate()">
+                                </div>
+
+                                <div class="config-group">
+                                    <label class="config-label">Unit Cost (COGS) ($)</label>
+                                    <input type="number" class="config-input" id="inputUnitCost" value="50" min="0"
                                         step="0.5" onchange="recalculate()">
                                 </div>
                             </div>

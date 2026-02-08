@@ -13,6 +13,7 @@ let priceData = {
     handling: 2,
     paymentTerms: 1.5,
     returns: 0.5,
+    unitCost: 50, // Unit Cost (COGS)
     currentCurrency: 'USD' // Default currency
 };
 
@@ -44,7 +45,8 @@ const TEMPLATES = {
             freight: 8,
             handling: 2,
             paymentTerms: 1.5,
-            returns: 0.5
+            returns: 0.5,
+            unitCost: 50
         },
         customComponents: []
     },
@@ -59,7 +61,8 @@ const TEMPLATES = {
             freight: 5,
             handling: 0,
             paymentTerms: 0,
-            returns: 1
+            returns: 1,
+            unitCost: 40
         },
         customComponents: [
             {
@@ -107,7 +110,8 @@ const TEMPLATES = {
             freight: 4,
             handling: 1,
             paymentTerms: 0,
-            returns: 0.5
+            returns: 0.5,
+            unitCost: 30
         },
         customComponents: [
             {
@@ -155,7 +159,8 @@ const TEMPLATES = {
             freight: 20,
             handling: 5,
             paymentTerms: 1,
-            returns: 0.3
+            returns: 0.3,
+            unitCost: 300
         },
         customComponents: [
             {
@@ -195,7 +200,8 @@ const TEMPLATES = {
             freight: 0,
             handling: 0,
             paymentTerms: 0,
-            returns: 0
+            returns: 0,
+            unitCost: 55
         },
         customComponents: [
             {
@@ -243,7 +249,8 @@ const TEMPLATES = {
             freight: 8,
             handling: 3,
             paymentTerms: 0,
-            returns: 1
+            returns: 1,
+            unitCost: 60
         },
         customComponents: [
             {
@@ -301,6 +308,7 @@ function loadDefaultValues() {
     document.getElementById('inputHandling').value = priceData.handling;
     document.getElementById('inputPaymentTerms').value = priceData.paymentTerms;
     document.getElementById('inputReturns').value = priceData.returns;
+    document.getElementById('inputUnitCost').value = priceData.unitCost;
 }
 
 // ===================================
@@ -317,6 +325,7 @@ function recalculate() {
     priceData.handling = parseFloat(document.getElementById('inputHandling').value) || 0;
     priceData.paymentTerms = parseFloat(document.getElementById('inputPaymentTerms').value) || 0;
     priceData.returns = parseFloat(document.getElementById('inputReturns').value) || 0;
+    priceData.unitCost = parseFloat(document.getElementById('inputUnitCost').value) || 0;
 
     // Calculate waterfall components
     waterfallComponents = calculateWaterfall();
@@ -486,9 +495,28 @@ function calculateWaterfall() {
         });
     });
 
-    // 12. FINAL: Net Pocket Price
+    // 12. SUBTOTAL: Net Pocket Price
     components.push({
         name: 'Net Pocket Price',
+        value: cumulative,
+        type: 'subtotal',
+        cumulative: cumulative,
+        percentOfList: (cumulative / priceData.listPrice) * 100
+    });
+
+    // 13. Unit Cost (COGS)
+    cumulative -= priceData.unitCost;
+    components.push({
+        name: 'Unit Cost (COGS)',
+        value: -priceData.unitCost,
+        type: 'cost',
+        cumulative: cumulative,
+        percentOfList: (-priceData.unitCost / priceData.listPrice) * 100
+    });
+
+    // 14. FINAL: Gross Margin
+    components.push({
+        name: 'Gross Margin',
         value: cumulative,
         type: 'total',
         cumulative: cumulative,
@@ -517,13 +545,17 @@ function calculateCustomValue(custom, currentCumulative) {
 // ===================================
 function updateMetrics() {
     const listPrice = priceData.listPrice;
-    const netPrice = waterfallComponents[waterfallComponents.length - 1].cumulative;
-    const leakage = listPrice - netPrice;
+    const grossMargin = waterfallComponents[waterfallComponents.length - 1].cumulative;
+    const netPocketPrice = waterfallComponents.find(c => c.name === 'Net Pocket Price')?.cumulative || 0;
+    const leakage = listPrice - netPocketPrice;
     const leakagePercent = (leakage / listPrice) * 100;
-    const realization = (netPrice / listPrice) * 100;
+    const realization = (netPocketPrice / listPrice) * 100;
+    const marginPercent = (grossMargin / listPrice) * 100;
 
     document.getElementById('metricListPrice').textContent = formatCurrency(listPrice);
-    document.getElementById('metricNetPrice').textContent = formatCurrency(netPrice);
+    document.getElementById('metricNetPrice').textContent = formatCurrency(netPocketPrice);
+    document.getElementById('metricGrossMargin').textContent = formatCurrency(grossMargin);
+    document.getElementById('metricMarginPercent').textContent = `${marginPercent.toFixed(1)}%`;
     document.getElementById('metricLeakage').textContent = formatCurrency(leakage);
     document.getElementById('metricLeakagePercent').textContent = `-${leakagePercent.toFixed(1)}%`;
     document.getElementById('metricRealization').textContent = `${realization.toFixed(1)}%`;
@@ -807,6 +839,7 @@ function resetDefaults() {
             handling: 2,
             paymentTerms: 1.5,
             returns: 0.5,
+            unitCost: 50,
             currentCurrency: savedCurrency
         };
         loadDefaultValues();
@@ -1045,6 +1078,7 @@ function loadTemplate(templateKey) {
     document.getElementById('inputHandling').value = priceData.handling;
     document.getElementById('inputPaymentTerms').value = priceData.paymentTerms;
     document.getElementById('inputReturns').value = priceData.returns;
+    document.getElementById('inputUnitCost').value = priceData.unitCost;
 
     // Clear existing custom components
     customComponents = [];
