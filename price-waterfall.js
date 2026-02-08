@@ -1037,29 +1037,29 @@ function renderCustomComponentsList() {
 
         return `
             <div class="custom-component-item">
-                <div class="custom-component-info">
-                    <div class="custom-component-name">${comp.name}</div>
+                <div class="custom-component-name">${comp.name}</div>
+                <div class="custom-component-row">
                     <div class="custom-component-meta">
                         <span class="custom-component-badge ${comp.type}">${emoji}</span>
                         <span>${positionLabel}</span>
                     </div>
-                </div>
-                <div class="custom-component-controls">
-                    <input 
-                        type="number" 
-                        class="custom-component-input" 
-                        value="${comp.value}" 
-                        min="0" 
-                        step="0.5"
-                        onchange="updateCustomComponentValue('${comp.id}', this.value)"
-                        placeholder="0">
-                    <span style="color: var(--color-text-secondary); font-size: var(--font-size-sm);">${unit}</span>
-                    <button class="btn-delete-custom" onclick="deleteCustomComponent('${comp.id}')" title="Delete">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="3 6 5 6 21 6"></polyline>
-                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                        </svg>
-                    </button>
+                    <div class="custom-component-controls">
+                        <input 
+                            type="number" 
+                            class="custom-component-input" 
+                            value="${comp.value}" 
+                            min="0" 
+                            step="0.5"
+                            onchange="updateCustomComponentValue('${comp.id}', this.value)"
+                            placeholder="0">
+                        <span style="color: var(--color-text-secondary); font-size: var(--font-size-sm);">${unit}</span>
+                        <button class="btn-delete-custom" onclick="deleteCustomComponent('${comp.id}')" title="Delete">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="3 6 5 6 21 6"></polyline>
+                                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         `;
