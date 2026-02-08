@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universal Data Ingestor</title>
+    <title>Data Import - PriceFx</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="data-ingestor.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +17,24 @@
     <header class="main-header">
         <div class="header-content">
             <h1 class="header-title">
-                <svg class="header-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg class="header-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                     <polyline points="7 10 12 15 17 10"></polyline>
                     <line x1="12" y1="15" x2="12" y2="3"></line>
                 </svg>
-                Universal Data Ingestor
+                Data Import
             </h1>
-            <p class="header-subtitle">Upload and map your CSV data in 1-click</p>
+            <p class="header-subtitle">Upload and map your CSV data</p>
         </div>
         <div class="header-actions">
+            <button class="btn btn-secondary" onclick="window.location.href='dashboard.html'">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Back to Dashboard
+            </button>
             <button class="btn btn-secondary" onclick="clearAll()">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <polyline points="3 6 5 6 21 6"></polyline>
@@ -37,14 +46,15 @@
     </header>
 
     <main class="main-container">
-        
+
         <!-- Step 1: Upload Section -->
         <section class="upload-section" id="uploadSection">
             <div class="upload-zone" id="uploadZone">
                 <input type="file" id="fileInput" accept=".csv" hidden>
                 <div class="upload-content">
                     <div class="upload-icon">
-                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="17 8 12 3 7 8"></polyline>
                             <line x1="12" y1="3" x2="12" y2="15"></line>
@@ -62,7 +72,7 @@
 
         <!-- Step 2: Preview & Mapping Section -->
         <section class="mapping-section hidden" id="mappingSection">
-            
+
             <!-- File Info -->
             <div class="file-info">
                 <div class="file-details">
@@ -102,7 +112,7 @@
                         </span>
                     </div>
                 </div>
-                
+
                 <div class="mapping-grid" id="mappingGrid">
                     <!-- Mapping cards will be populated here -->
                 </div>
@@ -136,7 +146,8 @@
                 </button>
                 <div class="action-group">
                     <button class="btn btn-secondary" onclick="exportData('csv')">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -144,7 +155,8 @@
                         Export CSV
                     </button>
                     <button class="btn btn-secondary" onclick="exportData('json')">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -152,7 +164,8 @@
                         Export JSON
                     </button>
                     <button class="btn btn-primary" onclick="saveConfiguration()">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
                             <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
                             <polyline points="17 21 17 13 7 13 7 21"></polyline>
                             <polyline points="7 3 7 8 15 8"></polyline>
@@ -168,7 +181,8 @@
     <!-- Success Notification -->
     <div class="notification hidden" id="notification">
         <div class="notification-content">
-            <svg class="notification-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg class="notification-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
             <span class="notification-text" id="notificationText">Configuration saved successfully!</span>
